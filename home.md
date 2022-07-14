@@ -7,4 +7,4 @@
 
 # Profile
 
-![Profile](out\diagram\profile\profile.png)
+![Profile](out/diagram/profile/profile.png)
