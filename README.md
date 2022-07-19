@@ -7,9 +7,10 @@ La roadmap des compétences permet de :
 
 ## Catégories
 
-L'organisation se fait en fonction de catégories articulées sur base de 4 niveaux hiérarchiques : 
+L'organisation se fait en fonction de catégories articulées sur base de 4 niveaux hiérarchiques :
+
 - le profile : détermine la facette métier de la compétence,
-- le domaine : détermine le champ ou la portée de la compétence, 
+- le domaine : détermine le champ ou la portée de la compétence,
 - les thèmes : déterminent le(s) sujet(s) de la compétence,
 
 ## Type de document
@@ -22,14 +23,16 @@ Le profil est le premier niveau hierarchique. Il détermine la facette métier d
 
 ![profile](out/diagram/profile/profile.png)
 
-- **Management** : lié aux métiers de gestion comme peuvent l'être les chefs de projets, chefs d'équipes, scrum master, etc. 
+- **Management** : lié aux métiers de gestion comme peuvent l'être les chefs de projets, chefs d'équipes, scrum master, etc.
 - **Technique** : lié aux métiers techniques et aux connaissances des frameworks, applicatifs, outils, etc.
 - **Organisation** : cette catégorie existe de manière à pouvoir identifier les compétences liées à l'organisation liée à une société, cliente ou pas.
 
 ## Domaine
 
-Le domaine est le deuxième niveau hierarchique. Il détermine le champ ou la portée de la compétence. 
+Le domaine est le deuxième niveau hierarchique. Il détermine le champ ou la portée de la compétence.
 
-| Management | Technique | | 
+Les diagrames ci-dessous proposent une découpe des domaines selon le profile. Un domaine est cross-profile, autrement dit un domaine peut se retrouver associé à un profile ou un autre.
+
+| Management | Technique | Organisation |
 |:--:|:--:|:--:|
-| ![managmenet](out/diagram/domaine/management.png) | ![Technique](out/diagram/domaine/technique.png) | | 
+| ![management](out/diagram/domaine/management/management.png) | ![Technique](out/diagram/domaine/technique/technique.png) | ![organisation](out/diagram/domaine/organisation/organisation.png) |
