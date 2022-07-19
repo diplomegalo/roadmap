@@ -19,7 +19,7 @@ Dans le cadre de l'organisation des ressources documentaires, il existe une cat�
 
 ## Profile
 
-Le profil est le premier niveau hierarchique. Il détermine la facette métier de la compétence.
+Le profile est le premier niveau hierarchique. Il détermine la facette métier de la compétence.
 
 ![profile](out/diagram/profile/profile.png)
 
@@ -27,12 +27,24 @@ Le profil est le premier niveau hierarchique. Il détermine la facette métier d
 - **Technique** : lié aux métiers techniques et aux connaissances des frameworks, applicatifs, outils, etc.
 - **Organisation** : cette catégorie existe de manière à pouvoir identifier les compétences liées à l'organisation liée à une société, cliente ou pas.
 
+Les profiles peuvent être cumulés entre eux.
+
 ## Domaine
 
 Le domaine est le deuxième niveau hierarchique. Il détermine le champ ou la portée de la compétence.
 
 Les diagrames ci-dessous proposent une découpe des domaines selon le profile. Un domaine est cross-profile, autrement dit un domaine peut se retrouver associé à un profile ou un autre.
 
+Les domaines peuvent être cumulés dans certains cas.
+
 | Management | Technique | Organisation |
 |:--:|:--:|:--:|
 | ![management](out/diagram/domaine/management/management.png) | ![Technique](out/diagram/domaine/technique/technique.png) | ![organisation](out/diagram/domaine/organisation/organisation.png) |
+
+## Thèmes
+
+Les thèmes est le troisième niveau hierarchique. Il détermine le sujet de la compétence.
+
+Les thèmes sont cross-profile, mais également cross-domain, c'est-à-dire qu'ils peuvent être associé à différents profiles et différents domaines.
+
+Les thèmes ne sont pas défini par une liste exhaustive et peuvent être cumulé.
