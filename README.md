@@ -25,7 +25,7 @@ Le profil est le premier niveau hiérarchique. Il détermine la facette métier 
 
 - **Management** : lié aux métiers de gestion comme peuvent l'être les chefs de projets, chefs d'équipes, scrum master, etc.
 - **Technique** : lié aux métiers techniques et aux connaissances des frameworks, applicatifs, outils, etc.
-- **Organisation** : cette catégorie existe de manière à pouvoir identifier les compétences liées à l'organisation liée à une société, cliente ou pas.
+- **Organisation** : cette catégorie existe de manière à pouvoir identifier les compétences liées à l'organisation d'une société, cliente ou pas.
 
 Les profils peuvent être cumulés entre eux.
 
