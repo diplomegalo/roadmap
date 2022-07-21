@@ -1,11 +1,10 @@
 @startmindmap
-* GraphQL .Net
+* GraphQL
 
 ** GraphQL AspNet Core
 
 ***_ Query definition 
 ***_ Schema definition
-***_ EF Core integration
 
 *** Type definition
 
@@ -17,7 +16,7 @@
 ****_ Exception stack trace
 ****_ Middleware
 
-***[#lightgrey] Web Client
+*** Web Client
 
 ****_ Altair
 @endmindmap

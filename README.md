@@ -49,4 +49,8 @@ Les thèmes peuvent être associés à différents profils et différents domain
 
 Les thèmes ne sont pas définis par une liste exhaustive et peuvent être cumulés.
 
-[GraphQL]
+La liste ci-dessous énumère les liens vers les cookbook pour réaliser un POC dans la compétence. Ces documents sont édité en anglais avec le logiciel Obsidian.
+
+| Thèmes | Tags |
+|--|--|
+| [GraphQL](../themes/GraphQL/GraphQL.md) | #dotNet #GraphQL |
