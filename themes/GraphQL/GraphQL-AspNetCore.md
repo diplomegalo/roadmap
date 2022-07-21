@@ -1,5 +1,5 @@
-# Create wep api 
-You can find source on GitHub at https://github.com/diplomegalo/Poc/tree/develop/Poc.GraphQL.
+# Create wep api solution
+You can find source of the solution on the [Poc](https://github.com/diplomegalo/Poc) repository on GitHub in the [Poc.GraphQL](https://github.com/diplomegalo/Poc/tree/develop/Poc.GraphQL) directory.
 
 ```shell
 dotnet new webapi -o Poc.GraphQL/Poc.GraphQL.Web
