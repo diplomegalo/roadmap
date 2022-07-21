@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "f48592f0e8f9418e",
+    "type": "split",
+    "children": [
+      {
+        "id": "16e6f7df144f3d2e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "thèmes/GrapQL/GraphQL - AspNet Core.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2f45f572a58e8b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fae8c297210027f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39d007439f8f3f30",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "263740f3dbad348a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "122fe90e4f648f10",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa787a4eea876c0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "19186e7b0c7bdc58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "555660cb8329e8e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "thèmes/GrapQL/GraphQL - AspNet Core.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "68d7a7d6789ac7d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "thèmes/GrapQL/GraphQL - AspNet Core.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d1871653d814521",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3763ac587a7463fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "thèmes/GrapQL/GraphQL - AspNet Core.md"
+              }
+            }
+          },
+          {
+            "id": "3884cc3a22daef07",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "16e6f7df144f3d2e",
+  "lastOpenFiles": [
+    "thèmes/GrapQL/Home.md",
+    "thèmes/GrapQL/GraphQL - AspNet Core.md",
+    "README.md",
+    "out/diagram/thèmes/graphql/graphql.png"
+  ]
+}

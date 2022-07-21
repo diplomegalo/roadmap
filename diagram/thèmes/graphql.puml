@@ -1,7 +1,23 @@
 @startmindmap
-* GraphQL
-** GraphQL AspNetCore
-*** Query, Schema and Type definition
-** GraphQL Client
-*** GraphQL Altair
+* GraphQL .Net
+
+** GraphQL AspNet Core
+
+***_ Query definition 
+***_ Schema definition
+***_ EF Core integration
+
+*** Configure Startup
+
+****_ Exception stack trace
+****_ Middleware
+
+*** Type definition
+
+****_ Scalar Type
+****_ Complex Type
+
+***[#lightgrey] Web Client
+
+****_ Altair
 @endmindmap
