@@ -49,6 +49,4 @@ Les thèmes peuvent être associés à différents profils et différents domain
 
 Les thèmes ne sont pas définis par une liste exhaustive et peuvent être cumulés.
 
-
-
-
+[GraphQL]
