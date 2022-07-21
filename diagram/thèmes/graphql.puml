@@ -7,15 +7,15 @@
 ***_ Schema definition
 ***_ EF Core integration
 
-*** Configure Startup
-
-****_ Exception stack trace
-****_ Middleware
-
 *** Type definition
 
 ****_ Scalar Type
 ****_ Complex Type
+
+*** Configure Startup
+
+****_ Exception stack trace
+****_ Middleware
 
 ***[#lightgrey] Web Client
 
