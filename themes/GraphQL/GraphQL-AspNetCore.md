@@ -1,4 +1,3 @@
-
 # Create wep api 
 You can find source on GitHub at https://github.com/diplomegalo/Poc/tree/develop/Poc.GraphQL.
 
