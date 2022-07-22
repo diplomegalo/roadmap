@@ -7,7 +7,7 @@ dotnet new sln -o Poc.GraphQL
 dotnet sln add Poc.GraphQL/Poc.GraphQL.Web
 ```
 
-# Nuget dependencies
+# Base nuget packages
 
 ```shell
 dotnet add package GraphQL.Server.All
@@ -148,11 +148,11 @@ public CaseType()
 
 ## Test
 
-At this step you should be able to test your application. See the [[#Configure Startup]] chapter to know how to build application with minimum services to have access.
+At this step you should be able to test your application by configuring `startup` class following the [[#Configure Startup]] chapter with the minimum configuration.
 
 # Complex Type
 
-## Nuget dependencies
+## EF Core nuget package
 
 ```shell
 dotnet add package Microsoft.EntityFrameworkCore
@@ -278,7 +278,7 @@ public sealed class ContractType : ObjectGraphType<Contract>
 
 Next, adapt the existing `CaseType` class with dependencies on contract. 
 
-There the `IServiceProvider` is used via the `RequestServices` property of the `context` to resolve the `IContractRepository` instanciation.
+There the `IServiceProvider` is used via the `RequestServices` property of the `context` to resolve the `IContractRepository` instanciation. Find more information about the [Thread safety with scoped services](https://graphql-dotnet.github.io/docs/getting-started/dependency-injection/#thread-safety-with-scoped-services) which explain why use the `RequestServices` property there.
 
 Then the instance is use to retrieve the list of `Contract` associated with a `Case`, based on the `Id` found in the `Source` property of the `context`. 
 
@@ -299,6 +299,73 @@ Field<ListGraphType<ContractType>>(
     });
 ```
 
+## DataLoader
+
+The `Dataloader` is used to increase data fetching performance by:
+- batch similar fetch operation together,
+- push fetch values in a cache.
+
+### Nuget package
+Add new nuget dependencies
+
+```shell
+dotnet add package GraphQL.DataLoader
+```
+
+### Add service
+Add the `AddDataLoader` service (cf. [Configure Startup])
+
+### Enhance repository
+First add new method in the `IContractRepository` to allow request contract based on a list of case identifiers.
+
+```C#
+Task<ILookup<int, Contract>> GetContractsByCaseIdBatchAsync(IEnumerable<int> caseIds);
+```
+
+You can notice that the method returns a `ILookup` object which allow to have same keys, in contrary of the `IDictionary` type.
+
+Then implements the method in the `ContractRepository`.
+
+```C#
+public async Task<ILookup<int, Contract>> GetContractsByCaseIdBatchAsync(IEnumerable<int> caseIds) =>   
+    (await _context.Contracts.Where(contract => caseIds.Contains(contract.CaseId))  
+        .ToListAsync())  
+        .ToLookup(contract => contract.Id);
+```
+
+### Use `DataLoader`
+Modify the `CaseType` class to retrieve contracts by using the batch feature of the `DataLoader`.
+
+First add a `IDataLoaderContextAccessor` parameter in the constructor, then update the resolve method by using the `GetOrAddCollectionBatchLoader` method.
+
+```C#
+public CaseType(IDataLoaderContextAccessor dataLoaderContextAccessor)  
+{  
+    Name = "Case";  
+    Description = "A case contains information about the customer.";  
+    Field(dossier => dossier.Id).Description("The case unique identifier.");  
+    Field(dossier => dossier.Ref).Description("The case business reference.");  
+  
+    // Enum type  
+    Field<StatusEnumType>("Status", "The status of the case.");  
+  
+    // Contracts  
+    Field<ListGraphType<ContractType>>(  
+        "contracts",  
+        resolve: context =>  
+        {  
+            // Get repository instance  
+            var contractRepository = context.RequestServices?.GetRequiredService<IContractRepository>() ??  
+                                    throw new InvalidOperationException("Unable to retrieve service provider.");  
+              
+            // Use data loader to retrieve data  
+            return dataLoaderContextAccessor.Context  
+                .GetOrAddCollectionBatchLoader<int, Contract>("GetContractsByCaseId", caseIds => contractRepository.GetContractsByCaseIdBatchAsync(caseIds))  
+                .LoadAsync(context.Source.Id);  
+        });  
+}
+```
+
 # Configure Startup
 
 Add snippets behind in the `Startup` class.
@@ -307,11 +374,17 @@ Add snippets behind in the `Startup` class.
 // GraphQL  
 builder.Services    
 .AddGraphQL(qlBuilder => qlBuilder
-		.AddErrorInfoProvider(options => 
-			options.ExposeExceptionStackTrace = builder.Environment.IsDevelopment()
-        .AddHttpMiddleware<ISchema>()  
-        .AddSelfActivatingSchema<PocApplicationSchema>()  
-        .AddSystemTextJson());  
+	// Minimum configuration
+	.AddHttpMiddleware<ISchema>()  
+	.AddSelfActivatingSchema<PocApplicationSchema>()  
+	.AddSystemTextJson()  
+  
+	// See exception stack trace in the client  
+	.AddErrorInfoProvider(options => 
+		options.ExposeExceptionStackTrace = builder.Environment.IsDevelopment())  
+  
+	// Use data loader  
+	.AddDataLoader());  
 
 if (app.Environment.IsDevelopment())
 {
@@ -345,6 +418,16 @@ The method `.AddErrorInfoProvider` allows to manage the `IErrorInfoProvider` ser
 ## Middleware
 
 To create a GraphQL middleware, simply use the `.AddHttpMiddleware<ISchema>()` method.
+
+## DataLoader
+This require to add nuget package and is only needed when you have complex types and you must increase fetching data performance (which is the case in 99,99999%).
+
+```shell
+dotnet add package GraphQL.DataLoader
+```
+
+See the [DataLoader](#DataLoader) chapter for more information.
+
 
 ---
 Tags : #dotNET, #GraphQL
