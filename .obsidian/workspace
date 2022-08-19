@@ -129,7 +129,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -143,9 +144,5 @@
     "themes/GraphQL/GraphQL.md",
     "themes/GraphQL/GraphQL-AspNetCore.md",
     "out/diagram/profile/profile.png",
-    "thèmes/GrapQL/GraphQL-AspNetCore.md",
-    "thèmes/GrapQL/Home.md",
-    "thèmes/GrapQL/GraphQL - AspNet Core.md",
-    "out/diagram/thèmes/graphql/graphql.png"
   ]
 }
