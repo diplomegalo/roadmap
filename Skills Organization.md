@@ -1,9 +1,10 @@
 # Organisation des compétences
 
-La roadmap des compétences permet de :
-- avoir un aperçu des compétences
-- choisir une matière dans laquelle évoluer 
-- organiser les ressources documentaires
+La roadmap des compétences permet :
+
+- d'avoir un aperçu des compétences
+- de choisir une matière dans laquelle évoluer
+- d'organiser les ressources documentaires
 
 ## Catégories
 
