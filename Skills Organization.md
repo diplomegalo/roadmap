@@ -8,7 +8,7 @@ La roadmap des compétences permet :
 
 ## Catégories
 
-L'organisation se fait en fonction de catégories articulées sur base de 4 niveaux hiérarchiques :
+L'organisation se fait en fonction de catégories articulées sur 3 niveaux hiérarchiques :
 
 - le profile : détermine la facette métier de la compétence,
 - le domaine : détermine le champ ou la portée de la compétence,

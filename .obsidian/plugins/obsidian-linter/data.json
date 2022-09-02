@@ -55,7 +55,7 @@
       "Headings should be formatted with capitalization": true,
       "Style": "First letter",
       "Ignore Cased Words": true,
-      "Ignore Words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript",
+      "Ignore Words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, AspNet, Core",
       "Lowercase Words": "via, a, an, the, and, or, but, for, nor, so, yet, at, by, in, of, on, to, up, as, is, if, it, for, to, with, without, into, onto, per"
     },
     "File Name Heading": {
