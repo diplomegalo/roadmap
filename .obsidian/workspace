@@ -7,12 +7,8 @@
         "id": "16e6f7df144f3d2e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,11 +129,15 @@
   },
   "active": "16e6f7df144f3d2e",
   "lastOpenFiles": [
-    "Organize.md",
-    "README.md",
-    "2022-08-19.md",
+    "themes/GraphQL/GraphQL-Dockerize.md",
+    "Skills Organization.md",
     "themes/GraphQL/GraphQL.md",
+    "README.md",
     "themes/GraphQL/GraphQL-AspNetCore.md",
+    "2022-08-19.md",
     "out/diagram/profile/profile.png",
+    "thèmes/GrapQL/GraphQL-AspNetCore.md",
+    "thèmes/GrapQL/Home.md",
+    "thèmes/GrapQL/GraphQL - AspNet Core.md"
   ]
 }
