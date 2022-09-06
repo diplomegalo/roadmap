@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "themes/GraphQL/GraphQL-Dockerize.md",
+            "file": "Skills Organization.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "themes/GraphQL/GraphQL-Dockerize.md",
+                "file": "Skills Organization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "themes/GraphQL/GraphQL-Dockerize.md",
+                "file": "Skills Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/GraphQL/GraphQL-Dockerize.md"
+                "file": "Skills Organization.md"
               }
             }
           },
@@ -137,10 +137,10 @@
   },
   "active": "16e6f7df144f3d2e",
   "lastOpenFiles": [
+    "README.md",
     "Skills Organization.md",
     "themes/GraphQL/GraphQL-Dockerize.md",
     "themes/GraphQL/GraphQL.md",
-    "README.md",
     "themes/GraphQL/GraphQL-AspNetCore.md",
     "2022-08-19.md",
     "out/diagram/profile/profile.png",
