@@ -52,9 +52,9 @@
       "Keep alias that matches the filename": false
     },
     "Capitalize Headings": {
-      "Headings should be formatted with capitalization": true,
+      "Headings should be formatted with capitalization": false,
       "Style": "First letter",
-      "Ignore Cased Words": true,
+      "Ignore Cased Words": false,
       "Ignore Words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, AspNet, Core",
       "Lowercase Words": "via, a, an, the, and, or, but, for, nor, so, yet, at, by, in, of, on, to, up, as, is, if, it, for, to, with, without, into, onto, per"
     },

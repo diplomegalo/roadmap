@@ -430,4 +430,4 @@ See the [DataLoader](#DataLoader) chapter for more information.
 
 
 ---
-Tags : #dotNET, #GraphQL
+Tags : #GraphQL, #EFCore, #AspNetCore, 
