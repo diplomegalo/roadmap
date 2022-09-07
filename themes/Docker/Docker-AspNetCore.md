@@ -2,7 +2,7 @@
 
 ## Create project
 
-Execute command below: 
+Execute command below:
 
 ```cmd
 dotnet new webapi -o Poc.Docker/Poc.Docker.Web
@@ -88,7 +88,7 @@ Run the following to run the image in the container :
 - `--name`: give a name to the container
 - `aspnetdockerized`: the image name value
 
-If you want to check the swagger page you have to execute the run command with environnement variable 
+If you want to check the swagger page you have to execute the run command with environnement variable  
 to developpment : `-e "ASPNETCORE_ENVIRONMENT=Development"`
 
 ## Test
@@ -97,4 +97,4 @@ Type the url `http://localhost:8080/WeatherForecast` in your favorite browser an
 
 ## Debug
 
-For Rider user, see the [Debugging ASP.NET Core apps in a local Docker container](https://blog.jetbrains.com/dotnet/2018/07/18/debugging-asp-net-core-apps-local-docker-container/) article.
+For Rider user, see the [Debugging ASP.NET Core apps in a local Docker container](https://blog.jetbrains.com/dotnet/2018/07/18/debugging-asp-net-core-apps-local-docker-container/) and [Rider debug docker compose](<https://mu88.github.io/2022/05/18/Rider-debug-docker-compose.html> articles) articles.
