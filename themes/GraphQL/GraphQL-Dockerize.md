@@ -85,13 +85,13 @@ Then check that the AspNet application and the Sql Server is up and running :
 	- the `-P` option is to give the password value,  
 	- the `-U` option is to give the login id.
 
-``` shell
+```cmd
 sqlcmd -S localhost,3090 -P 1StrongPwd!! -U sa
 ```
 
 You should have an output like below which means that your are connected
 
-```shell
+```cmd
 1>_
 ```
 
@@ -100,11 +100,11 @@ You should have an output like below which means that your are connected
 > `1> SELECT @@ version`  
 > `2> GO`
 
-## Bind `Dbcontext` with the database.
+## Bind `Dbcontext` with database.
 
-From the path `Poc.GraphQL\Poc.GraphQL.Web`, install the `Microsoft.EntityFrameworkCore.SqlServer` package.
+From the path `Poc.GraphQL\Poc.GraphQL.Web`, install the `Microsoft.EntityFrameworkCore.SqlServer` package by executing the command below.
 
-```shell
+```cmd
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```
 
