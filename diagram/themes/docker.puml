@@ -1,0 +1,10 @@
+@startmindmap
+* Docker
+
+** AspNet Core Application
+***_ Dockerfile
+***_ Build image
+***_ Run container
+
+
+@endmindmap

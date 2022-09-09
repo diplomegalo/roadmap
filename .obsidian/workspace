@@ -7,8 +7,12 @@
         "id": "16e6f7df144f3d2e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "themes/GraphQL/GraphQL-AspNetCore.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+                "file": "themes/GraphQL/GraphQL-AspNetCore.md",
+=======
+>>>>>>> origin/develop
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +97,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+                "file": "themes/GraphQL/GraphQL-AspNetCore.md",
+=======
+>>>>>>> origin/develop
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +122,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
+              "state": {
+                "file": "themes/GraphQL/GraphQL-AspNetCore.md"
+              }
+=======
               "state": {}
+>>>>>>> origin/develop
             }
           },
           {
@@ -121,7 +139,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -129,6 +148,18 @@
   },
   "active": "16e6f7df144f3d2e",
   "lastOpenFiles": [
+<<<<<<< HEAD
+    "themes/GraphQL/GraphQL.md",
+    "themes/GraphQL/GraphQL-AspNetCore.md",
+    "themes/Docker/Docker.md",
+    "out/diagram/themes/graphql/graphql.png",
+    "themes/Docker/Docker-AspNetCore.md",
+    "themes/GraphQL/GraphQL-Dockerize.md",
+    "README.md",
+    "Skills Organization.md",
+    "2022-08-19.md",
+    "out/diagram/profile/profile.png"
+=======
     "themes/GraphQL/GraphQL-Dockerize.md",
     "Skills Organization.md",
     "themes/GraphQL/GraphQL.md",
@@ -139,5 +170,6 @@
     "thèmes/GrapQL/GraphQL-AspNetCore.md",
     "thèmes/GrapQL/Home.md",
     "thèmes/GrapQL/GraphQL - AspNet Core.md"
+>>>>>>> origin/develop
   ]
 }
