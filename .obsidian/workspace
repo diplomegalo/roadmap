@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "f48592f0e8f9418e",
+    "id": "0511cc5333de1b4e",
     "type": "split",
     "children": [
       {
-        "id": "16e6f7df144f3d2e",
+        "id": "ca345e3a2494a604",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a2f45f572a58e8b5",
+    "id": "90c61c130a3a73ca",
     "type": "split",
     "children": [
       {
-        "id": "fae8c297210027f9",
+        "id": "1c89d3d113258b9c",
         "type": "tabs",
         "children": [
           {
-            "id": "39d007439f8f3f30",
+            "id": "3048a4f1c5091481",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "263740f3dbad348a",
+            "id": "5cff0c877a941355",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "122fe90e4f648f10",
+            "id": "0ea91b3ed3069d1f",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,50 +64,44 @@
     "width": 300
   },
   "right": {
-    "id": "fa787a4eea876c0c",
+    "id": "a49f71e24a4ad7e0",
     "type": "split",
     "children": [
       {
-        "id": "19186e7b0c7bdc58",
+        "id": "031d46318a504961",
         "type": "tabs",
         "children": [
           {
-            "id": "555660cb8329e8e7",
+            "id": "86c20d89893ea6c4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "themes/GraphQL/GraphQL-AspNetCore.md",
-=======
->>>>>>> origin/develop
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "68d7a7d6789ac7d9",
+            "id": "0bf31173aefd69a1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
                 "file": "themes/GraphQL/GraphQL-AspNetCore.md",
-=======
->>>>>>> origin/develop
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8d1871653d814521",
+            "id": "0af0ad2b7dacc309",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,58 +112,24 @@
             }
           },
           {
-            "id": "3763ac587a7463fa",
+            "id": "f334ac0bbac52996",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
               "state": {
                 "file": "themes/GraphQL/GraphQL-AspNetCore.md"
               }
-=======
-              "state": {}
->>>>>>> origin/develop
-            }
-          },
-          {
-            "id": "3884cc3a22daef07",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "16e6f7df144f3d2e",
+  "active": "ca345e3a2494a604",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "themes/GraphQL/GraphQL.md",
-    "themes/GraphQL/GraphQL-AspNetCore.md",
-    "themes/Docker/Docker.md",
-    "out/diagram/themes/graphql/graphql.png",
-    "themes/Docker/Docker-AspNetCore.md",
-    "themes/GraphQL/GraphQL-Dockerize.md",
-    "README.md",
-    "Skills Organization.md",
-    "2022-08-19.md",
-    "out/diagram/profile/profile.png"
-=======
-    "themes/GraphQL/GraphQL-Dockerize.md",
-    "Skills Organization.md",
-    "themes/GraphQL/GraphQL.md",
-    "README.md",
-    "themes/GraphQL/GraphQL-AspNetCore.md",
-    "2022-08-19.md",
-    "out/diagram/profile/profile.png",
-    "thèmes/GrapQL/GraphQL-AspNetCore.md",
-    "thèmes/GrapQL/Home.md",
-    "thèmes/GrapQL/GraphQL - AspNet Core.md"
->>>>>>> origin/develop
+    "themes/GraphQL/GraphQL.md"
   ]
 }
