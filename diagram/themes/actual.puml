@@ -7,14 +7,23 @@
 ***_ Réflexion-Logique
 ***_ UML 2
 ***_ Xml
+***_ Git
+***_ Introduction à la programmation
+***_ Introduction à l'informatique
+***_ Design Pattern
+***_ POO
 
 ** .Net
 ***_ .Net Core
 ***_ ASP.Net MVC
 ***_ ASP.Net WebAPI
+***_ CSharp
 ***_ Link
 ***_ Asynchrones
 ***_ CMS Umbraco 9
+***_ Design Pattern
+***_ CMS Umbraco 9
+***_ WPF
 
 ** Frontend Web
 ***_ Angular
@@ -31,6 +40,10 @@
 ***_ Kafka
 ***_ Azure Devops
 ***_ Réseau
+***_ Docker
+
+** Outil Applicatif
+***_ Git
 
 **_ Sécurité
 **_ Testing
