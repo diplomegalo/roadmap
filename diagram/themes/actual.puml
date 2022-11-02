@@ -1,0 +1,47 @@
+@startmindmap
+* Technique
+
+** Développement
+***_ Algorithmique
+***_ Behaviour Driven Development
+***_ Réflexion-Logique
+***_ UML 2
+***_ Xml
+
+** .Net
+***_ .Net Core
+***_ ASP.Net MVC
+***_ ASP.Net WebAPI
+***_ Link
+***_ Asynchrones
+***_ CMS Umbraco 9
+
+** Frontend Web
+***_ Angular
+***_ HTML 5
+***_ CMS Umbraco 9
+
+** Big Data
+***_ Base de données
+***_ MySQL
+***_ Xml
+
+** Infra
+***_ IIS
+***_ Kafka
+***_ Azure Devops
+***_ Réseau
+
+**_ Sécurité
+**_ Testing
+**_ Java
+**_ PHP
+
+
+* Management
+** Outil / Applicatif
+***_ OneNote
+** Méthodologie
+***_ UML 2
+
+@endmindmap
