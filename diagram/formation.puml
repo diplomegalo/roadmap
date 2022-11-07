@@ -1,0 +1,20 @@
+@startmindmap
+*[#LightBlue] Formation
+--[#MistyRose] Services
+---[#Lightgreen] Débutant
+---[#Lightgreen] Entreprise
+---[#Orange] Expertise
+**[#MistyRose] Canaux
+***[#Lightgreen] Sharepoint
+***[#Lightgreen] Auditoire
+***[#Orange] Youtube
+***[#Orange] LinkedIn
+**[#MistyRose] Format
+***[#Lightgreen] Livres
+***[#Lightgreen] Tech-Tips
+***[#Lightgreen] Support Formation (Slide)
+***[#Lightgreen] Cours
+***[#Orange] Sylabus (Markdown)
+***[#Orange] Deep Dive (Video)
+***[#Orange] Radio IT (Podcast)
+@endmindmap

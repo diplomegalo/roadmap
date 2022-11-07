@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Skills Organization.md",
+                "file": "2 - Formation.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Skills Organization.md",
+                "file": "2 - Formation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Skills Organization.md",
+                "file": "2 - Formation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Skills Organization.md"
+                "file": "2 - Formation.md"
               }
             }
           }
@@ -151,8 +151,9 @@
   },
   "active": "01b7eb3733c10154",
   "lastOpenFiles": [
-    "2 - Formation.md",
+    "1 - Organisation des compétences.md",
     "README.md",
+    "2 - Formation.md",
     "themes/GraphQL/GraphQL-AspNetCore.md",
     "themes/GraphQL/GraphQL.md"
   ]
