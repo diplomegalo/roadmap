@@ -4,16 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ca345e3a2494a604",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "themes/GraphQL/GraphQL-AspNetCore.md",
-            "mode": "source",
-            "source": false
+        "id": "d8f43a2f429be333",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca345e3a2494a604",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01b7eb3733c10154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Skills Organization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,7 +50,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "themes/GraphQL/GraphQL-AspNetCore.md",
+                "file": "1 - Skills Organization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "themes/GraphQL/GraphQL-AspNetCore.md",
+                "file": "1 - Skills Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/GraphQL/GraphQL-AspNetCore.md"
+                "file": "1 - Skills Organization.md"
               }
             }
           }
@@ -128,8 +149,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ca345e3a2494a604",
+  "active": "01b7eb3733c10154",
   "lastOpenFiles": [
+    "2 - Formation.md",
+    "README.md",
+    "themes/GraphQL/GraphQL-AspNetCore.md",
     "themes/GraphQL/GraphQL.md"
   ]
 }

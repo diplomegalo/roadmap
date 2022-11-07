@@ -382,7 +382,6 @@ Add snippets behind in the `Startup` class.
 builder.Services    
 .AddGraphQL(qlBuilder => qlBuilder
 	// Minimum configuration
-	.AddHttpMiddleware<ISchema>()  
 	.AddSelfActivatingSchema<PocApplicationSchema>()  
 	.AddSystemTextJson()  
   
