@@ -1,20 +1,21 @@
 @startmindmap
-*[#LightBlue] Formation
+*[#LightBlue] Wavenet Formation
 --[#MistyRose] Services
----[#Lightgreen] Débutant
----[#Lightgreen] Entreprise
----[#Orange] Expertise
+---[#Lightgreen] Formation débutant
+---[#Lightgreen] Formation d'entreprise
+---[#Orange] Domaine d'expertise
 **[#MistyRose] Canaux
-***[#Lightgreen] Sharepoint
+***[#Lightgreen] Intranet
 ***[#Lightgreen] Auditoire
 ***[#Orange] Youtube
 ***[#Orange] LinkedIn
+***[#Orange] Portail Web
 **[#MistyRose] Format
-***[#Lightgreen] Livres
-***[#Lightgreen] Tech-Tips
+***[#Lightgreen] eBook (pdf)
+***[#Lightgreen] Tech-Tips (Video)
 ***[#Lightgreen] Support Formation (Slide)
-***[#Lightgreen] Cours
-***[#Orange] Sylabus (Markdown)
+***[#Orange] Syllabus (Markdown)
 ***[#Orange] Deep Dive (Video)
 ***[#Orange] Radio IT (Podcast)
+***[#Orange] POC (Github)
 @endmindmap
