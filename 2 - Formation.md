@@ -16,7 +16,11 @@ Sur base d'une demande ponctuel d'un client, des collaborateurs Wavenet sont env
 
 ### Domaine d'expertise
 
-Dans le cadre d'une veille technologique, de manière à garder les collaborateur Wavenet d'un profils médior et sénior au top des pratiques et technologies afin de pouvoir offrir aux clients un service de qualité mais également de garder un bon équilibre entre les compétences techniques et les compétences métier acquises au sein d'un projet ou client (outsourcing)
+Dans le cadre de la veille technologique, de profils médior et sénior, au top des pratiques et technologies pour suivre les tendances et apporté des solutions spécifiques aux problématiques d'un client, des collaborateurs Wavenet offre leur expérience sous forme d'atelier ciblé.
+
+### Conférence
+
+
 
 ## Canaux de diffusion
 
