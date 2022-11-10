@@ -1,5 +1,10 @@
 # Formation
 
+L'objectif au sein de l'entreprise :
+ - Avoir une expertise de haute qualité concernant des compétences spécifiques.
+ - Avoir une connaissance globale des méthodologies et technologies actuelles et leurs cas d'utilisations (connaitre le besoin).
+ - Participer à la veille technologique pour garantir un équilibre entre les compétence techniques et fonctionnelles (outsourcing).
+
 ![](./out/diagram/formation/formation.png)
 
 ## Services
@@ -48,30 +53,36 @@ Concentrateur de formations tous formats confondus à destination de **client** 
 
 ## Format
 
+Quels sont les formats utilisés dans le cadre d'une formation et à quel besoin répondent-ils.
+
 ### eBook
 
-Livre ou magazine en format PDF.
+**Livre ou magazine** en format PDF pour rentrer en **détail** dans un cas d'utilisation ou un chapitre d'une méthodologie ou technologie.
 
 ### Tech-Tips
 
-Vidéo de type court concernant les grands principes d'une méthodologie ou d'une technologie.
+Vidéo de **type court** concernant **les grands principes** d'une méthodologie ou d'une technologie pour rester au courant des dernières tendances.
 
 ### Support Formation
 
-Présentation PowerPoint servant de support à la formation en présentielle.
+Présentation PowerPoint servant de **support à l'orateur** lors de formation.
 
 ### Syllabus
 
-Markdown (ou export PDF) servant de support à la formation.
+Markdown (ou export PDF) servant de **support à l'apprenant** lors de formation.
 
 ### Deep Dive
 
-Markdown, code source, docker, vidéo concernant une technologie ciblé.
-
-### Radio IT
-
-Podcast audio/vidéo concernant les grands principes d'une méthodologie ou d'une technologie.
+Markdown, code source, docker, vidéo à destination de collaborateurs ou clients pour **rentrer en détail dans un chapitre spécifique** d'une méthodologie ou d'une technologie ciblée.
 
 ### POC
 
-Markdown, code source, docker concernant une technologie ciblée.
+Markdown, code source, docker, vidéo à destination de collaborateurs ou clients pour **mettre en oeuvre rapidement un chapitre spécifique** d'une méthodologie ou d'une technologie ciblée.
+
+### How to
+
+Markdown, code source, docker, vidéo à destination de collaborateurs ou clients pour **rentre en détail d'un cas d'utilisation technico-fonctionnel** d'une méthodologie ou d'une technologie ciblée.
+
+### Radio IT
+
+Podcast audio/vidéo publique concernant **les grands principes** d'une méthodologie ou d'une technologie à destination de collaborateurs ou clients.
