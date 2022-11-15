@@ -2,7 +2,11 @@
 
 ## Organisation des compétences
 
-Aller sur la page [organisation des compétences](1%20-%20Skills%20Organization.md) pour comprendre comment les compétences sont agencées entre-elles.
+Consulter la page [organisation des compétences](1%20-%20Organisation%20des%20compétences.md) pour comprendre comment les compétences sont organisées entre-elles.
+
+## Formation
+
+Consulter la page des [formations](Formation.md) pour en connaitre d'avantage en terme de service, canal de communication et format.
 
 ## Pocs
 

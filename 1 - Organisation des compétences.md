@@ -14,9 +14,9 @@ L'organisation se fait en fonction de catégories articulées sur 3 niveaux hié
 - le domaine : détermine le champ ou la portée de la compétence,
 - les thèmes : déterminent le(s) sujet(s) de la compétence,
 
-## Type de document
+## Type de formation
 
-Dans le cadre de l'organisation des ressources documentaires, il existe une catégorie supplémentaire : le type de document. Celle-ci permet de caractériser ou qualifier le support documentaire (vidéo, syllabus, etc.).
+Dans le cadre de l'organisation des ressources documentaires, il existe une catégorie supplémentaire : le type de formation. Celle-ci permet de caractériser ou qualifier le support documentaire (vidéo, syllabus, support formation, etc.).
 
 ## Profil
 
