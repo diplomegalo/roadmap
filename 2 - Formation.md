@@ -86,3 +86,7 @@ Markdown, code source, docker, vidéo à destination de collaborateurs ou client
 ### Radio IT
 
 Podcast audio/vidéo publique concernant **les grands principes** d'une méthodologie ou d'une technologie à destination de collaborateurs ou clients.
+
+### Excercise
+
+Dans le cadre d'évaluation ou de **drill**, des excercises mettant en situation et permettant d'acquérir les compétences associées à ceux-ci.
