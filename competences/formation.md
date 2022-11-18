@@ -24,7 +24,7 @@ L'objectif au sein de l'entreprise :
  - Avoir une connaissance globale des méthodologies et technologies actuelles et leurs cas d'utilisations (connaitre le besoin).
  - Participer à la veille technologique pour garantir un équilibre entre les compétence techniques et fonctionnelles (outsourcing).
 
-![](formation.png)
+![formation](out/formation/formation.png)
 
 ## Services
 

@@ -14,7 +14,8 @@ tags:
   - graphql  
   - graphql/stitching  
   - graphql/federation  
-  - graphql-dotnet  
+  - graphql-dotnet
+  - hotchocolate
 references:  
   - [https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)  
   - [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)  
@@ -77,3 +78,7 @@ En terme intuitif, on pourrait se laisser penser que la méthode de fédération
 Contrairement au schema stitching qui lui va permettre l'intégration de modèle dont on n’a pas la responsabilité (d'implémentation) et l'étendre avec des données d'autres services.
 
 En outre, attention que ce choix n'est possible qu'en fonction des fonctionnalités livrées par la librairie utilisée. En effet, certaines librairies n'implémentent pas les fonctionnalités et ne permettent donc pas de les utiliser. Par exemple, la librairie `graphql-dotnet` n'implémente pas de fonctionnalité de schéma stitching.
+
+## Exemple
+
+Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gtw) de création d'une API Gateway avec le schema stitching et la librarie HotChocolate.

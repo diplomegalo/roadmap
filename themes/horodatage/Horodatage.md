@@ -1,25 +1,28 @@
 # Préambule
+
 **TimeStamping** est un standard formel défini par la RFC-3161 qui décrit les formats des requêtes et réponses.
 
-![[Trusted_timestamping.svg]]
+![[out/Trusted_timestamping.svg]]
 
 Une fois qu'un hash sur un document a été horodaté, la preuve d'horodatage pourra 
 
 - soit être conservée séparément du fichier. Dans ce cas, le format ne contiendra donc pas la preuve d'horodatage.
 - soit si le format le permet (comme pour un pdf ou un xml) incorporée dans le conteneur du document qui est horodaté). Lors de l'horodatage d'un pdf ou d'un xml, c'est donc une partie du document (data + quelques metadatas) qui sera horodatée (le mécanisme est le même pour la signature) et cet horodatage sera ajouté au pdf dans une partie prévue (hors data + quelques metadatas) de façon à pouvoir en garantir l'intégrité.
 
-
 # Le protocole
+
 Voici une brève description du protocole d'horodatage : 
 1. Le client TSA calcule une valeur de hachage unidirectionnelle pour un fichier de données et envoie le hachage à la TSA. 
 2. Le TSA associe la date et l'heure actuelles à la valeur de hachage reçue, les signe et renvoie le jeton d'horodatage au client. En créant ce jeton, la TSA certifie l'existence du fichier de données d'origine au moment de la génération de la réponse. 
 3. Le client TSA reçoit le jeton d'horodatage et vérifie la signature qu'il contient. Il vérifie également si le jeton contient la même valeur de hachage qu'il avait envoyé à la TSA.
 
 # Exemple concret
+
 Dans cet exemple, dans le but d'être OS et language indépendant, on va utiliser openSSL pour interroger un service de timestamping indépendant servant à horodater un fichier. Cet horodatage ne sera pas inclus au document (comme pour un pdf), car dans ce cas il faut utiliser une librairie ou application tierce afin de l'incorporer. 
 Pour solution programmatique, il existe des librairies (utilisant par exemple bouncyCastle) qui permettent d'intégrer les mêmes fonctionnalités dans une application.
 
 ## Etapes
+
 Les étapes seront les suivantes : 
 1. Calcul du hash du fichier (agnostique du format)
 2. Création d'une requête d'horodatage (RFC-3161 compliant)
@@ -40,21 +43,16 @@ en ligne de commande, il existe plusieurs moyens,
 	 
      `openssl dgst -sha512 -out test_pdf_hashSHA512_openssl.log Test.pdf`
 
-<div style="border: 2px solid transparent;padding:1.875rem 2.5rem;border-radius:3px;margin-top:1.5635rem;margin-bottom:1.5635rem;background:#E2DAF1;color:#64645c">
-	 
 Le contenu du fichier aura la forme de (`cat test_pdf_hashSHA512_openssl.log`)
 SHA512(Test.pdf)= 3d3e5448a01330c3ad85b8296fb6b9eacb69f0c66eb39e39c49b88a36dfba0f3f83f9cd861fca1339db7730056fe8cda6a42976112ffb828d6a6c975a5507ac3
 
 **Remarque** dans ce cas-ci on va utiliser l'algorithme SHA512
-</div>
- 
-	 
+
 ### 2. Création de la requête RFC-3161
+
 En utilisant openSSL, on va créer une requête RFC-3161 compliant. Le fichier créé aura pour extension **.tsq** (*timestamp-query*), ce call se fera sur base du hash et non pas avec le fichier en tant que tel. 
 
-<div style="border: 2px solid transparent;padding:1.875rem 2.5rem;border-radius:3px;margin-top:1.5635rem;margin-bottom:1.5635rem;background:#F36E30;color:#212121;">
 Le fichier ne sera pas envoyé à l'autorité d'horodatage, c'est important du point de vue sécurité de l'information : la confiance (et responsabilité) qu'on accorde à l'autorité d'horodatage se limite à signer le hash, elle n'aura pas connaissance du contenu du ficher.
-</div>
 
 Exemple de commande OpenSSL générant le fichier de request (*test_pdf_hashSHA512_openssl.tsq*)
 
@@ -70,7 +68,7 @@ Si le serveur de timestamping accepte la requêtee, il va retourner un timestamp
 
 `openssl ts -reply -in test_pdf_hashSHA512_openssl.tsr -text`
 
-```Status info:
+```
 Status: Granted.
 Status description: unspecified
 Failure info: unspecified
@@ -94,6 +92,7 @@ Extensions:
 ```
 
 ### 4. Vérification du timestamp (sur base du fichier timestamp reçu)
+
 La vérification se fait sur base d'un fichier requête *.tsq* et de la réponse (*.tsr*). 
 Une copie du fichier éponse (*.tsr*) fournit la preuve du résultat de l'acquisition de l'horodatage. C'est donc elle qui va falloir conserver et confronter.  
 
