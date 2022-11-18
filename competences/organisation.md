@@ -1,3 +1,20 @@
+---
+date: 18/11/2022
+auteur: Delsaut Pierre-Arnaud
+email: pa.delsaut@wavenet.be
+profils:
+  - organisation
+domaines:
+  - interne
+themes:
+  - compétence
+	  - organisation
+tags:
+  - compétence
+  - profil
+  - domaine
+  - thème
+---
 # Organisation des compétences
 
 La roadmap des compétences permet :

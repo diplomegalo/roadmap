@@ -1,7 +1,7 @@
 ---
 date: 15/11/2022  
 auteur: Delsaut Pierre-Arnaud  
-email: [pa.delsaut@wavenet.be](mailto:pa.delsaut@wavenet.be)  
+email: pa.delsaut@wavenet.be
 profils:  
   - technique  
 domaines:  
