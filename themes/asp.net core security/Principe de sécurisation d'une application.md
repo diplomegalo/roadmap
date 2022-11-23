@@ -1,15 +1,12 @@
 ---
-profils:
-domaines:
-themes:
 date: 18/11/2022
 auteur: Delsaut Pierre-Arnaud
 email: pa.delsaut@wavenet.be
-profil: technique
-domaine:
+profils: technique
+domaines:
   - securite
   - .net
-theme:
+themes:
   - asp.net core
   - securite
   - authentification
