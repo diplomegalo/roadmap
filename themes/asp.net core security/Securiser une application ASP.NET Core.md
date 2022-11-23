@@ -41,13 +41,19 @@ L'identification permet de savoir si vous êtes bien la personne que vous préte
 
 L'autorisation permet au système, sur base de l'authentification, de savoir si l'utilisateur êtes autorisé ou non à utiliser une fonctionnalité d'un système ou à accéder à une ressource.
 
-## Les normes de sécurités
-
-## Les techniques de sécurisation d'un application
+## Structures et processus d'authentification
 
 ### Les cookies
 
+Les cookies sont des informations envoyées par le serveur pour être stockées sur le navigateur. 
+
+Lors d'une requête d'authentification vers le serveur, celui-ci renvoie une réponse dans lequel il *set* un cookie contenant les données d'authentification. Le navigateur client va alors enregistrer ce cookie et le renvoyer systèmatiquement lors des prochains *call* vers le même serveur. De cette manière le serveur sera en mesure de valider le cookie et récupérer les données de l'utilisateur authentifié.
+
 ### Les tokens
+
+### OAuth 2.0
+
+### OpenID Connect
 
 ## Les failles de sécurités
 
