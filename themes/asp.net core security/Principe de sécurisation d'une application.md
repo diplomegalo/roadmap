@@ -1,4 +1,7 @@
 ---
+profils:
+domaines:
+themes:
 date: 18/11/2022
 auteur: Delsaut Pierre-Arnaud
 email: pa.delsaut@wavenet.be
@@ -29,7 +32,21 @@ references:
   - https://owasp.org/www-community/attacks/xss/
 ---
 
-# Sécuriser une application ASP.NET Core
+>[!todo]
+> - [x] Sécuriser une application ASP.NET Core
+> 	- [x] Authentification vs identification vs autorisation
+> - [ ] Structures et processus d'authentification
+> 	- [x] Les cookies
+> 	- [ ] Les tokens
+> 		- [ ] OAuth 2.0
+> 		- [ ] OpenID Connect
+> 	- [ ] Les failles de sécurités
+> 		- [ ] Cross-site Scripting (XSS) attack
+> 		- [ ] Sql Injection
+> 		- [ ] Cross-Site Request Forgery attacks
+> 		- [ ] Open redirect attacks
+
+# Principe de sécurisation d'une application
 
 ## Authentification vs identification vs autorisation 
 
@@ -48,6 +65,8 @@ L'autorisation permet au système, sur base de l'authentification, de savoir si 
 Les cookies sont des informations envoyées par le serveur pour être stockées sur le navigateur. 
 
 Lors d'une requête d'authentification vers le serveur, celui-ci renvoie une réponse dans lequel il *set* un cookie contenant les données d'authentification. Le navigateur client va alors enregistrer ce cookie et le renvoyer systèmatiquement lors des prochains *call* vers le même serveur. De cette manière le serveur sera en mesure de valider le cookie et récupérer les données de l'utilisateur authentifié.
+
+Voir plus concernant l'utilisation du cookie dans le cadre de l'authentification sur : [[Le cookie d'authentification]].
 
 ### Les tokens
 
