@@ -29,27 +29,40 @@ references:
   - https://owasp.org/www-community/attacks/xss/
   - https://developer.mozilla.org/en-US/docs/Glossary/MitM
   - https://developer.okta.com/blog/2022/02/08/cookies-vs-tokens
+versions:
+  -
+    date: 28/11/2022
+    description: Correction syntaxe et tournure de phrase, mise à jour des statuts.
 ---
 
 >[!todo]
-> - [x] Sécuriser une application ASP.NET Core
-> 	- [x] Authentification, identification, autorisation
-> - [ ] Echanger les données d'authentification
-> 	- [x] Les cookies
-> 	- [ ] Les tokens
-> 	- [ ] OAuth 2.0
-> 	- [ ] OpenID Connect
+> - [ ] Vérification orthographique
+> - [ ] Coup d'oeil sur les principes de sécurité d'une application Web
 > 	- [ ] Https
-> 	- [ ] Les failles de sécurités
+> 	- [x] Les concepts de la sécurisation
+> 		- [x] Authentification
+> 		- [x] Identification
+> 		- [x] Autorisation
+> 	- [ ] Les types d'attaques
 > 		- [ ] Cross-site Scripting (XSS) attack
 > 		- [ ] Sql Injection
 > 		- [ ] Cross-Site Request Forgery attacks
 > 		- [ ] Open redirect attacks
 > 		- [ ] Man in the middle
+> 	- [ ] Les processus d'authentification
+> 		- [ ] OAuth 2.0
+> 		- [ ] OpenID Connect
+> 	- [ ] Stockage des données
+> 		- [x] Les cookies
+> 		- [ ] Les tokens
+
+
 
 # Coup d'oeil sur les principes de sécurité d'une application Web
 
-## Les concepts de la sécurité
+### HTTPS
+
+## Les concepts de la sécurisation
 
 Sécuriser une application repose sur deux fonctionnalités, l'authentification et l'autorisation. L'authentification peut être étendu par la notion d'identification qui ajoute une contrainte de sécurité supplémentaire pour garantir l'identité de l'utilisateur.
 
@@ -87,22 +100,18 @@ L'autorisation permet au système, sur base de l'authentification, de savoir si 
 
 ### OpenID Connect
 
-### HTTPS
-
 ## Stockage des données
 
 L'`http` est par principe stateless. Par conséquent, une fois la réponse à la requête d'authentification reçu, le serveur "oublie" que l'utilisateur est authentifié. 
 
-Par conséquent, pour qu'un utilisateur puisse être faire usage d'une application Web qui tourne sur un navigateur (*user-agent*) et requêter le serveur de manière authentifié, il faut enregistrer les informations d'authentification localement dans le navigateur de manière à les renvoyer systèmatiquement à chaque requête vers le serveur, jusqu'a expiration. 
+Par conséquent, pour qu'un utilisateur puisse être authentifier et faire usage d'une application Web qui tourne sur un navigateur (*user-agent*) et requêter le serveur de manière authentifié, il faut enregistrer les informations d'authentification localement dans le navigateur de manière à les renvoyer systèmatiquement à chaque requête vers le serveur, jusqu'à expiration. 
 
-Pour ce faire, les navigateurs offrent des mécanismes tels que les cookies, ou encore les API du *local storage* et du *session storage*.
+Pour ce faire, les navigateurs offrent des mécanismes tels que les cookies, ou encore les API de stockage.
 
 ### Les cookies
 
-Les cookies sont envoyées par le serveur avec les données d'authentifications pour être stockées sur le navigateur. 
+Lors d'une requête d'authentification vers le serveur, celui-ci renvoie une réponse dans lequel il *set* un cookie contenant les données de l'utilisateur authentifié. Le navigateur client va alors enregistrer ce cookie et le renvoyer systèmatiquement lors des *call* vers le serveur. De cette manière le serveur sera en mesure de récupérer et valider le cookie de manière à authentifier l'utilisateur.
 
-Lors d'une requête d'authentification vers le serveur, celui-ci renvoie une réponse dans lequel il *set* un cookie contenant les données d'authentification. Le navigateur client va alors enregistrer ce cookie et le renvoyer systèmatiquement lors des *call* vers le serveur. De cette manière le serveur sera en mesure de récupérer et valider le cookie de manière à authentifier l'utilisateur.
-
-Voir plus concernant [[Le cookie d'authentification]].
+Voir plus concernant [[les cookies]].
 
 ### Les *tokens*
