@@ -47,7 +47,7 @@ references:
 > 		- [ ] Open redirect attacks
 > 		- [ ] Man in the middle
 
-# Principe de sécurité d'une application Web
+# Coup d'oeil sur les principes de sécurité d'une application Web
 
 ## Les concepts de la sécurité
 
