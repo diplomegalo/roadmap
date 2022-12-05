@@ -1,0 +1,1 @@
+https://learn.microsoft.com/fr-fr/aspnet/web-api/overview/advanced/http-cookies
