@@ -27,6 +27,12 @@ references:
  - https://povio.com/blog/handling-authentication-in-spa-with-jwt-and-cookies/
  - https://developer.okta.com/blog/2022/02/08/cookies-vs-tokens
  - https://security.stackexchange.com/questions/225673/is-session-cookie-based-authentication-stateful-or-stateless
+versions:
+  -
+    date: 28/11/2022
+    description: 
+	  - Ajout des pro et cons
+	  - Déplacement du chapitre cookie de session
 ---
 
 >[!todo]
@@ -49,17 +55,9 @@ Les cookies sont statefull, tandis que les tokens sont stateless.
 
 Autrement dit un cookie peut contenir des informations qui peuvent évoluer au fil du temps. Au contraire du JWT qui ne pourra pas être modifié pendant toute la durée de son existence car il est signé sur base de son contenu.
 
->[!todo]
-> Cons Pros
-
-## Cookie de session
-
-Généralement, les cookies sont associé à la notion de session et sont alors utilisés pour contenir les données de session d'un utilisateur. Dans ce cas, le client reçoit un identifiant de session et le serveur gardent en mémoire l'état de cette session. De cette manière, lorsque l'utilisateur modifie l'état de sa session, par exemple en ajoutant un article dans son panier, celui-ci était enregistré dans le cookie et une fois que l'utilisateur renvoi les données vers le server, le server met à jour la session en mémoire.
-
-Le désavantage de cette technique est qu'il existe un lien fort entre le client et le serveur. En effet, dans le cas où les serveurs sont placés derrière un *load balancer*, il faut garantir une *sticky session* durant tout la session, c'est-à-dire, garantir que ce sera toujours le même serveur qui répondra au requêtes. Une solution à ce problème est de stocker la session en base de donnée, mais avec le désavantage d'une gestion plus lourde et d'une performance plus couteuse.  
-
->[!todo]
-> Cons Pros
+>[!Check] Satefull
+>Le cookie peut contenir des données
+>
 
 ## Intégration avec le navigateur
 

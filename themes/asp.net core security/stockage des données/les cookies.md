@@ -17,30 +17,38 @@ references:
 - https://blog.dareboost.com/fr/2016/12/securisez-cookies-instructions-secure-httponly/
 - https://mrcoles.com/blog/cookies-max-age-vs-expires/
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
+- https://www.rfc-editor.org/rfc/rfc6265
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-7.0
 versions:
   -
     date: 28/11/2022
     description: 
       - Correction syntaxique et validation des chapitres
       - Déplacement du chapitre cookie d'authentification
+      - Suppression d'un cookie
 ---
 
 >[!todo]
 > - [ ] Vérification orthographique
-> - [x] Les cookies
+> - [ ] Les cookies
 > 	- [x] Les propriétés
 > 		- [x] `Max-Age` et `Expires`
 > 		- [x] Domain
 > 		- [x] Secure
 > 		- [x] HttpOnly
 > 		- [x] SameSite
-> 	- [x] Cookie de session
+> 	- [ ] Cookie de session
+> 		- [ ] Gestion de la session
 > 	- [x] Cookie permanent
 > 	- [x] Création d'un cookie
 
 # Les cookies
 
-Un cookie est un ensemble d'information échangé entre un client et un navigateur. Généralement le cookie est créé par le serveur pour garder des informations d'états, comme par exemple une session, un caddie, des préférences utilisateurs. Dès lors qu'un navigateur reçoit un cookie du serveur, il le stocke localement. Le navigateur (*user-agent*), selon les paramêtres du cookie, est  en mesure d'extraire les informations du cookie et le cas échéant les modifier (cf. [HttpOnly](#HttpOnly)). Le navigateur, lorsqu'il emet une requête, associe automatiquement le cookie à celle-ci.
+Un cookie est un ensemble d'information échangé entre un client et un navigateur. Généralement le cookie est créé par le serveur pour garder des informations d'états, comme par exemple une session, un caddie, des préférences utilisateurs. Dès lors qu'un navigateur reçoit un cookie du serveur, il le stocke localement. Le navigateur (*user-agent*), selon les paramêtres du cookie, est en mesure d'extraire les informations du cookie et le cas échéant les modifier (cf. [HttpOnly](#HttpOnly)). 
+
+Une fois le cookie enregistré, le navigateur l'associe automatiquement à toutes les requêtes. C'est pour cette raison qu'il faut limiter au maximum la taille du cookie. Certains navigateurs vont limiter eux-même la taille du cookie et le refuser le cas échéant.
+
+Les cookies peuvent être facilement falsifiable, par conséquent il est nécessaire de pouvoir les valider.
 
 >[!note]
 >Le client peut lui aussi créer un cookie mais ce point ne sera pas étudier ici.
@@ -134,6 +142,14 @@ Un cookie de session ne contient pas d'information d'expiration. Dès lors, le c
 >[!warning] Restauration
 >Certains navigateurs possèdent une fonctionnalité de restauration de session. Dans ce cas, tous les onglets seront restaurés ainsi que les cookies, comme si le navigateur n'avait jamais été fermé.
 
+### Gestion de la session
+
+Généralement, le client reçoit un identifiant de session et le serveur gardent en mémoire (cache) l'état de cette session. De cette manière, lorsque l'utilisateur modifie l'état de sa session, par exemple en ajoutant un article dans son panier, le serveur reçoit la requête, modifie la session sur base de l'identifiant et renvoie la page avec les données raffraichi.
+
+Il est déconseillé d'utilisé la session pour garder des informations sensibles. En outre, elle présente des désavantages dans le cas d'architecture multi-serveur avec load balancer car il existe un lien fort entre le client et le serveur. En effet, dans le cas où les serveurs sont placés derrière un *load balancer*, il faut garantir une *sticky session* durant tout la session, c'est-à-dire, garantir que ce sera toujours le même serveur qui répondra au requêtes. Une solution à ce problème est de stocker la session, non pas dans une cache, mais en base de donnée avec le désavantage d'une gestion plus lourde et d'une performance plus couteuse. 
+
+De même, l'utilisation de session n'est pas possible avec l'utilisation de SignalR.
+
 ## Cookie permanent
 
 Un cookie permanent contient une donnée d'expiration qui, sur base de cette date, permet de supprimer le cookie.
@@ -142,15 +158,17 @@ Un cookie permanent contient une donnée d'expiration qui, sur base de cette dat
 
 Pour créer un cookie dans le navigateur, le serveur doit ajouter dans l'en-tête de la réponse `Set-Cookie` suivi des données du cookie.
 
-Pour ajouter plusieurs cookie, il faut répéter l'en-tête `Set-Cookie` autant de fois que nécessaire.
-
 ```
 Set-Cookie: <name>=<value>[; <Max-Age>=<number>] [; Expires=<date>][; Domain=<domain-value>] [; Path=<path-value>][; Secure][; HttpOnly]
 ```
 
+Pour ajouter plusieurs cookie, il faut répéter l'en-tête `Set-Cookie` autant de fois que nécessaire. Attention néanmoins que certains navigateurs limite le nombre de cookie.
+
+## Suppression d'un cookie
+
+Il est impossible de supprimer un cookie. Pour ce faire il faut remplacer la date de d'expiration par une date antérieure à la date actuelle. 
 
 ---
 Voir aussi : 
 - [[cookies vs. token]]
-- [[cookie d'authentification]]
-- [[cookie de session]]
+- [[créer un cookie de session sécurisé en .net core]]

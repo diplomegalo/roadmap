@@ -29,10 +29,14 @@ references:
   - https://owasp.org/www-community/attacks/xss/
   - https://developer.mozilla.org/en-US/docs/Glossary/MitM
   - https://developer.okta.com/blog/2022/02/08/cookies-vs-tokens
+  - https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-7.0
 versions:
   -
     date: 28/11/2022
-    description: Correction syntaxe et tournure de phrase, mise à jour des statuts.
+    description: 
+      - Correction syntaxe et tournure de phrase, mise à jour des statuts.
+      - Ajout d'information concernant les cookies
+      - Ajout d'autres formes de stockage de données
 ---
 
 >[!todo]
@@ -54,7 +58,8 @@ versions:
 > 		- [ ] OpenID Connect
 > 	- [ ] Stockage des données
 > 		- [x] Les cookies
-> 		- [ ] Les tokens
+> 		- [ ] Session state
+> 		- [ ] Stockage
 
 
 
@@ -100,18 +105,18 @@ L'autorisation permet au système, sur base de l'authentification, de savoir si 
 
 ### OpenID Connect
 
-## Stockage des données
+## Stockage des données d'états
 
 L'`http` est par principe stateless. Par conséquent, une fois la réponse à la requête d'authentification reçu, le serveur "oublie" que l'utilisateur est authentifié. 
 
-Par conséquent, pour qu'un utilisateur puisse être authentifier et faire usage d'une application Web qui tourne sur un navigateur (*user-agent*) et requêter le serveur de manière authentifié, il faut enregistrer les informations d'authentification localement dans le navigateur de manière à les renvoyer systèmatiquement à chaque requête vers le serveur, jusqu'à expiration. 
+Pour qu'un utilisateur puisse être authentifier et faire usage d'une application Web qui tourne sur un navigateur (*user-agent*) et requêter le serveur de manière authentifié, il faut **enregistrer l'état authentifié de l'utilisateur** de manière à les renvoyer systèmatiquement à chaque requête vers le serveur, jusqu'à expiration. 
 
-Pour ce faire, les navigateurs offrent des mécanismes tels que les cookies, ou encore les API de stockage.
+Il existe plusieurs manière de stocker des informations mais elle ne sont pas toute sécurisé.
 
 ### Les cookies
 
 Lors d'une requête d'authentification vers le serveur, celui-ci renvoie une réponse dans lequel il *set* un cookie contenant les données de l'utilisateur authentifié. Le navigateur client va alors enregistrer ce cookie et le renvoyer systèmatiquement lors des *call* vers le serveur. De cette manière le serveur sera en mesure de récupérer et valider le cookie de manière à authentifier l'utilisateur.
 
-Voir plus concernant [[les cookies]].
+Sans être paramétré, le cookie n'est pas sécurisé. En effet, Les cookies peuvent être facilement falsifiable, par conséquent il est nécessaire de pouvoir de garantir leurs intégrités et de les valider. Pour plus de détails, consultez la page concernant [[les cookies]].
 
-### Les *tokens*
+### Storage
