@@ -48,7 +48,7 @@ Application-->Gateway
 Gateway-->Recipe  
 Gateway-->Nutrition  
 Recipe-->Ingredient  
-Nutrition-->Food  
+Nutrition-->Food
 ```
 
 ## Les solutions
@@ -75,7 +75,7 @@ Par conséquent, dans le cas de notre exemple. L'API Gateway va récupérer les 
 
 En terme intuitif, on pourrait se laisser penser que la méthode de fédération est meilleure, car en tant que développeur, on peut facilement se rendre compte au moment de l'élaboration du modèle, toutes les données qui se rapportent à ce modèle. Néanmoins, cette méthode est sujette à une contrainte très forte : le développeur doit être en mesure d'adapter tous les services dont il dépend. Par conséquent, si le service est une dépendance tierce d'un autre éditeur, le développeur ne peut généralement pas avoir accès aux sources et faire les modifications dont il a besoin.
 
-Contrairement au schema stitching qui lui va permettre l'intégration de modèle dont on n’a pas la responsabilité (d'implémentation) et l'étendre avec des données d'autres services.
+Contrairement au schema stitching qui lui va permettre l'intégration de services dont on n’a pas la responsabilité (d'implémentation) et l'étendre avec des données d'autres services.
 
 En outre, attention que ce choix n'est possible qu'en fonction des fonctionnalités livrées par la librairie utilisée. En effet, certaines librairies n'implémentent pas les fonctionnalités et ne permettent donc pas de les utiliser. Par exemple, la librairie `graphql-dotnet` n'implémente pas de fonctionnalité de schéma stitching.
 
