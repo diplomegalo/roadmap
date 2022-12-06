@@ -69,7 +69,7 @@ Une chose importante à comprendre ici est qu'une solution informatique répond 
 
 ## Les outils applicatifs de développement
 
-Pour construire il faut des outils, certains petits et multi-fonctions pouvant aider dans de nombreuses circonstances, d'autres gigantesques et ultra-spécifique ne servant qu'a une et une seule chose.
+Pour construire il faut des outils, certains petits et multi-fonctions, pouvant aider dans de nombreuses circonstances, d'autres gigantesques et ultra-spécifique ne servant qu'à une et une seule chose.
 
 En outre, certains outils sont fabriqués au fil de la construction, par exemple les échaffaudages qui serviront de structure temporaire et dont la taille varira en fonction de l'état d'avancement du projet.
 
