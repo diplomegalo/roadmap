@@ -69,14 +69,17 @@ Une chose importante à comprendre ici est qu'une solution informatique répond 
 
 ## Les outils applicatifs de développement
 
-Pour construire il faut des outils, certains petits et multi-fonctions pouvant aider dans de nombreuses circonstances, d'autres gigantesques et ultra-spécifique ne servant qu'a une et une seule chose.
+Pour construire il faut des outils, certains petits et multi-fonctions comme un marteau pouvant aider dans de nombreuses circonstances, d'autres gigantesques et ultra-spécifique comme une grue de chantier ne servant qu'a une et une seule chose : le transport de charge lourde d'un point à un autre du chantier.
 
 En outre, certains outils sont fabriqués au fil de la construction, par exemple les échaffaudages qui serviront de structure temporaire et dont la taille varira en fonction de l'état d'avancement du projet.
 
-De la même manière un projet informatique requiert bon nombre d'outils offrant une aide tant dans la gestion, que le suivi et l'élaboration du livrable. Les outils indispensables sont : 
+De la même manière, un projet informatique requiert bon nombre d'outils offrant une aide tant dans la gestion, que le suivi et l'élaboration du livrable. Les outils indispensables sont : 
 
-- L'environnement de développement
-- L'IDE environnement de développement intégré regroupant l'éditeur de code, le compilateur, le débogueur.
+- l'environnement de développement, il s'agit tout bonnement de l'ensemble des appareils et accessoires qui permettront aux techniciens de réaliser le livrable, ça peut aller du clavier, à l'ordinateur ou le gsm portable sur lequel le développeur implémente les fonctionnalités en passant par les instances des applications nécessaire à l'élaboration du système, par exemple une instance de base de données ;
+- l'IDE qui est un environnement de développement intégré regroupant 
+	- l'éditeur de code qui permet aux développeurs d'écrire le code de manière structurée
+	- le compilateur qui permet de construire l'application à livrer, 
+	- le débogueur qui permet de parcourrir le code pas à pas lors de l'exécution de l'application de manière à avoir une vue exacte des valeurs circulant à travers le code.
 - Le gestionnaire de source
 - Le client SQL
 
