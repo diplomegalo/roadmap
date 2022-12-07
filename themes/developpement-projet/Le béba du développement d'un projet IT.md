@@ -77,9 +77,9 @@ De la même manière, un projet informatique requiert bon nombre d'outils offran
 
 - l'environnement de développement, il s'agit tout bonnement de l'ensemble des appareils et accessoires qui permettront aux techniciens de réaliser le livrable, ça peut aller du clavier, à l'ordinateur ou le gsm portable sur lequel le développeur implémente les fonctionnalités en passant par les instances des applications nécessaire à l'élaboration du système, par exemple une instance de base de données ;
 - l'IDE qui est un environnement de développement intégré regroupant 
-	- l'éditeur de code qui permet aux développeurs d'écrire le code de manière structurée
-	- le compilateur qui permet de construire l'application à livrer, 
-	- le débogueur qui permet de parcourrir le code pas à pas lors de l'exécution de l'application de manière à avoir une vue exacte des valeurs circulant à travers le code.
+	- l'éditeur de code qui permet aux développeurs d'écrire les sources de l'application,
+	- le compilateur qui permet de construire l'application, autrement dit : le livrable
+	- le débogueur qui permet de parcourrir le code pas à pas lors de l'exécution de l'application de manière à avoir une vue exacte des valeurs circulant à travers le code et le cas échéant de corriger le code en cas de bug.
 - Le gestionnaire de source
 - Le client SQL
 
