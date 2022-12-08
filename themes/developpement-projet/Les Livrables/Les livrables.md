@@ -1,17 +1,17 @@
 ---
-date:
-auteur: 
-email:
-profils:
+date: 07/12/2022
+auteur: Delsaut Pierre-Arnaud
+email: pa.delsaut@wavenet.com
+profils: 
 domaines:
 themes:
 tags:
 references:
 ---
 
-# Les livrables, ou le type de construction
+# Les livrables
 
-Le livrable est ce que vous devez développer pour répondre aux besoins exprimé par le client. Généralement, même les plus néophytes d'entre nous connaissent les différents type d'application frontend, les plus communs étant :
+La solution élaborer Le livrable est ce que vous devez développer pour répondre aux besoins exprimé par le client. Généralement, même les plus néophytes d'entre nous connaissent les différents type d'application frontend, les plus communs étant :
 
 - les applications web utilisable par le biai de navigateurs Web tels que Chrome, Edge ou encore Mozilla Firefox. 
 - les applications mobiles qui s'exécute sur des téléphones portables.
