@@ -37,9 +37,11 @@ Ces trois types d'applications sont dites *frontend*. Ce terme définie une appl
 
 Elles sont subdivisées en deux grandes catégories : les applications *front-office* et les applications *backoffice*. La différence est fonction de l'utilisateur finale et de son besoin. 
 
-Pour distinguer la différence entre les deux catégories il faut comprendre pour quelle raison un uitilisateur se rend sur l'application. Dans ce cadre aidons-nous de cas concrets :
+Pour distinguer la différence entre ces deux catégories, il faut comprendre la raison pour laquelle un uitilisateur se rend sur l'application ainsi que la porté des fonctionnalités. Dans ce cadre prenons deux exemples de la vie quotidienne. 
 
+Premier exemple, vous devez
 
+Une application *backoffice* aura pour fonction de gérer un système. Son utilisation est requise par un adminstrateur, c'est-à-dire une personne clé définie comme ayant la responsabilité du maintien des données du système. Cette responsabilité va de l'ajout d'une simple information affichées dans le fil d'actualité d'un site web à destination commercial (e-commerce), jusqu'à la mise à jour des quantité de stocks d'un produit ou de données comptables de ce même site. Ces informations sont souvent sensibles et ont une portée qui touche l'ensemble de l'application.
 
 >Un utilisateur dans un projet informatique est communément appelé acteur, il en existe deux types : 
 >- l'acteur physique qui désigne une personne vivante qui peut intéragir avec une interface graphique,
@@ -51,7 +53,7 @@ Pour distinguer la différence entre les deux catégories il faut comprendre pou
 
 ### Backoffice
 
-Une application *backoffice* aura pour fonction d'administrer, ou autrement dit gérer, les données d'un système. Son utilisation est requise par un adminstrateur, c'est-à-dire une personne clé définie  comme ayant la responsabilité du maintien des données du système. Cette responsabilité va de l'ajout d'une simple information affichées dans le fil d'actualité d'un site web à destination commercial (e-commerce), à la mise à jour des stocks ou de données comptables de ce même site. Ces informations sont souvent sensibles et ont une portée qui touche l'ensemble de l'application.
+
 
 ## Application Backend
 
