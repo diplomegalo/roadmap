@@ -1,3 +1,5 @@
+# Les composants d'une architecture
+
 ## Application Frontend
 
 Généralement, les types applications demandées par un client sont :
