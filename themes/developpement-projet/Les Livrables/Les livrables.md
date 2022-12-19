@@ -25,9 +25,31 @@ L'élaboration d'un livrable se fait grâce au concours :
 
 L'important ici est qu'une solution informatique répond à un besoin et non l'inverse. C'est donc bien sur base d'une contrainte ou d'une problèmatique qu'un client cherchera une solution et c'est en comprenant sa problèmatique qu'il sera possible d'imaginer avec lui une réponse au travers d'une application.
 
+## La solution
+
+Le terme solution informatique désigne une application ou un système informatique offrant des fonctionnalités utilisable par un acteur. 
+
+La différence entre application et système se fait sur base du type d'acteur : 
+
+- Une application est destiné à des acteurs physiques, c'est-à-dire des personnes : un guichetier, un agent, un commercial, un administrateur, etc.
+- Un système est destiné à être utilisé par un acteur non-physique, par exemple un autre systèmes informatique ou une machine, comme une machine (de chaîne) de production, un ordinateur, un système GPS, un écrans, etc.
+
+Consulter la documentation concernant [les composants d'une architecture](Les composants d'une archtitecture) pour connaitre les différents types d'applications et de systèmes produits et utilisés dans un projet informatique.
+
 ## La documentation
 
-### Le cahier des charges
+Durant la vie du projet, des documents seront produits de manière à coucher les idées et offrir une aide au suivi du projet. Dans ce cadre, il existe des méthodologies cadrant l'édition d'un document, notamment dans le cadre de l'élaboration des analyses. 
 
-### L'analyse fonctionnel
+### Les analyses
+
+En préambule d'un projet, **un cahier des charges** ou **une analyse métier** sera éditer de manière à connaitre les besoins du client. Ce document permet de se rendre compte de la portée du projet et   d'avoir un aperçu des fonctionnalités attendues sans rentrer dans le détail des processus.
+
+### Les manuels d'utilisation
+
+## Les sources
+
+---
+## Voir Aussi
+
+- [[Les composants d'une architecture]]
 
