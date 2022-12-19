@@ -55,7 +55,7 @@ La réflexion concernant ces choix est identique pour ce qui est du domaine de l
 
 Retrouvez plus de détails concernant ces analogies dans les chapitres :
 
-- [[Les livrables]] pour comprendre les différents types d'applications et les solutions produites lors d'un projet IT.  
+- [Les livrables](./les-livrables/les-livrables) pour comprendre les différents types d'applications et les solutions produites lors d'un projet IT.  
 - [[Les outils applicatifs de développement]] pour connaître ce dont vous aurez besoin pour construire votre application et suivre votre projet.  
 - [[Les métiers de l'IT]] pour savoir qui vous sera utile et à quel moment.  
 - [[Les systèmes et langages informatiques]] pour répondre à la question de ce dont vous avez besoin.
