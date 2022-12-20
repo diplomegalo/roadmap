@@ -41,3 +41,6 @@ D'autres outils particulièrement utiles seront :
 - un client SQL utile pour interroger une base de données.
 
 ## Le suivi de projet
+
+>[!todo]
+>- [ ] ETL

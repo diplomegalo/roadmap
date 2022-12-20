@@ -60,3 +60,18 @@ Retrouvez plus de détails concernant ces analogies dans les chapitres :
 - [[Les métiers de l'IT]] pour savoir qui vous sera utile et à quel moment.  
 - [[Les systèmes et langages informatiques]] pour répondre à la question de ce dont vous avez besoin.
 - [[Le suivi de projet]] pour comprendre les techniques et les outils aidant à l'élaboration d'un projet informatique et du suivie des exigences.
+
+>[!todo]
+>- [ ] Sécurité
+>	- [ ] CSAM
+
+## Format de données
+
+>[!todo] Data
+>- [ ] XML
+>- [ ] Json
+
+## Glossaire
+
+>[!todo]
+>- [ ] isofonctionnel

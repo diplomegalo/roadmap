@@ -39,6 +39,10 @@ Une application *backoffice* ou intranet aura pour fonction de gérer un systèm
 >- l'acteur physique qui désigne une personne vivante qui peut interagir avec une interface graphique,
 >- l'acteur système qui représente un dispositif informatique ou une machine avec laquelle on communique au travers d'interface applicative de programmation (API).
 
+>[!todo]
+>- [ ] Découpe des écrans
+>	- [ ] Call to action
+
 ## Application Backend
 
 En retrait de ces applications *frontend*, il existe d'autres types d'applications ou système, nécessaire au bon fonctionnement de l'application.
@@ -58,7 +62,7 @@ Certaines parties développées lors d'un projet IT peuvent n'avoir aucun sens f
 >	- [ ] REST API
 >	- [ ] SOAP API
 >- [ ] DB
->- [ ] L'ESB
+>- [ ] EAI / ESB
 >- [ ] CRM
 >	- [ ] Umbraco
 >- [ ] ECM
