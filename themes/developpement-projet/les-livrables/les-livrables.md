@@ -9,11 +9,12 @@ domaines:
 themes:
  - projet
 tags:
- - projet
- - application
- - livrable
- - documentation
-references:
+  - application
+  - système
+  - documentation
+  - documentation/analyse
+  - documentation/manuel
+  - source
 ---
 
 # Les livrables
@@ -25,7 +26,7 @@ Autrement dit, c'est ce que le client vous demande de développer pour répondre
 L'élaboration d'un livrable se fait grâce au concours :
 
 - du client qui exprime ses besoins et ses contraintes, par exemple : "je veux une application pour mes commerciaux, mais qui doit être accessible sans connexion internet" ;  
-- des techniciens et analystes qui prendront en compte les contraintes les plus discriminantes de manière d'avoir un type de solution qui répond aux exigences du client.
+- des techniciens et analystes qui prendront en compte les contraintes de manière à avoir une solution qui répond aux exigences du client.
 
 L'important ici est qu'une solution informatique répond à un besoin et non l'inverse. C'est donc bien sur base d'une contrainte ou d'une problématique qu'un client cherchera une solution et c'est en comprenant sa problématique qu'il sera possible d'imaginer avec lui une réponse au travers d'une application.
 
@@ -40,11 +41,11 @@ La différence entre une application et un système se situe au niveau de l'acte
 
 Consulter le chapitre [les composants d'une architecture](les-composants-d-une-architecture.md) pour connaitre les différents types d'applications et de systèmes produits et utilisés dans un projet informatique.
 
-> La notion d'acteur fait partie intégrante des méthodologies d'analyses et de suivis de projets et se caractérise par l'utilisateur qui utilise l'application ou le système qu'il soit humain ou non.
+> La notion d'acteur fait partie intégrante des méthodologies d'analyses et de suivis de projets et se caractérise par l'utilisateur, qu'il soit humain ou non, qui utilise l'application ou le système.
 
-Pour être utilisée, l'application doit être installé dans un environnement d'exécution. Cette phase d'installation est appelé le déploiement de l'application. Généralement, une application est déployé sur un serveur web, un ordinateur, un store d'application mobile (Apple, Androïd), une machine, etc.
+Pour être utilisée, la solution doit être installée dans un environnement d'exécution. Cette phase d'installation est appelée le déploiement de l'application. Généralement, une application est déployée sur un serveur web, un ordinateur, un store d'application mobile (Apple, Androïd), une machine, etc.
 
-Consulter le chapitre concernant [[les-deploiements]] pour connaitre les composants à déployer.
+Consulter le chapitre concernant [[les environnement d'exécution]] pour connaitre quels sont les composants déployé, comment et sur quel environnement.
 
 ## La documentation
 
