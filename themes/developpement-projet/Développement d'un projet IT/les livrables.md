@@ -39,7 +39,7 @@ La différence entre une application et un système se situe au niveau de l'acte
 - Une application est destinée à des acteurs physiques, c'est-à-dire des personnes : un guichetier, un agent, un commercial, un administrateur, etc.  
 - Un système est destiné à être utilisé par un acteur non physique, par exemple un autre système informatique ou une machine, comme une machine (de chaîne) de production, un ordinateur, un système GPS, etc.
 
-Consulter le chapitre [les composants d'une architecture](les-composants-d-une-architecture.md) pour connaitre les différents types d'applications et de systèmes produits et utilisés dans un projet informatique.
+Consulter le chapitre [les composants d'une architecture](les%20composants%20d'une%20architecture.md) pour connaitre les différents types d'applications et de systèmes produits et utilisés dans un projet informatique.
 
 > La notion d'acteur fait partie intégrante des méthodologies d'analyses et de suivis de projets et se caractérise par l'utilisateur, qu'il soit humain ou non, qui utilise l'application ou le système.
 

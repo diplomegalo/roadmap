@@ -9,12 +9,13 @@ domaines:
 themes:
   - projet IT
 tags:
- - livrable
- - outils
- - expert-it
- - langage
- - protocole
- - data
+  - livrable
+  - outils
+  - expert-it
+  - langage
+  - protocole
+  - data
+  - projet
 ---
 
 # Développement d'un projet IT
@@ -37,7 +38,7 @@ La meilleure analogie pour faciliter la compréhension d'un projet IT, c'est cel
 | Les outils              | Tournevis, grue de chantier                           | Les outils applicatifs de développement | Git, Azure Devops, Visual Studio                           |  
 | Les experts ou les métiers du bâtiment | Plombier, électricien, architecte                       | Les techniciens ou experts IT            | Développeur, architecte, administrateur système           |  
 | Les matériaux                  | Bois, briques, béton                                    | Les systèmes et langages informatiques         | C#, JavaScript, SQL Server, Linux                          |  
-| Les plans                               | Les plans d'égouttage, électrique, de circulation d'air | Les analyses                           | Les analyses fonctionnelles, techniques ou d'architectures |
+| Les plans d'architecture                               | Les plans d'égouttage, électrique, de circulation d'air | Les analyses et l'architecture des composants                          | Les analyses fonctionnelles, techniques ou d'architectures |
 | Les normes de construction | La section d'un câble électrique | Les formats de données et les protocoles | API REST, XML, etc |
 
 Le type de construction définit ce que l'on attend comme livrable. Dans le bâtiment, cela se traduit par la réalisation d'une cabane, d'un garage, d'une maison, etc. Chacun de ses types de construction, par sa nature, par sa taille, ou encore par sa difficulté de conception, va avoir une influence sur tout le reste. En effet, les outils et matériaux nécessaires à la construction d'une cabane ne sont pas identiques à ceux nécessaires pour un immeuble de plusieurs étages.
@@ -46,7 +47,7 @@ La réflexion concernant ces choix est identique pour ce qui est du domaine de l
 
 Retrouvez plus de détails concernant ces analogies dans les chapitres :
 
-- [Les livrables](les-livrables.md) pour comprendre les différents types d'applications et les solutions produites lors d'un projet IT.  
+- [Les livrables](les%20livrables.md) pour comprendre les différents types d'applications et les solutions produites lors d'un projet IT.  
 - [[Les outils applicatifs de développement]] pour connaître ce dont vous aurez besoin pour construire votre application et suivre votre projet.  
 - [[Les métiers de l'IT]] pour savoir qui vous sera utile et à quel moment.  
 - [[Les systèmes et langages informatiques]] pour répondre à la question de ce dont vous avez besoin.
