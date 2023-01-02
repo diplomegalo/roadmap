@@ -21,6 +21,9 @@ tags:
 
 # Les composants d'une architecture
 
+L'architecture d'une solution informatique répond aux contraintes 
+
+
 ## Application Frontend
 
 Généralement, les types applications demandés par un client sont :

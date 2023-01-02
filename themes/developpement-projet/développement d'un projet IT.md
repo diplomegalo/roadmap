@@ -63,6 +63,7 @@ Retrouvez plus de détails concernant ces analogies dans les chapitres :
 >	- [ ] CSAM
 >- [ ] Format de données et protocol
 
+L'architecture 
 
 ## Glossaire
 
