@@ -53,11 +53,25 @@ A ce titre plusieurs outils seront nécessaires :
 
 Les IDE sont des éditeurs de code. ll permettent aux développeurs de concevoir l'application mais également de la "construire". Par conséquent, ils sont fortement lié à la technologie ou au language de programmation.
 
->Une fois un code éditer, le développeur va passer par plusieurs phase pour vérifier la qualité de son code, comme on pourrait le faire communément avec un vérifieur orthographique. Cette étape s'appelle le "build". Cette étape a également comme finalité de "construire" un binaire, autrement dit l'application ou le système exécutable, de manière à ce qu'il soit déployé dans [[les environnements d'exécutions]], c'est-à-dire là où s'exécute l'application.
+Une fois un code éditer, le développeur va passer par plusieurs phase pour vérifier la qualité de son code, comme on pourrait le faire communément avec un vérifieur orthographique. Cette étape s'appelle le *build* et a comme autre finalité de "construire" le binaire, autrement dit l'application ou le système exécutable, de manière à ce qu'il soit déployé sur [[les environnements d'exécutions]], c'est-à-dire là où s'exécute l'application.
 
 ## Les clients SQL
 
+Les applications produisent de nombreuses données stockées sur un serveur de base de données. Le langage associé aux base de données s'appelle le SQL. 
+
+Le client SQL permettra à un utilisateur de se connecter à une base de données et d'y envoyer des requêtes de manière à récupérer les données. Ces requêtes sont appelées requête SQL.
+
 ## Les clients REST
+
+Tout système offre des services. Ces services sont accessibles aux travers de moyen d'accès défini dans le cadre d'un protocole. Le REST est un protocole d'accès à des services Web. Autrement dit, REST défini comment requêter un serveur Web et comment celui-ci doit répondre.
+
+>Un protocole définie les moyens pour entrer en communication avec un système. Une comparaison simple avec le quotiditien pourrait être le langage des signes ou la communication orale entre deux être humains où lorsque l'on souhaite connaître l'heure on demande : "Bonjour, auriez-vous l'heure ?" et où l'interlocuteur répond : "Oui, il exactement quinze heure vingt-trois". 
+
+Le client REST est une application dite cliente, spécialisé dans l'envoi de requête aux serveurs fournissant un service compatible. Plus concrètement, cette application est capable d'envoyer un message contenant les informations concernant notre demande et est en mesure de la recevoir. 
+
+Cet outil permet donc de vérifier une réponse sur base d'une requête, sans nécessairement attendre le développement complet d'une application qui intègre les informations réponses au sein d'un écran. Par exemple : "est-ce que quand je demande la liste de mes messages au serveur mail, je recois bien ma liste de 5 messages ?".
+
+>Les termes *client* et *serveur* font état d'un point de vue en matière de responsabilité. Du point de vue du client, un serveur fourni les services dont il est dépendant. 
 
 ## Les outils de suivi de projet
 
