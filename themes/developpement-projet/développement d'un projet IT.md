@@ -1,13 +1,10 @@
 ---
-date: 02/12/2022
+date: 
 auteur: Delsaut Pierre-Arnaud 
-email: diplomegalo@hotmail.com
+email: pa.delsaut@wavenet.be
 profils:
-  - management
 domaines:
-  - developpement
 themes:
-  - projet IT
 tags:
 ---
 
@@ -50,17 +47,20 @@ Le type de construction définit ce que l'on attend comme livrable. Dans le bât
 
 La réflexion concernant ces choix est identique pour ce qui est du domaine de l'informatique. C'est le type de solution demandé qui déterminera tous vos choix en termes d'outils, d'expertise et de technologie avec laquelle vous développerez vos applications.
 
-Retrouvez plus de détails concernant ces analogies dans les chapitres :
+Dans un projet IT, [[les livrables]] sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement on y retrouve la solution informatique, mais également de la documentation et les sources (ou le code source).
 
-- [Les livrables](les%20livrables.md) pour comprendre les différents types d'applications et les solutions produites lors d'un projet IT.  
-- [[Les outils applicatifs de développement]] pour connaître ce dont vous aurez besoin pour construire votre application et suivre votre projet.  
-- [[Les métiers de l'IT]] pour savoir qui vous sera utile et à quel moment.  
-- [[Les systèmes et langages informatiques]] pour répondre à la question de ce dont vous avez besoin.
-- [[l'architecture d'un système]] pour comprendre la structure d'une solution informatique.
-- [[Le suivi de projet]] pour comprendre les techniques et les outils aidant à l'élaboration d'un projet informatique et du suivie des exigences.
-- [[Les données, formats de données et protocoles]] pour comprendre comment les informations sont représentées et les techniques d'échanges d'informations dans un projet informatique complexe mélant des systèmes hétéroclites.
+La solution informatique se construit à l'aide d' [[Les outils]], de la même manière qu'un immeuble se construit avec un marteau, un foreuse, des camions, une grue, etc. Ces outils serviront aux développeurs, mais également aux testeurs, analyste et chef de projet.
+
+La construction d'une solution se fait également à l'aide de matériaux qui seront souvent spécifique au type de construction. [[Les systèmes et langages informatiques]] sont les matériaux utiles à l'implémentation d'une solution informatique. De la même manière que l'on installe un lavabo ou une chaudière, les systèmes sont des solutions toutes faites offrant un service spécifique que l'on installe de manière à étendre les fonctionnalité de la solution informatique.
 
 >[!todo]
+>Retrouvez plus de détails concernant ces analogies dans les chapitres :
+>- [[Les outils]] pour connaître ce dont vous aurez besoin pour construire votre application et suivre votre projet.  
+>- [[Les métiers de l'IT]] pour savoir qui vous sera utile et à quel moment.  
+>- [[Les systèmes et langages informatiques]] pour répondre à la question de ce dont vous avez besoin.
+>- [[l'architecture d'un système]] pour comprendre la structure d'une solution informatique.
+>- [[Le suivi de projet]] pour comprendre les techniques et les outils aidant à l'élaboration d'un projet informatique et du suivie des exigences.
+>- [[Les données, formats de données et protocoles]] pour comprendre comment les informations sont représentées et les techniques d'échanges d'informations dans un projet informatique complexe mélant des systèmes hétéroclites.
 >- [ ] Les outils applicatifs de développement
 >- [ ] Les métier de l'IT
 >- [ ] Les systèmes et langages informatiques

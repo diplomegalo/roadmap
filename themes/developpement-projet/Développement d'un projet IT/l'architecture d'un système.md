@@ -55,4 +55,4 @@ Une cabanne, une maison, un immeuble est donc composé de plusieurs zones, elles
 
 [[les composants systèmes et leurs responsabilités]]
 [[Les données, formats de données et protocoles]].
-[[Les outils applicatifs de développement]]. 
+[[Les outils]]. 

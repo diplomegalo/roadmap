@@ -1,3 +1,12 @@
+---
+date: 
+auteur: Delsaut Pierre-Arnaud 
+email: pa.delsaut@wavenet.be
+profils:
+domaines:
+themes:
+tags:
+---
 ## CRM
 
 ## GED
@@ -16,3 +25,6 @@
 >- [ ] SAML  
 
 ## LDAP
+
+>[!todo]
+>- [ ] ETL

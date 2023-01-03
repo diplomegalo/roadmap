@@ -9,12 +9,6 @@ domaines:
 themes:
  - projet
 tags:
-  - application
-  - système
-  - documentation
-  - documentation/analyse
-  - documentation/manuel
-  - source
 ---
 
 # Les livrables
