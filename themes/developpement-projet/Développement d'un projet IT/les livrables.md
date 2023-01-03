@@ -19,7 +19,7 @@ tags:
 
 # Les livrables
 
-Le livrable représente la solution produite et élaborée sur base des demandes du client durant la phase d'implémentation d'un projet.
+Le livrable représente la solution produite et élaborée sur base des demandes du client durant la phase d'implémentation d'un projet. Pour reprendre l'allégorie du bâtiment, il s'agit de la cabane, de la maison, de l'immeuble ou même encore d'un pont. 
 
 Autrement dit, c'est ce que le client vous demande de développer pour répondre à ces besoins, c'est-à-dire l'application ou le système, mais également le code source ainsi que la documentation telle que les analyses, le manuel d'utilisation, etc.
 
@@ -39,13 +39,13 @@ La différence entre une application et un système se situe au niveau de l'acte
 - Une application est destinée à des acteurs physiques, c'est-à-dire des personnes : un guichetier, un agent, un commercial, un administrateur, etc.  
 - Un système est destiné à être utilisé par un acteur non physique, par exemple un autre système informatique ou une machine, comme une machine (de chaîne) de production, un ordinateur, un système GPS, etc.
 
-Consulter le chapitre [les composants d'une architecture](les%20composants%20d'une%20architecture.md) pour connaitre les différents types d'applications et de systèmes produits et utilisés dans un projet informatique.
+Consulter le chapitre concernant [l'architecture d'un système](l'architecture%20d'un%20système.md) pour connaitre les différents types d'applications et de systèmes produits et utilisés dans un projet informatique.
 
 > La notion d'acteur fait partie intégrante des méthodologies d'analyses et de suivis de projets et se caractérise par l'utilisateur, qu'il soit humain ou non, qui utilise l'application ou le système.
 
 Pour être utilisée, la solution doit être installée dans un environnement d'exécution. Cette phase d'installation est appelée le déploiement de l'application. Généralement, une application est déployée sur un serveur web, un ordinateur, un store d'application mobile (Apple, Androïd), une machine, etc.
 
-Consulter le chapitre concernant [[les environnement d'exécution]] pour connaitre quels sont les composants déployé, comment et sur quel environnement.
+Consulter le chapitre concernant [[les environnements d'exécutions]] pour connaitre quels sont les composants déployé, comment et sur quel environnement.
 
 ## La documentation
 
