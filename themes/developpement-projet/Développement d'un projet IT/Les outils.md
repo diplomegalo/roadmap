@@ -40,6 +40,33 @@ A cela peuvent s'ajouter d'autres outils particulièrement utiles comme :
 - un client REST Web API nécessaire pour interroger un Web service distant ;
 - un client SQL utile pour interroger une base de données.
 
+### Les IDE
+
+Les IDE sont des éditeurs de code. ll permettent aux développeurs de concevoir l'application mais également de la "construire". Par conséquent, ils sont fortement lié à la technologie ou au language de programmation.
+
+Une fois un code éditer, le développeur va passer par plusieurs phase pour vérifier la qualité de son code, comme on pourrait le faire communément avec un vérifieur orthographique. Cette étape s'appelle la compilation. Cette étape a également comme finalité de "construire" un binaire, autrement dit l'application ou le système exécutable. C'est ce binaire qui est ensuite déployé dans [[les environnements d'exécutions]], c'est-à-dire là où s'exécute l'application. Ces binaires peuvent avoir différentes extensions de fichier comme .dll, exe, war, jar, etc.
+
+Les IDE les plus connus sont 
+- Visual Studio pour tous les languages lié à .NET, 
+- Eclipse pour le Java, 
+- PHP Storm pour le PHP.  
+
+### Les clients SQL
+
+Les bases de données permettent d'enregistrer, de modifier, de supprimer et de lire des informations. Les applications éditées possèdent un connecteur vers cette base de données et c'est via ce connecteur que s'exécute les opérations sur les données. Les commandes sont écrites en langage SQL (Structured Query Language). 
+
+Le client SQL est un programme qui permet d'accéder à une base de données et d'éditer des requêtes SQL. Ce client va donc permettre d'intéragir directement avec la base de données sans attendre que l'application soit complétement développer et par conséquent préparer les données pour des tests ou vérifier si une opération effectuée depuis l'application développé a bien produit le résultat attendu en base de données.
+
+### Les clients HTTP
+
+Généralement une application fait parti d'un écosystème plus vaste, où d'autres systèmes sont utilisés pour rendre des services tels que l'authentification. C'est service sont accessible selon des protorocole défini. Un protocole est la définition d'un moyen de communication entre deux système. Un exemple de protocole informatique connu de tout le monde est l'HTTP. Il définie comment une client (navigateur) va intéroger un service (serveur Web) pour recevoir en retour une page HTML à afficher à l'écran.
+
+Le client HTTP permet de se connecter à un serveur de la même manière qu'un navigateur Web, sauf que dans ce cas, il ne s'attend pas à recevoir que de l'HTML, mais tout les types de retour que le protocol HTTP supporte. Autrement dit, il recoit la donnée brut sans en interpréter le contenu, comme le ferait un navigateur Web. Ce client permet donc de vérifier qu'une réponse à une requête est duement formatée ou complétée et de cette manière écarter la piste d'une problématique quelconque émanent d'un service. 
+
+>L'HTML est interprété par les navigateurs de manière à pouvoir afficher des éléments sur un écran. Les éléments sont du texte, un champs dans lequel introduire une donnée, un bouton. Outre l'HTML, le navigateur est en mesure d'interpréter d'autres langage comme le CSS, qui permettra d'afficher les éléments dans un format différents, c'est-à-dire une taille, une couleur, ou une police différente. 
+
+Une autre méthode plus imagée pour comprendre à quoi sert le client HTTP serait la mise en oeuvre d'une pièce de théatre. Aupréable des représentations en public, les acteurs répêtent la pièce seul dans un premier temps en apprenant leur texte en simulant les réponses, puis une fois leur texte maîtrisé, il la répêtent ensemble. Dès lors, il est possible de vérifier que quand l'actrice qui interprête le rôle de Juliette dit : "Oh, mon Roméo !", son interlocuteur lui répond effectivement "Oh, ma Juliette !". De la même manière, lors d'un projet, on va d'un coté développer l'application en simulant les appels vers les services avec le client HTTP, puis vérifier que les messages entre les systèmes sont bien cohérents.
+
 ## Les outils de suivi de projet
 
 Outre la conception code, il est également utile de suivre l'état d'avancement du projet. D'un point vue strict de gestion de projet, l'objectif est d'avoir une vue de ce qui a été fait et de ce qui doit être fait. Tandis qu'un analyste doit être en mesure de fournir les informations concernant les fonctionnalités à implémenter.
@@ -49,33 +76,14 @@ A ce titre plusieurs outils seront nécessaires :
 - un espace de gestion documentaire pour centraliser les documents,
 - un outil applicatif de gestion des tâches. Cet outil peut être spécifique à une méthodologie offrant des fonctionnalités propre à celle-ci.
 
-## Les IDE
+### Les outils de gestion de tâches
 
-Les IDE sont des éditeurs de code. ll permettent aux développeurs de concevoir l'application mais également de la "construire". Par conséquent, ils sont fortement lié à la technologie ou au language de programmation.
+Ces outils offrent généralement une vue centralisée des tâches terminées, à faire ou en cours, de manière à ce rendre compte de l'état d'avancement d'un projet. Ils permettent également de créer et d'organiser les tâches entre-elles. Généralement les outils sont spécifiques à une méthodologie de gestion de projet tel que l'Agile. Par conséquent, les fonctionnalités seront inhérentes à cette méthodologie.
 
-Une fois un code éditer, le développeur va passer par plusieurs phase pour vérifier la qualité de son code, comme on pourrait le faire communément avec un vérifieur orthographique. Cette étape s'appelle le *build* et a comme autre finalité de "construire" le binaire, autrement dit l'application ou le système exécutable, de manière à ce qu'il soit déployé sur [[les environnements d'exécutions]], c'est-à-dire là où s'exécute l'application.
+### Les wikis
 
-## Les clients SQL
+Les wikis sont des espaces d'édition de documentation simple qui produise des fichiers markdown. Ils offrent la possibilité de hierarchiser plusieurs page entres-elles comme on pourrait le faire avec des chapitres et des titres. Ils sont utiles pour éditer les informations en rapport avec le projet. Le wiki le plus connu est bien évidemment wikipédia qui a comme ambition d'être une encyclopédie ouverte et éditable par tout le monde. De la même manière, le wiki permet de centraliser et organiser les informations afin que chacun puis l'éditer.
 
-Les applications produisent de nombreuses données stockées sur un serveur de base de données. Le langage associé aux base de données s'appelle le SQL. 
+### Les outils de gestion documentaire
 
-Le client SQL permettra à un utilisateur de se connecter à une base de données et d'y envoyer des requêtes de manière à récupérer les données. Ces requêtes sont appelées requête SQL.
-
-## Les clients REST
-
-Tout système offre des services. Ces services sont accessibles aux travers de moyen d'accès défini dans le cadre d'un protocole. Le REST est un protocole d'accès à des services Web. Autrement dit, REST défini comment requêter un serveur Web et comment celui-ci doit répondre.
-
->Un protocole définie les moyens pour entrer en communication avec un système. Une comparaison simple avec le quotiditien pourrait être le langage des signes ou la communication orale entre deux être humains où lorsque l'on souhaite connaître l'heure on demande : "Bonjour, auriez-vous l'heure ?" et où l'interlocuteur répond : "Oui, il exactement quinze heure vingt-trois". 
-
-Le client REST est une application dite cliente, spécialisé dans l'envoi de requête aux serveurs fournissant un service compatible. Plus concrètement, cette application est capable d'envoyer un message contenant les informations concernant notre demande et est en mesure de la recevoir. 
-
-Cet outil permet donc de vérifier une réponse sur base d'une requête, sans nécessairement attendre le développement complet d'une application qui intègre les informations réponses au sein d'un écran. Par exemple : "est-ce que quand je demande la liste de mes messages au serveur mail, je recois bien ma liste de 5 messages ?".
-
->Les termes *client* et *serveur* font état d'un point de vue en matière de responsabilité. Du point de vue du client, un serveur fourni les services dont il est dépendant. 
-
-## Les outils de suivi de projet
-
-## Les wikis
-
-## Les outils de gestion documentaire
-
+Les outils de gestion documentaire permettent d'organiser les documents mais également d'indexer leur contenu de manière à pouvoir les trouver facilement via un outil de recherche. Contrairement à un wiki, l'outil de gestion documentaire ou GED, ne va pas permettre d'éditer le contenu des documents. Par conséquent, il faut 
