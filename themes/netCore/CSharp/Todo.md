@@ -12,3 +12,4 @@ tags:
 StringSyntax
 Scoped
 .NET User Secrets
+SequenceEqual
