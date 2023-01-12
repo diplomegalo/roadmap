@@ -38,7 +38,7 @@ Habituellement on retrouvera les composants suivants :
 - [[les services bus et messages broker]] qui ont la responsabilité de distribuer l'information entre plusieurs systèmes hétéroclytes. L'information nécessitant quelque fois d'être converti de manière à être compatible entre les différents systèmes.
 - [[les systèmes de gestion de base de données]] qui comme le nom l'indique gère les bases de données utile à l'enregistrement et la récupération des données d'un système.
 
-Il existe d'autres systèmes pouvant se retrouver dans une architecture, retrouvez la liste non exhaustive de ces systèmes dans le chapitre [[les composants systèmes et leurs responsabilités]].
+Il existe d'autres systèmes pouvant se retrouver dans une architecture, retrouvez la liste non exhaustive de ces systèmes dans le chapitre [[les composants et leurs responsabilités]].
 
 Consulter le chapitre concernant [[les principes d'implémentation]] pour comprendre les considérations à prendre en compte pour concevoir un système de qualité, fiable et pérène. 
 
@@ -53,6 +53,6 @@ Une cabanne, une maison, un immeuble est donc composé de plusieurs zones, elles
 
 ## Voir aussi
 
-[[les composants systèmes et leurs responsabilités]]
+[[les composants et leurs responsabilités]]
 [[Les données, formats de données et protocoles]].
 [[Les outils]]. 

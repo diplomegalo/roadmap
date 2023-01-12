@@ -7,6 +7,11 @@ domaines:
 themes:
 tags:
 ---
+
+[[les services bus et messages broker]]
+
+[[les systèmes de gestion de base de données]]
+
 ## CRM
 
 ## GED

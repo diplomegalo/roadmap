@@ -51,7 +51,7 @@ Dans un projet IT, [[les livrables]] sont les éléments qui constituent ce que 
 
 La solution informatique se construit à l'aide d' [[Les outils]], de la même manière qu'un immeuble se construit avec un marteau, un foreuse, des camions, une grue, etc. Ces outils serviront aux développeurs, mais également aux testeurs, analyste et chef de projet.
 
-La construction d'une solution se fait également à l'aide de matériaux qui seront souvent spécifique au type de construction. [[Les systèmes et langages informatiques]] sont les matériaux utiles à l'implémentation d'une solution informatique. De la même manière que l'on installe un lavabo ou une chaudière, les systèmes sont des solutions toutes faites offrant un service spécifique que l'on installe de manière à étendre les fonctionnalité de la solution informatique.
+La construction d'une solution se fait également à l'aide de matériaux qui seront souvent spécifique au type de construction. [[Les systèmes et langages informatiques]] sont les matériaux utiles à l'implémentation d'une solution informatique. De la même manière que l'on installe un lavabo ou une chaudière, les systèmes sont des solutions toutes faites offrant un service spécifique que l'on installe de manière à étendre les fonctionnalité de la solution informatique. Les langages informatiques quant à eux sont les briques et le ciment de la construction. Pourtant rudimentaires, ils permettent d'élaborer des constructions complexes. En outre, de la même manière que le bois, la brique et le béton sont destinés à des besoins différents, les langages ont leurs spécificités et sont par conséquent adapté à un besoin particulier. 
 
 >[!todo]
 >Retrouvez plus de détails concernant ces analogies dans les chapitres :
