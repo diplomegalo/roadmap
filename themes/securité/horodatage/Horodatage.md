@@ -2,7 +2,7 @@
 
 **TimeStamping** est un standard formel défini par la RFC-3161 qui décrit les formats des requêtes et réponses.
 
-![[out/Trusted_timestamping.svg]]
+![[Trusted_timestamping.svg]]
 
 Une fois qu'un hash sur un document a été horodaté, la preuve d'horodatage pourra 
 
