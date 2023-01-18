@@ -48,7 +48,7 @@ La meilleure analogie pour faciliter la compréhension d'un projet IT, c'est cel
 
 Le type de construction définit ce que l'on attend comme résultat. Dans le bâtiment, cela se traduit par la réalisation d'une cabane, d'un garage, d'une maison, etc. Chacun de ses types de construction, par sa nature, par sa taille, ou encore par sa difficulté de conception, va avoir une influence sur tout le reste. En effet, les outils et matériaux nécessaires à la construction d'une cabane ne sont pas identiques à ceux nécessaires pour un immeuble de plusieurs étages.
 
-La réflexion concernant ces choix est identique pour ce qui est du domaine de l'informatique. C'est le type de solution demandé qui déterminera tous vos choix en matière d'outils, d'expertise et de technologie avec laquelle vous développerez vos applications.
+La réflexion concernant ces choix est identique pour ce qui est du domaine de l'informatique. C'est le type de solution demandé qui déterminera tous vos choix en matière d'outils, d'expertise et de technologie avec laquelle vous développerez vos applications. 
 
 Dans un projet IT **les livrables** sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement, on y retrouve la solution informatique, mais également de la documentation et le code source.
 
