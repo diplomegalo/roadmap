@@ -2,8 +2,7 @@
 profils:
 - technique  
 domaines:
-- webapi
-- developpement
+- .Net
 themes:
 - graphql  
 tags:
