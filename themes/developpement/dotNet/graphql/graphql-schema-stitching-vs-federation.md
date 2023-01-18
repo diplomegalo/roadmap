@@ -11,11 +11,6 @@ tags:
 - graphql/federation
 - graphql-dotnet
 - hotchocolate
-references:
-- [graphql federation vs stitching](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)
-- [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)
-- [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)
-- [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
 ---
 
 # GraphQL - Schema Stitching Vs. Federation
@@ -77,3 +72,11 @@ En outre, attention que ce choix n'est possible qu'en fonction des fonctionnalit
 ## Exemple
 
 Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gtw) de création d'une API Gateway avec le schema stitching et la librarie HotChocolate.
+
+---
+
+## Référence
+- [https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)
+- [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)
+- [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)
+- [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
