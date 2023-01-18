@@ -5,11 +5,10 @@ email: pa.delsaut@wavenet.be
 profils:  
   - technique  
 domaines:  
-  - Developpement  
+  - webapi
+  - developpement
 themes:  
   - graphql  
-  - schema stitching  
-  - schema federation  
 tags:  
   - graphql  
   - graphql/stitching  

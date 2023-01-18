@@ -13,8 +13,9 @@ tags:
 
 Ci-dessous retrouvez les thématiques des formations trié selon le profil, le domaine et le thème (cf. organisation des compétences). 
 
-| Profils    | Domaines     | Themes    | Lien                                                               | Description                                                                                         |
-| ---------- | ------------ | --------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Profils    | Domaines     | Themes    | Lien                                                                    | Description                                                                                         |
+| ---------- | ------------ | --------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Management | Methodologie | Projet IT | [Développement d'un projet IT](./projet/developpement-dun-projet-it.md) | Introduction aux concepts de base d'un projet concernant l'élaboration d'une solution informatique. |
+
 
 
