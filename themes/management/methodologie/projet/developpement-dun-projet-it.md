@@ -27,7 +27,7 @@ La première étape d'un projet sera de récolter les exigences et d'en comprend
 
 Pour comprendre ces phases, nous pouvons prendre l'exemple d'un client se présentant au comptoir d'un magasin spécialisé dans la vente et l'installation de dispositifs audio et demandant de manière simple, sans anticipation des besoins sous-jacents : "Je veux pouvoir diffuser de la musique". Sur base de cette simple demande, nous avons l'exigence du client qui est de diffuser de la musique.
 
-Ensuite, après discussion, les besoins se révèlent plus spécifiques, c'est-à-dire : lire un CD, lire des fichiers MP3, WAV ou FLAC et capter les ondes radio FM et DAB+. Par conséquent, nous savons maintenant exactement ce que désire le client et nous pouvons déjà proposer plusieurs types de solutions qui vont du simple poste au dispositif audiophile.
+Ensuite, après discussion, les besoins se révèlent plus spécifiques, c'est-à-dire : lire un CD, lire des fichiers MP3, WAV ou FLAC et capter les ondes radio FM et DAB+. Par conséquent, nous savons maintenant exactement ce que désire le client et nous pouvons déjà proposer plusieurs types de solutions qui vont du simple poste multifonction au dispositif audiophile complexe.
 
 Sur base des propositions faites, il apparait que le son doit porter sur une surface de 80 m² et que le prix de l'installation ne peut pas dépasser 5 000 €. Dès lors, nous avons maintenant deux contraintes à prendre en compte dans la solution que nous proposons, où la puissance du son est une contrainte fonctionnelle et le prix de l'installation est une contrainte non fonctionnelle.
 
