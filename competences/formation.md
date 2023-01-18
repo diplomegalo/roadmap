@@ -1,20 +1,17 @@
 ---
-date: 18/11/2022
-auteur: Delsaut Pierre-Arnaud
-email: pa.delsaut@wavenet.be
 profils:
-  - organisation
+- organisation
 domaines:
-  - interne
+- interne
 themes:
-  - competence
-	  - formation
+- competence
+- formation
 tags:
-  - compétence
-  - profil
-  - domaine
-  - thème
-  - formation
+- compétence
+- profil
+- domaine
+- thème
+- formation
 ---
 
 # Formation
@@ -24,7 +21,7 @@ L'objectif au sein de l'entreprise :
  - Avoir une connaissance globale des méthodologies et technologies actuelles et leurs cas d'utilisations (connaitre le besoin).
  - Participer à la veille technologique pour garantir un équilibre entre les compétence techniques et fonctionnelles (outsourcing).
 
-![formation](out/formation/formation.png)
+![formation](out/diagram/formation/formation.png)
 
 ## Services
 

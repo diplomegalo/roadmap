@@ -1,16 +1,18 @@
+---
+profils: organisation
+domaines: interne
+themes: formation
+tags:
+- competence
+- formation
+- theme
+---
+# Roadmap
 
+## Case study
 
-# Objectifs
+Cette roadmap répond au besoin d'organiser les compétences d'un professionnel de l'IT, ainsi que de définir les services, formats et canaux envisagés dans le cadre de sa formation. Il s'agit en sorte du case study d'un service de formation à destination de développeurs et gestionnaire de projet informatique.
 
-La roadmap des compétences permet de cartographier et d'avoir une vue précise des compétences  qu'un professionnel de l'informatique veut ou doit avoir dans son environnement de travail. 
+## Thèmes
 
-
-
-# Organisation des compétences
-
-Consulter la page [organisation des compétences](organisation.md) pour comprendre comment les compétences sont organisées entre-elles.
-
-# Formation
-
-Consulter la page des [formations](formation.md) pour en connaitre d'avantage en terme de service, canal de communication et format.
-
+Les [thèmes](themes/themes.md) définissent les sujets des formations. Ils sont hiérarchisés sur base de l'organisation des compétences.

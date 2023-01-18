@@ -1,26 +1,13 @@
 ---
-date: 15/11/2022  
-auteur: Delsaut Pierre-Arnaud  
-email: pa.delsaut@wavenet.be
-profils:  
-  - technique  
-domaines:  
-  - Developpement  
-themes:  
-  - graphql  
-  - schema stitching  
-  - schema federation  
-tags:  
-  - graphql  
-  - graphql/stitching  
-  - graphql/federation  
-  - graphql-dotnet
-  - hotchocolate
-references:  
-  - [https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)  
-  - [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)  
-  - [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)  
-  - [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
+profils: technique  
+domaines: .Net
+themes: graphql  
+tags:
+- graphql
+- graphql/stitching
+- graphql/federation
+- graphql-dotnet
+- hotchocolate
 ---
 
 # GraphQL - Schema Stitching Vs. Federation
@@ -81,4 +68,16 @@ En outre, attention que ce choix n'est possible qu'en fonction des fonctionnalit
 
 ## Exemple
 
+<<<<<<< HEAD:themes/developpement/dotNet/graphql/graphql-schema-stitching-vs-federation.md
 Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gtw) de création d'une API Gateway avec le schema stitching et la librarie HotChocolate.
+
+---
+
+## Référence
+- [https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)
+- [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)
+- [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)
+- [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
+=======
+Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gtw) de création d'une API Gateway avec le schema stitching et la librarie HotChocolate.
+>>>>>>> origin/master:themes/GraphQL/GraphQL - Schema Stitching Vs. Federation.md
