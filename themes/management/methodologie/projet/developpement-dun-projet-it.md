@@ -29,7 +29,7 @@ Pour comprendre ces phases, nous pouvons prendre l'exemple d'un client se prése
 
 Ensuite, après discussion, les besoins se révèlent plus spécifiques, c'est-à-dire : lire un CD, lire des fichiers MP3, WAV ou FLAC et capter les ondes radio FM et DAB+. Par conséquent, nous savons maintenant exactement ce que désire le client et nous pouvons déjà proposer plusieurs types de solutions qui vont du simple poste multifonction au dispositif audiophile complexe.
 
-Sur base des propositions faites, il apparait que le son doit porter sur une surface de 80 m² et que le prix de l'installation ne peut pas dépasser 5 000 €. Dès lors, nous avons maintenant deux contraintes à prendre en compte dans la solution que nous proposons, où la puissance du son est une contrainte fonctionnelle et le prix de l'installation est une contrainte non fonctionnelle.
+Sur base des propositions faites, il apparait que le son doit porter sur une surface de 80 m² et que le prix de l'installation ne peut pas dépasser 5 000 €. Dès lors, nous avons maintenant deux spécifications à prendre en compte : la puissance du son qui est une contrainte fonctionnelleet le prix de l'installation qui est une contrainte non fonctionnelle.
 
 En conclusion, l'exigence correspond à ce que veut le client, le besoin définit précisément la fonctionnalité demandée, les contraintes énumèrent les critères et les limites de fonctionnement.
 
