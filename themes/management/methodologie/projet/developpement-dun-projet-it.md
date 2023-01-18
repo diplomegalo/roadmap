@@ -21,7 +21,7 @@ Lors d'un projet, la responsabilité du client sera de définir au mieux les mé
 
 ## Les exigences, les besoins et les contraintes
 
-Avant toute réalisation, il faut pouvoir en définir le besoin. Habituellement, l'attrait d'un client pour une solution informatique émane d'une problématique de gestion de son métier. Par exemple, le client a besoin de réduire la charge d'un département administratif qui doit sans cesse prendre contact avec les usagers par téléphone et alors permettre le suivi des dossiers par ceux-ci au travers d'un portail web ou d'une application mobile. 
+Avant toute réalisation, il faut pouvoir en définir le besoin. Habituellement, l'attrait d'un client pour une solution informatique émane d'une problématique de gestion de son métier. Par exemple, le client a besoin de réduire la charge d'un département administratif qui doit sans cesse prendre contact avec les usagers par téléphone. Pour y parvenir, il souhaite permettre à ceux-ci de consulter les données de leur dossier au travers d'un portail web ou d'une application mobile. 
 
 La première étape d'un projet sera de récolter les exigences et d'en comprendre les besoins de manière à offrir une solution qui tient compte des contraintes fonctionnelles et non fonctionnelles.
 
