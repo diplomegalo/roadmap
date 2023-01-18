@@ -1,11 +1,17 @@
 ---
 date: 
 auteur: Delsaut Pierre-Arnaud 
-email: pa.delsaut@wavenet.be
+email: diplomegalo@hotmail.com
 profils:
+- organisation
 domaines:
+- interne
 themes:
+- formation
 tags:
+- competence
+- formation
+- theme
 ---
 # Roadmap
 

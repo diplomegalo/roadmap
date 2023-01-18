@@ -1,11 +1,18 @@
 ---
-date: 
+date: 18/01/2023
 auteur: Delsaut Pierre-Arnaud 
-email: pa.delsaut@wavenet.be
+email: diplomegalo@hotmail.com
 profils:
+- management
 domaines:
+- methodologie
 themes:
+- projet
 tags:
+- projet
+- architecture
+- langage
+- outil
 ---
 
 # Développement d'un projet IT
@@ -49,15 +56,22 @@ Le type de construction définit ce que l'on attend comme résultat. Dans le bâ
 
 La réflexion concernant ces choix est identique pour ce qui est du domaine de l'informatique. C'est le type de solution demandé qui déterminera tous vos choix en matière d'outils, d'expertise et de technologie avec laquelle vous développerez vos applications.
 
-Dans un projet IT [les livrables]() sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement, on y retrouve la solution informatique, mais également de la documentation et le code source.
+Dans un projet IT **les livrables** sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement, on y retrouve la solution informatique, mais également de la documentation et le code source.
 
-De la même manière qu'un immeuble se construit avec un marteau, une foreuse, des camions, une grue, etc., la solution informatique se construit à l'aide [d'outils](). Ces outils serviront à toutes les parties prenantes d'un projet.
+De la même manière qu'un immeuble se construit avec un marteau, une foreuse, des camions, une grue, etc., la solution informatique se construit à l'aide **d'outils**. Ces outils serviront à toutes les parties prenantes d'un projet.
 
-Pour construire, il faut des matériaux. Les caractéristiques des matériaux utilisés seront souvent en rapport avec le type de construction. Par exemple, le bois est tout à fait adapté à la construction d'une cabane, mais ne l'est absolument pas lorsqu'il s'agit d'un gratte-ciel de plusieurs étages. En informatique [les systèmes et langages informatiques]() sont les matériaux utiles à l'implémentation d'une solution informatique. Suivant l'allégorie du bâtiment, les langages seraient associés aux briques qui, pourtant rudimentaires, permettent de façonner des constructions complexes et sur mesure, tandis que les systèmes seraient eux comparés à un lavabo ou une chaudière offrant un service "tout fait", que l'on installe et utilise de manière à étendre les fonctions d'un immeuble. 
+Pour construire, il faut des matériaux. Les caractéristiques des matériaux utilisés seront souvent en rapport avec le type de construction. Par exemple, le bois est tout à fait adapté à la construction d'une cabane, mais ne l'est absolument pas lorsqu'il s'agit d'un gratte-ciel de plusieurs étages. En informatique **les systèmes et langages informatiques** sont les matériaux utiles à l'implémentation d'une solution informatique. Suivant l'allégorie du bâtiment, les langages seraient associés aux briques qui, pourtant rudimentaires, permettent de façonner des constructions complexes et sur mesure, tandis que les systèmes seraient eux comparés à un lavabo ou une chaudière offrant un service "tout fait", que l'on installe et utilise de manière à étendre les fonctions d'un immeuble. 
 
-Les plans d'architecture d'une construction indiquent comment organiser les travaux d'un point de vue technique, mais également organisationnel. De manière très intuitive, on comprend que prévoir un accès à l'eau dans une chambre à coucher pour y placer une machine à laver, de même que placer un four dans la buanderie pour faire sécher le linge est une mauvaise idée. Autrement dit, chaque chose doit avoir sa place et sa fonctionnalité. [L'architecture d'un système]() répond à ce besoin d'organiser et de prévoir les applications et systèmes, décrivant les responsabilités et interactions de chacun, dans le cadre global d'une solution ou d'un parc informatique. Une bonne architecture offrira une vue globale et une description des responsabilités et interactions des applications et des systèmes ensemble. Elle prendra en compte l'évolution et la maintenance du futur système et donnera donc la possibilité d'augmenter le nombre et la portée des fonctionnalités pour l'ensemble de la solution informatique.
+Les plans d'architecture d'une construction indiquent comment organiser les travaux d'un point de vue technique, mais également organisationnel. De manière très intuitive, on comprend que prévoir un accès à l'eau dans une chambre à coucher pour y placer une machine à laver, de même que placer un four dans la buanderie pour faire sécher le linge est une mauvaise idée. Autrement dit, chaque chose doit avoir sa place et sa fonctionnalité. **L'architecture d'un système** répond à ce besoin d'organiser et de prévoir les applications et systèmes, décrivant les responsabilités et interactions de chacun, dans le cadre global d'une solution ou d'un parc informatique. Une bonne architecture offrira une vue globale et une description des responsabilités et interactions des applications et des systèmes ensemble. Elle prendra en compte l'évolution et la maintenance du futur système et donnera donc la possibilité d'augmenter le nombre et la portée des fonctionnalités pour l'ensemble de la solution informatique.
 
-Construire une maison ne se fait pas en un jour et les étapes de la construction sont nombreuses. Du gros oeuvre aux finitions, l'élaboration d'un projet immobilier comprend plusieurs étapes, dont certaines sont des prérequis à d'autres. Il est donc impératif de pouvoir faire un suivi régulier, afin d'avoir un aperçu de l'avancement du travail réaliser et le cas échéant corriger les erreurs ou réorienter le projet. Il en va de même pour les projets informatiques. [Le suivi de projet]() permet aux parties prenantes du projet de suivre la réalisation de l'application.
+Construire une maison ne se fait pas en un jour et les étapes de la construction sont nombreuses. Du gros oeuvre aux finitions, l'élaboration d'un projet immobilier comprend plusieurs étapes, dont certaines sont des prérequis à d'autres. Il est donc impératif de pouvoir faire un suivi régulier, afin d'avoir un aperçu de l'avancement du travail réaliser et le cas échéant corriger les erreurs ou réorienter le projet. Il en va de même pour les projets informatiques. **Le suivi de projet** permet aux parties prenantes du projet de suivre la réalisation de l'application.
+
+>**Todo**
+>- [ ] Lien avec les livrables
+>- [ ] Lien avec les outils
+>- [ ] Lien avec les systèmes et langages informatiques
+>- [ ] Lien avec l'architecture d'un système
+>- [ ] Lien avec le suivi de projet
 
 ## Glossaire
 
