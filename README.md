@@ -1,6 +1,5 @@
 ---
-profils:
-- organisation
+profils: [organisation]
 domaines:
 - interne
 themes:
