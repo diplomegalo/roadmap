@@ -69,4 +69,7 @@ Construire une maison ne se fait pas en un jour et les étapes de la constructio
 
 ## Glossaire
 
-Vous pouvez consulter le [glossaire]() des termes informatiques couramment utilisés dans le cadre d'un projet informatique.
+Vous pouvez consulter le **glossaire** des termes informatiques couramment utilisés dans le cadre d'un projet informatique.
+
+>**Todo**
+>- [ ] Lien avec le glossaire
