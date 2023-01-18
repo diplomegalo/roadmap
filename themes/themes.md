@@ -1,7 +1,4 @@
 ---
-date: 
-auteur: Delsaut Pierre-Arnaud 
-email: diplomegalo@hotmail.com
 profils:
 - organisation
 domaines:
@@ -14,7 +11,7 @@ tags:
 ---
 # Les thématiques de formation
 
-Ci-dessous retrouvez les thématiques des formations, hierarchisé selon l'organisation des compétences. 
+Ci-dessous retrouvez les thématiques des formations trié selon le profil, le domaine et le thème (cf. organisation des compétences). 
 
 | Profils    | Domaines     | Themes    | Lien                                                               | Description                                                                                         |
 | ---------- | ------------ | --------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |

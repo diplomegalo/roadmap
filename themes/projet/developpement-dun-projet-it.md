@@ -1,7 +1,4 @@
 ---
-date: 18/01/2023
-auteur: Delsaut Pierre-Arnaud 
-email: diplomegalo@hotmail.com
 profils:
 - management
 domaines:
