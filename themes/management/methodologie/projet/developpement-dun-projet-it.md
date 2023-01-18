@@ -31,7 +31,7 @@ Ensuite, après discussion, les besoins se révèlent plus spécifiques, c'est-�
 
 Sur base des propositions faites, il apparait que le son doit porter sur une surface de 80 m² et que le prix de l'installation ne peut pas dépasser 5 000 €. Dès lors, nous avons maintenant deux spécifications à prendre en compte : la puissance du son qui est une contrainte fonctionnelleet le prix de l'installation qui est une contrainte non fonctionnelle.
 
-En conclusion, l'exigence correspond à ce que veut le client, le besoin définit précisément la fonctionnalité demandée, les contraintes énumèrent les critères et les limites de fonctionnement.
+En conclusion, l'exigence correspond à ce que veut le client, le besoin définit précisément la fonctionnalité demandée et les contraintes énumèrent les critères et les limites de fonctionnement.
 
 ## Analogie du bâtiment
 
