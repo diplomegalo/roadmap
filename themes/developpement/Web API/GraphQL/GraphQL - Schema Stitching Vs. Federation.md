@@ -1,25 +1,22 @@
 ---
-date: 15/11/2022  
-auteur: Delsaut Pierre-Arnaud  
-email: pa.delsaut@wavenet.be
-profils:  
-  - technique  
-domaines:  
-  - webapi
-  - developpement
-themes:  
-  - graphql  
-tags:  
-  - graphql  
-  - graphql/stitching  
-  - graphql/federation  
-  - graphql-dotnet
-  - hotchocolate
-references:  
-  - [https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)  
-  - [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)  
-  - [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)  
-  - [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
+profils:
+- technique  
+domaines:
+- webapi
+- developpement
+themes:
+- graphql  
+tags:
+- graphql
+- graphql/stitching
+- graphql/federation
+- graphql-dotnet
+- hotchocolate
+references:
+- [graphql federation vs stitching](https://medium.com/@gunar/graphql-federation-vs-stitching-7a7bd3587aa0)
+- [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)
+- [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)
+- [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
 ---
 
 # GraphQL - Schema Stitching Vs. Federation
