@@ -68,6 +68,7 @@ En outre, attention que ce choix n'est possible qu'en fonction des fonctionnalit
 
 ## Exemple
 
+<<<<<<< HEAD:themes/developpement/dotNet/graphql/graphql-schema-stitching-vs-federation.md
 Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gtw) de création d'une API Gateway avec le schema stitching et la librarie HotChocolate.
 
 ---
@@ -77,3 +78,6 @@ Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gt
 - [https://www.apollographql.com/docs/federation/](https://www.apollographql.com/docs/federation/)
 - [https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching](https://chillicream.com/docs/hotchocolate/v12/distributed-schema/schema-stitching)
 - [https://graphql-dotnet.github.io/](https://graphql-dotnet.github.io/)  
+=======
+Consulter le [POC](https://github.com/diplomegalo/Poc/tree/master/Poc.GraphQL.Gtw) de création d'une API Gateway avec le schema stitching et la librarie HotChocolate.
+>>>>>>> origin/master:themes/GraphQL/GraphQL - Schema Stitching Vs. Federation.md

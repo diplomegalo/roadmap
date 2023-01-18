@@ -1,20 +1,17 @@
 ---
-date: 18/11/2022
-auteur: Delsaut Pierre-Arnaud
-email: pa.delsaut@wavenet.be
 profils:
-  - organisation
+- organisation
 domaines:
-  - interne
+- interne
 themes:
-  - competence
-	  - formation
+- competence
+- formation
 tags:
-  - compétence
-  - profil
-  - domaine
-  - thème
-  - formation
+- compétence
+- profil
+- domaine
+- thème
+- formation
 ---
 
 # Formation
