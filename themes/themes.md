@@ -1,10 +1,7 @@
 ---
-profils:
-- organisation
-domaines:
-- interne
-themes:
-- formation
+profils: organisation
+domaines: interne
+themes: formation
 tags:
 - theme
 - formation

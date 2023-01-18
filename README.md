@@ -1,9 +1,7 @@
 ---
-profils: [organisation]
-domaines:
-- interne
-themes:
-- formation
+profils: organisation
+domaines: interne
+themes: formation
 tags:
 - competence
 - formation
