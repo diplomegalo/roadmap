@@ -1,3 +1,20 @@
+---
+date: 18/11/2022
+auteur: Delsaut Pierre-Arnaud
+email: pa.delsaut@wavenet.be
+profils:
+  - organisation
+domaines:
+  - interne
+themes:
+  - compétence
+	  - organisation
+tags:
+  - compétence
+  - profil
+  - domaine
+  - thème
+---
 # Organisation des compétences
 
 La roadmap des compétences permet :
@@ -22,7 +39,7 @@ Dans le cadre de l'organisation des ressources documentaires, il existe une cat�
 
 Le profil est le premier niveau hiérarchique. Il détermine la facette métier en rapport avec la compétence.
 
-![profile](out/diagram/profile/profile.png)
+![profile](out/profile/profile.png)
 
 - **Management** : lié aux métiers de gestion comme peuvent l'être les chefs de projets, chefs d'équipes, scrum master, etc.
 - **Technique** : lié aux métiers techniques et aux connaissances des frameworks, applicatifs, outils, etc.
@@ -40,7 +57,7 @@ Les domaines peuvent être cumulés dans certains cas.
 
 | Management | Technique | Organisation |
 |:--:|:--:|:--:|
-| ![management](out/diagram/domaine/management/management.png) | ![Technique](out/diagram/domaine/technique/technique.png) | ![organisation](out/diagram/domaine/organisation/organisation.png) |
+| ![management](out/management/management.png) | ![Technique](out/technique/technique.png) | ![organisation](out/organisation/organisation.png) |
 
 ## Thèmes
 

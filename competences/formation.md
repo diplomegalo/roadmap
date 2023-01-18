@@ -1,3 +1,22 @@
+---
+date: 18/11/2022
+auteur: Delsaut Pierre-Arnaud
+email: pa.delsaut@wavenet.be
+profils:
+  - organisation
+domaines:
+  - interne
+themes:
+  - competence
+	  - formation
+tags:
+  - compétence
+  - profil
+  - domaine
+  - thème
+  - formation
+---
+
 # Formation
 
 L'objectif au sein de l'entreprise :
@@ -5,7 +24,7 @@ L'objectif au sein de l'entreprise :
  - Avoir une connaissance globale des méthodologies et technologies actuelles et leurs cas d'utilisations (connaitre le besoin).
  - Participer à la veille technologique pour garantir un équilibre entre les compétence techniques et fonctionnelles (outsourcing).
 
-![](./out/diagram/formation/formation.png)
+![formation](out/formation/formation.png)
 
 ## Services
 
@@ -86,3 +105,7 @@ Markdown, code source, docker, vidéo à destination de collaborateurs ou client
 ### Radio IT
 
 Podcast audio/vidéo publique concernant **les grands principes** d'une méthodologie ou d'une technologie à destination de collaborateurs ou clients.
+
+### Excercise
+
+Dans le cadre d'évaluation ou de **drill**, des excercises mettant en situation et permettant d'acquérir les compétences associées à ceux-ci.
