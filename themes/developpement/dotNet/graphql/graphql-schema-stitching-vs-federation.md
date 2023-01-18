@@ -1,10 +1,7 @@
 ---
-profils:
-- technique  
-domaines:
-- .Net
-themes:
-- graphql  
+profils: technique  
+domaines: .Net
+themes: graphql  
 tags:
 - graphql
 - graphql/stitching

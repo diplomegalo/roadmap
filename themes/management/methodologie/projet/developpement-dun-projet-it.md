@@ -1,10 +1,7 @@
 ---
-profils:
-- management
-domaines:
-- methodologie
-themes:
-- projet
+profils: management
+domaines: methodologie
+themes: projet
 tags:
 - projet
 - architecture
