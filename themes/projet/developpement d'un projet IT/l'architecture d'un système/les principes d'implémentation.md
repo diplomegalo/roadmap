@@ -1,0 +1,17 @@
+L'acronyme **SOLID** décrit les principes fondamentaux d'une découpe structurelle visant à favoriser la qualité, la stabilité, l'efficacité et la pérénité d'une solution informatique. Ci-dessous, l'explication des principes. 
+
+Pour comprendre au mieux ces principes, prenons l'exemple concret d'un client à la recherche d'une solution audio composé de haut parleurs, d'un lecteur CD, d'un tuner FM/DAB+ et d'une prise USB prenant en charge la lecture d'MP3. Dans ce cadre deux options s'offrent à lui : le poste hifi portable tout en un ou l'ensemble de dispositif audiophile.
+
+Le _**S**ingle responsibility principle_ ou responsabilité unique d'un système. De manière assez intuitive, on comprend très vite qu'il est impossible d'avoir un dispositif permettant la lecture d'un CD et d'une clé USB à la fois, simplement car les deux ont des interfaces différentes : l'un est un disque lazer, l'autre est une clé USB. Il est vrai néanmoins que le poste hifi donne l'illusion qu'il s'agit du même dispositif, mais endéans l'appareil, il existe bien deux parties différents faisant pour l'un, la lecture de disque lazer, pour l'autre la lecture de clé USB. En outre, dans le cadre de notre exemple, on comprend que le poste offre une solution simple, mais que dès lors qu'un des composants du poste casse, alors tout le poste casse, car il n'est pas possible de remplacer une partie du poste, dûe à sa conception très "couplée", et que par conséquent, si l'on veut un système pereine, il faut concevoir des dispositifs autonome dont la responsabilité est limité, par conséquent : un lecteur CD dont la seule responsabilité est de lire le CD, un amplificateur dont la seule responsabilité est de recevoir un signal audio en entrée, de l'amplifier et le redistribuer en sortie, etc. De cette manière, les choses se simplifie car la structure ainsi morcelée offre une vision plus claire des responsabilités et de leurs limite. De même, que la portée des conséquences d'une panne ou du remplacement d'un des dispositifs audio est limité et n'entraine donc pas d'effet de bord sur les autres dispositif.
+
+Le _**O**pen/closed principle_ ou le principe de fermeture à la modification et ouverture à l'extension. Posons le cas suivant : après reflexion, le client se rend compte qu'il lui manque une platine vinyl et souhaiterait l'ajouter.  Dans ce cadre, il est inimaginable de modifier la conception du poste en le remodelant pour y ajoutant un platine vinyl de la même manière, qu'il est inimaginable de modifier, par exemple le lecteur CD, en y ajoutant une aiguille de lecture pour disque vinyl. Par conséquent, la meilleur solution serait d'étendre le système, en y reliant une platine vinyl. De cette manière, l'existant fonctionne toujours et de la même manière et l'ajout de la nouvelle fonctionnalité de lecture n'a qu'une portée limité en terme d'effet de bord.  
+
+Le _**L**iskov substitution principle_ revient à dire que je peux toujours remplacer le lecteur CD par un autre lecteur CD d'une autre marque, même si celui-ci a moins de fonctionnalité, comme la répétition en boucle d'une piste ou de toute les pistes. 
+
+Le _**I**nterface segregation principle_ décrit l'importance d'avoir une interface réduite à son stricte minimum. 
+
+
+- _**D**ependency inversion principle_
+
+YAGNI
+KISS
