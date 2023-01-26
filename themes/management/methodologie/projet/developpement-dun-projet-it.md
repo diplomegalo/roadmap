@@ -75,4 +75,4 @@ Vous pouvez consulter le **glossaire** des termes informatiques couramment utili
 >- [ ] Lien avec le glossaire
 
 >**Reviewer**
->- [x] PA / 26-01-2023
+>- [x] PA: 26-01-2023
