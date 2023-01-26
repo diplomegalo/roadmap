@@ -6,7 +6,7 @@ tags:
 - projet
 - architecture
 - langage
-- outil
+- outil 
 ---
 
 # Développement d'un projet IT
@@ -73,3 +73,6 @@ Vous pouvez consulter le **glossaire** des termes informatiques couramment utili
 
 >**Todo**
 >- [ ] Lien avec le glossaire
+
+>**Reviewer**
+>- [x] PA / 26-01-2023
