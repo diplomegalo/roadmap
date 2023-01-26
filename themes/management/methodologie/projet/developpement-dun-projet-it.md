@@ -73,3 +73,6 @@ Vous pouvez consulter le **glossaire** des termes informatiques couramment utili
 
 >**Todo**
 >- [ ] Lien avec le glossaire
+
+>**Review**
+>- [ ] OK
