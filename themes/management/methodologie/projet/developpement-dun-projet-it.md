@@ -50,7 +50,7 @@ Le type de construction définit ce que l'on attend comme résultat. Dans le bâ
 
 La réflexion concernant ces choix est identique pour ce qui est du domaine de l'informatique. C'est le type de solution demandé qui déterminera tous vos choix en matière d'outils, d'expertise et de technologie avec laquelle vous développerez vos applications.
 
-Dans un projet IT **les livrables** sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement, on y retrouve la solution informatique, mais également de la documentation et le code source.
+Dans un projet IT [les livrables](developpement-dun-projet-it/livrables.md) sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement, on y retrouve la solution informatique, mais également de la documentation et le code source.
 
 De la même manière qu'un immeuble se construit avec un marteau, une foreuse, des camions, une grue, etc., la solution informatique se construit à l'aide **d'outils**. Ces outils serviront à toutes les parties prenantes d'un projet.
 
