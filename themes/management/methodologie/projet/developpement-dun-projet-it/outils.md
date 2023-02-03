@@ -1,11 +1,12 @@
 ---
-date: 
-auteur: Delsaut Pierre-Arnaud 
-email: pa.delsaut@wavenet.be
-profils:
-domaines:
-themes:
+profils: management
+domaines: methodologie
+themes: projet
 tags:
+- projet
+- architecture
+- langage
+- outil
 ---
 # Les outils
 
