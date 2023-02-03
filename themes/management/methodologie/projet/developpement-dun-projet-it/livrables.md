@@ -62,3 +62,8 @@ Dans certains cas, un manuel d'utilisation de l'application livrée au client pe
 Les sources désignent le code édité pendant le projet. Elles font partie de la propriété intellectuelle de l'entreprise, car elles implémentent les règles et la logique métier utile au fonctionnement de l'application. Par conséquent, elles font également partie du livrable remis au client en fin de projet. Néanmoins, la maintenance évolutive du projet étant, en règle générale, de la responsabilité de l'éditeur, celui-ci en garde une copie correspondant à l'application déployée.
 
 >La maintenance évolutive concerne la phase post-livraison de la version finale d'une solution. Cette phase consiste à garantir la pérennité de la solution en cas de bug ou de faille de sécurité et d'apporter d'éventuelles évolutions mineures.
+
+---
+
+## Voir aussi
+[Développement d'un projet IT](../developpement-dun-projet-it.md)
