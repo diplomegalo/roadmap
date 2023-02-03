@@ -1,11 +1,11 @@
 ---
 date: 07/12/2022
 auteur: Delsaut Pierre-Arnaud
-email: [pa.delsaut@wavenet.com](mailto:pa.delsaut@wavenet.com)
-profils:
- - management
+email: diplomegalo@hotmail.com
+profils: 
+ - management
 domaines:
- - projet
+ - projet
 themes:
  - projet
 tags:
@@ -20,7 +20,7 @@ Dans le monde de l'informatique, le livrable est ce que le client vous demande d
 L'élaboration d'un livrable se fait grâce au concours :
 
 - du client qui exprime ses besoins et ses contraintes, par exemple : "je veux une application pour mes commerciaux, mais qui doit être accessible sans connexion internet" ;   
-- des techniciens et analystes qui prendront en compte les contraintes de manière à avoir une solution qui répond aux exigences du client.
+- des techniciens et analystes qui prendront en compte les contraintes de manière à implémenter une solution qui répond aux exigences du client.
 
 L'important ici est qu'une solution informatique répond à un besoin et non l'inverse. C'est donc bien sur base d'une contrainte ou d'une problématique qu'un client cherchera une solution et c'est en comprenant sa problématique qu'il sera possible d'imaginer, avec lui, une réponse au travers d'une application.
 
@@ -28,14 +28,14 @@ L'important ici est qu'une solution informatique répond à un besoin et non l'i
 
 Le terme solution informatique désigne un ensemble de systèmes et d'applications mettant à disposition des fonctionnalités utilisées par un acteur.
 
+> La notion d'acteur fait partie intégrante des méthodologies d'analyses et de suivis de projets et se caractérise par l'utilisateur, qu'il soit humain ou non, qui utilise l'application ou le système.
+
 La différence entre une application et un système se situe au niveau de l'acteur qui l'utilise :
 
 - Une application est destinée à des acteurs physiques, c'est-à-dire des personnes : un guichetier, un agent, un commercial, un administrateur, etc.   
 - Un système est destiné à être utilisé par un acteur non physique, par exemple un autre système informatique ou une machine, comme une machine (de chaîne) de production, un ordinateur, un système GPS, une application web, etc.
 
-Selon l'étendue des fonctionnalités, ces systèmes et applications feront partie **d'une architecture de solution** où seront définies les responsabilités et les interconnexions de chacun d'entre eux. Typiquement, on y retrouvera un **système de gestion de base de données**, **une application frontend** et d'autres **types d'applications** nécessaires à la conception de la solution.
-
-> La notion d'acteur fait partie intégrante des méthodologies d'analyses et de suivis de projets et se caractérise par l'utilisateur, qu'il soit humain ou non, qui utilise l'application ou le système.
+Selon l'étendue des fonctionnalités, ces systèmes et applications feront partie d'un ensemble complexe où **l'architecture de solution** définit les responsabilités et les interconnexions de chacun d'entre eux. Typiquement, on y retrouvera un **système de gestion de base de données**, **une application frontend** et d'autres **types d'applications** nécessaires à la conception de la solution.
 
 Pour être utilisée, la solution doit être installée dans un **environnement d'exécution**. Cette phase d'installation est appelée le déploiement de l'application. Généralement, une application est déployée sur un serveur web, un ordinateur, un store d'application mobile (Apple, Androïd), une machine, etc.
 
@@ -45,19 +45,19 @@ Durant la vie du projet, des documents seront produits de manière à coucher le
 
 ### Les analyses
 
-Ces analyses entrent dans le cadre du développement et du **suivi de projet**, où il est possible, sur base de celle-ci, d'organiser les développements et par conséquent de suivre l'évolution du projet et de donner les indications fonctionnelles aux développeurs de manière à les implémenter.
+Ces analyses entrent dans le cadre du développement et du **suivi de projet**, où il est possible, sur base de celle-ci, d'organiser les développements et par conséquent de suivre l'évolution du projet et de donner les indications fonctionnelles (comment ça fonctionne) aux développeurs de manière à les implémenter.
 
-En préambule d'un projet **un cahier des charges** ou **une analyse métier** sera édité de manière à connaitre les besoins du client. Ce document permet de se rendre compte de la portée du projet et  d'avoir un aperçu des fonctionnalités attendues sans rentrer dans le détail de l'implémentation. C'est également durant cette phase que les processus métiers seront analysés afin de comprendre la temporalité, les règles et les logiques ainsi que les interactions entre les différents acteurs.
+En préambule d'un projet **un cahier des charges** ou **une analyse métier** sera édité de manière à connaitre les besoins du client. Ce document permet de se rendre compte de la portée du projet et d'avoir un aperçu des fonctionnalités attendues sans rentrer dans le détail de l'implémentation. C'est également durant cette phase que les processus métiers seront analysés afin de comprendre la temporalité, les règles et les logiques ainsi que les interactions entre les différents acteurs.
 
 >La temporalité d'un processus fait référence au temps qu'un processus peut prendre avant qu'il ne termine. Certains processus peuvent prendre plusieurs jours et comprendre des échanges entre plusieurs acteurs.
 
 C'est sur base de cette analyse qu'une première estimation sera faite, de même que le choix des technologies à utiliser pour implémenter la solution informatique.
 
-S'en suivra une analyse plus détaillée de chacun des écrans et fonctionnalités de la solution : **l'analyse fonctionnelle**. Celle-ci permettra de donner des priorités dans l'ordre d'implémentation des fonctionnalités, de même qu'organiser des livraisons intermédiaires de la solution regroupant un sous-ensemble suffisamment autonome de fonctionnalités pouvant être utilisé.
+S'en suivra une analyse plus détaillée de chacun des écrans et fonctionnalités de la solution : **l'analyse fonctionnelle**. Celle-ci permettra de donner des priorités dans l'ordre d'implémentation des fonctionnalités, de même qu'organiser des livraisons intermédiaires de la solution regroupant un sous-ensemble suffisamment autonome de fonctionnalités pouvant être utilisées.
 
 ### Les manuels d'utilisation
 
-Dans certains cas, un manuel d'utilisation de l'application livrée au client peut être nécessaire. Ce manuel répond aux questions d'utilisation sur base des exigences émises lors de l'élaboration de l'analyse métier, en montrant les étapes, écran par écran, d'un processus pour parvenir à utiliser les fonctionnalités de l'application.
+Dans certains cas, un manuel d'utilisation de l'application livrée au client peut être nécessaire. Ce manuel répond aux questions d'utilisation en montrant les étapes, écran par écran, d'un processus pour parvenir à utiliser les fonctionnalités de l'application.
 
 ## Les sources
 
