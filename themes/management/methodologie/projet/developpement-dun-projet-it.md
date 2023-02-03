@@ -52,7 +52,7 @@ La réflexion concernant ces choix est identique pour ce qui est du domaine de l
 
 Dans un projet IT [les livrables](developpement-dun-projet-it/livrables.md) sont les éléments qui constituent ce que l'on remet en fin de projet au client. Généralement, on y retrouve la solution informatique, mais également de la documentation et le code source.
 
-De la même manière qu'un immeuble se construit avec un marteau, une foreuse, des camions, une grue, etc., la solution informatique se construit à l'aide **d'outils**. Ces outils serviront à toutes les parties prenantes d'un projet.
+De la même manière qu'un immeuble se construit avec un marteau, une foreuse, des camions, une grue, etc., la solution informatique se construit à l'aide **[d'outils](/developpement-dun-projet-it/outils)**. Ces outils serviront à toutes les parties prenantes d'un projet.
 
 Pour construire, il faut des matériaux. Les caractéristiques des matériaux utilisés seront souvent en rapport avec le type de construction. Par exemple, le bois est tout à fait adapté à la construction d'une cabane, mais ne l'est absolument pas lorsqu'il s'agit d'un gratte-ciel de plusieurs étages. En informatique **les systèmes et langages informatiques** sont les matériaux utiles à l'implémentation d'une solution informatique. Suivant l'allégorie du bâtiment, les langages seraient associés aux briques qui, pourtant rudimentaires, permettent de façonner des constructions complexes et sur mesure, tandis que les systèmes seraient eux comparés à un lavabo ou une chaudière offrant un service "tout fait", que l'on installe et utilise de manière à étendre les fonctions d'un immeuble.
 
