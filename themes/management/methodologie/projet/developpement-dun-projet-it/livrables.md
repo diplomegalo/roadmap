@@ -63,7 +63,6 @@ Les sources désignent le code édité pendant le projet. Elles font partie de l
 
 >La maintenance évolutive concerne la phase post-livraison de la version finale d'une solution. Cette phase consiste à garantir la pérennité de la solution en cas de bug ou de faille de sécurité et d'apporter d'éventuelles évolutions mineures.
 
----
-
 ## Voir aussi
-[Développement d'un projet IT](../developpement-dun-projet-it.md)
+
+- [Développement d'un projet IT](../developpement-dun-projet-it.md)
