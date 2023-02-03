@@ -1,14 +1,12 @@
 ---
-date: 07/12/2022
-auteur: Delsaut Pierre-Arnaud
-email: diplomegalo@hotmail.com
-profils: 
- - management
-domaines:
- - projet
-themes:
- - projet
+profils: management
+domaines: methodologie
+themes: projet
 tags:
+- projet
+- architecture
+- langage
+- outil
 ---
 
 # Les livrables
