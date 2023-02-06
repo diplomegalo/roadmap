@@ -19,5 +19,5 @@ De la même manière, un projet informatique requiert bon nombre d'outils offran
 En règle générale, les outils font partie d'un ensemble d'application gérée par un département informatique et sont installés au préalable sur les machines destinées aux développeurs et aux parties prenantes du projet. Dans tous les cas, l'équipe de développement est complètement autonome et sera la plus à même de remonter un besoin dans ce cadre.
 
 On peut distinguer plusieurs catégories d'outils informatiques : 
-- **Les outils de développement** qui sont utilisées par des profils techniques et permettent d'implémenter une solution informatique
+- **[Les outils de développement](outils/outils-developpement.md)** qui sont utilisées par des profils techniques et permettent d'implémenter une solution informatique
 - **Les outils de suivi de projet** qui sont destinée à des profils gestionnaire et analyste de manière à coordonner et organiser les efforts des différentes ressources au sein d'un projet.
