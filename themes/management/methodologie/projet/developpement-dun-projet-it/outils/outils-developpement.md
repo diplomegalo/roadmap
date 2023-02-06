@@ -1,6 +1,6 @@
 ---
 profils: Management
-domaines: Projet
+domaines: Methodologie
 themes: Projet
 ---
 
