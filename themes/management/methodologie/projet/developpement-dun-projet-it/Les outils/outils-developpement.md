@@ -1,41 +1,38 @@
 ---
-date: 
-auteur: Delsaut Pierre-Arnaud 
-email: pa.delsaut@wavenet.be
-profils:
-domaines:
-themes:
-tags:
+profils: Management
+domaines: Projet
+themes: Projet
 ---
+
 # Les outils de développement
 
 ## Les outils applicatifs et système
 
-L'ensemble des outils applicatifs requis pour développer sont l'environnement de développement, l'IDE et le gestionnaire de sources. Ensemble, il forme la base nécessaire au développeur construire la solution.
+L'ensemble des outils applicatifs requis pour développer une solution informatique sont l'environnement de développement, l'IDE et le gestionnaire de sources. Ensemble, il forme la base nécessaire au développeur construire la solution.
 
-L'environnement de développement, est tout bonnement l'ensemble des appareils et accessoires qui permettront aux techniciens de réaliser le livrable, ça peut aller du clavier à l'ordinateur en passant par le gsm portable sur lequel le développeur installe et test l'application. On y retrouve également les systèmes nécessaires à l'exploitation de ces appareils, comme pourrait l'être le système d'exploitation (Windows, Linux, Androïd, OSX, etc.).
+L'environnement de développement, est tout bonnement l'ensemble des appareils et accessoires qui permettront aux techniciens de réaliser le livrable, ça peut aller du clavier à l'ordinateur en passant par le gsm portable sur lequel le développeur installe et test une application mobile. On y retrouve également les systèmes et applications nécessaires, comme pourrait l'être le système d'exploitation (Windows, Linux, Androïd, OSX, etc.).
 
-L'IDE qui est un environnement de développement intégré regroupant :
+L'IDE qui est un outil de développement intégré regroupant :
 
 - l'éditeur de code qui permet aux développeurs d'écrire les sources de l'application,
-- le compilateur qui permet de construire l'application,
-- le débogueur qui permet de parcourrir le code pas à pas lors de l'exécution de l'application de manière à avoir une vue exacte des valeurs circulant à travers le code et le cas échéant de corriger le code en cas de bug ;
+- le compilateur qui permet de vérifier la syntaxe de ce qui est écrit et de construire l'application,
+- le débogueur qui permet de parcourrir le code pas à pas lors de l'exécution de l'application de manière à avoir une vue exacte des valeurs circulant à travers celui-ci et le cas échéant de le corriger en cas de bug ;
 
-Le gestionnaire de source qui permet de centraliser les lignes de codes émanant des différents développeurs, mais également de les fusionner et d'en gérer l'historique des versions de manière à ne pas perdre d'informations accidentellement. En outre, les gestionnaires de source vont offrir des services supplémentaires telle que la maintenance automatique du code mais également des services de déploiement automatiques les environnement de développement, d'acceptance et production (cf. [[les environnements d'exécutions]]).
+Le gestionnaire de source qui permet de centraliser les lignes de codes produites par les développeurs, mais également de les fusionner et d'en gérer l'historique de versions. En outre, les gestionnaires de source vont offrir des services supplémentaires telle que la maintenance automatique du code, le déploiement automatiques des applications (cf. **les environnements d'exécutions**).
 
 A cela peuvent s'ajouter d'autres outils particulièrement utiles comme : 
-- l'outils de développement du navigateur Web qui permet nottament de 
+- l'outils de développement du navigateur Web qui permet notament de 
 	- debugger l'exécution du code JavaScript directement depuis le navigateur,
-	- de récupérer les informations stocker,
+	- de récupérer les informations stocker en local de la machine,
 	- de visionner les différents messages et fichier qui ont été échangé avec un serveur ;
-- un client Web API nécessaire pour interroger un Web service distant ;
+- un client Web API nécessaire pour interroger un service Web distant ;
 - un client SQL utile pour interroger une base de données.
 
 ### Les IDE
 
 Les IDE sont des éditeurs de code. ll permettent aux développeurs de concevoir l'application mais également de la "construire". Par conséquent, ils sont fortement lié à la technologie ou au language de programmation.
 
-Une fois un code éditer, le développeur va passer par plusieurs phase pour vérifier la qualité de son code, comme on pourrait le faire communément avec un vérifieur orthographique. Cette étape s'appelle la compilation. Cette étape a également comme finalité de "construire" un binaire, autrement dit l'application ou le système exécutable. C'est ce binaire qui est ensuite déployé dans [[les environnements d'exécutions]], c'est-à-dire là où s'exécute l'application. Ces binaires peuvent avoir différentes extensions de fichier comme .dll, exe, .war, .jar, etc.
+Une fois le code édité, le développeur va passer par une phase de vérification de celui-ci, comme on pourrait le faire communément avec un vérifieur orthographique. Il s'agit de la compilation. Cette étape a comme finalité de "construire" un binaire, autrement dit l'application ou le système. Ce binaire exécutable est ensuite déployé dans **les environnements d'exécutions**, c'est-à-dire là où s'exécute l'application. Ces binaires peuvent avoir différentes extensions de fichier comme .dll, .exe, .war, .jar, etc.
 
 Les IDE les plus connus sont 
 - Visual Studio pour tous les languages lié à .NET, 
@@ -44,7 +41,7 @@ Les IDE les plus connus sont
 
 ### Les clients SQL
 
-Les bases de données permettent d'enregistrer, de modifier, de supprimer et de lire des informations. Les applications éditées possèdent un connecteur vers cette base de données et c'est via ce connecteur que s'exécute les opérations sur les données. Les commandes sont écrites en langage SQL (Structured Query Language). 
+Les bases de données permettent, entre autres, d'enregistrer, de modifier, de supprimer et de lire les données en son sein. Les applications possèdent un connecteur qui leurs permet d'accèder à la base de données afin d'envoyer les commandes de traitement des données appelée _Query_. Les requêtes de traitement ou de récupération de données sont écrites en langage SQL (Structured Query Language) et c'est via ce connecteur que s'exécute les opérations sur les données.. 
 
 Le client SQL est un programme qui permet d'accéder à une base de données et d'éditer des requêtes SQL. Ce client va donc permettre d'intéragir directement avec la base de données sans attendre que l'application soit complétement développée et par conséquent préparer les données pour des tests ou vérifier si une opération effectuée depuis l'application a bien produit le résultat attendu en base de données.
 
