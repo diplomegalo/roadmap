@@ -1,11 +1,7 @@
 ---
-date: 
-auteur: Delsaut Pierre-Arnaud 
-email: pa.delsaut@wavenet.be
-profils:
-domaines:
-themes:
-tags:
+profils: Management
+domaines: Méthodologie
+themes: Projet
 ---
 # Les outils de suivi de projet
 
