@@ -20,4 +20,4 @@ En règle générale, les outils font partie d'un ensemble d'application gérée
 
 On peut distinguer plusieurs catégories d'outils informatiques : 
 - **[Les outils de développement](outils/outils-developpement.md)** qui sont utilisées par des profils techniques et permettent d'implémenter une solution informatique
-- **Les outils de suivi de projet** qui sont destinée à des profils gestionnaire et analyste de manière à coordonner et organiser les efforts des différentes ressources au sein d'un projet.
+- **[Les outils de suivi de projet](outils/outils-projet.md)** qui sont destinée à des profils gestionnaire et analyste de manière à coordonner et organiser les efforts des différentes ressources au sein d'un projet.
