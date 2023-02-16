@@ -8,64 +8,62 @@ themes:
 tags:
 ---
 
-# L'architecture d'un système
+# L'architecture d'une solution informatique
 
-Toute réalisation requiert une étude préalable. Dans le cadre de la construction d'un bâtiment, cette étude est généralement réalisé par un architecte ou un groupe d'architecte selon les types de réalisations. Celui-ci va établir un schéma des solutions structurelles à mettre en place en réalisant des plans de constructions décrivant les matériaux, les techniques, les zones et les attributions de chacune d'entre-elles. Pour ce faire, il devra prendre en compte les demandes du client, mais également répondre aux considérations légales et de sécurités, le tout en faisant preuve de bon sense sans jamais dépasser les bugets. 
+Toute réalisation requiert une étude préalable. Dans le cadre de la construction d'un bâtiment, cette étude est généralement réalisée par un bureau d'architecte. Celui-ci va établir un schéma des solutions structurelles à mettre en place, en réalisant des plans de constructions, décrivant les zones et attributions de chacune d'entre-elles ainsi que les matériaux et les techniques utilisées pour leur élaboration. Pour ce faire, il devra prendre en compte les demandes du client, mais également répondre aux considérations légales et sécuritaires, le tout en faisant preuve de bon sens, sans jamais dépasser les budgets. 
 
-Il en va de même pour l'élaboration d'une application ou d'un système informatique. En effet, au sein d'une équipe de développement, l'architecte sera en charge de l'élaboration de la solution d'un point de vue structurel et définira un schéma décrivant les systèmes, leurs intéractions, les technologies, etc. 
-
-L'architecture va découper le système en zone de responsabilité et fonctionnalité. L'objectif est de répondre aux exigences, besoins et contraintes fonctionnelles du projet, mais également d'offrir une structure qui prend en compte les considérations non fonctionnelles telles que les performances et la sécurité. En outre, la structure d'un système doit garantir une certaine pérénité dans le cadre des maintenances évolutives futures.
+Il en va de même pour l'élaboration d'une application ou d'un système informatique. Au sein d'une équipe de développement, l'architecte sera en charge de l'élaboration de la solution d'un point de vue structurel et définira un schéma décrivant les systèmes et leurs interactions, ainsi que les technologies utilisées dans ce cadre. Son travail consistera donc à découper le système en zone de responsabilité et de fonctionnalité ; l'objectif étant de répondre aux exigences, besoins et contraintes fonctionnelles du projet, mais également d'offrir une structure qui prend en compte les considérations non fonctionnelles, telles que les performances et la sécurité. En outre, la structure d'un système doit garantir une certaine pérennité, dans le cadre des maintenances évolutives futures.
 
 ## Les enjeux d'une architecture
 
-De la même manière que pour un bâtiment, le principe est d'organiser les choses selon leurs fonctionnalités. Par exemple, une cuisine sera composé de d'une taque éléctrique, d'un frigo et de tout l'électro-ménager utile aux réalisations culinaires, tandis que la salle de bain sera, elle, composée d'un lavabo et d'une douche et éventuellement d'une baignoire.
+De la même manière que pour un bâtiment, le principe est d'organiser les choses selon leurs fonctionnalités. Par exemple, une cuisine sera composée d'une taque électrique, d'un frigo et de tout l'électroménager utile aux réalisations culinaires, tandis que la salle de bain sera, elle, composée d'un lavabo et d'une douche et éventuellement d'une baignoire.
 
-Un premier enjeux est d'avoir des responsabilités bien définies pour chaque pièce, en ce sens que leurs portés est limité à leurs utilités. En effet, il serait complétement grotesque de placer une taque électrique dans une salle de bain, de même que d'installer une baignoire dans une cuisine. Même dans une chambre d'étudiant où l'espace est particulièrement limité, chaque partie de la chambre est dédié à une fonctionnalité unique : un coin couchage, un coin cuisine, un coin bureau et un coin toilette et hygiène.
+Un des premiers enjeu est d'avoir des responsabilités bien définies pour chaque pièce, en ce sens que leurs portées sont limitées à leurs utilités. En effet, il serait complètement grotesque de placer une taque électrique dans une salle de bain, de même que d'installer une baignoire dans une cuisine. Même dans une chambre d'étudiant où l'espace est particulièrement limité, chaque partie de la chambre est dédiée à une fonctionnalité unique : un coin couchage, un coin cuisine, un coin bureau et un coin toilette et hygiène.
 
-Un autre enjeux et de prévoir les services nécessaires et de les intégrer aux zones qui en ont besoin. Par exemple, il est nécessaire de prévoir une arrivée électrique ou de gaz à hauteur des taques de cuisson dans la cuisine, tout en prenant en compte l'obligation de placer un detecteur de fumée non loin, pour des raisons de sécurité. Le fait que le détecteur de fumée soit relié à une centrale d'alarme ou qu'il soit une "simple" alarme autonome est également une contrainte à prendre en compte et à intégrer dans les plans. 
+Un autre enjeu et de prévoir les services nécessaires et de les intégrer aux zones qui en ont besoin. Par exemple, il est nécessaire de prévoir une arrivée électrique ou de gaz à hauteur des taques de cuisson dans la cuisine, tout en prenant en compte l'obligation de placer un détecteur de fumée non loin, pour des raisons de sécurité. Le fait que le détecteur de fumée soit relié à une centrale d'alarme ou qu'il soit un "simple" dispositif autonome est également une contrainte à prendre en compte et à intégrer dans les plans. 
 
-Dans le monde de l'informatique, une architecture se construit avec des composants. Chacun d'entre eux se définissent par des responsabilités et des services plus ou moins étendue et sont interconnectés entre-eux.
+Dans le monde de l'informatique, une architecture se construit avec des composants définis par des responsabilités et des services plus ou moins étendus.
 
 Habituellement on retrouvera les composants suivants :
 
-- **les applications frontend** qui ont la responsabilité de fournir à l'utilisateur une interface qui lui permettra d'utiliser les fonctionnalités du système. Elles auront également la responsabilité de garantir la sécurité grâce au mecanisme d'authentification. 
-- **les applications backend** qui intègrent la logique et les processus métiers. Selon la complexité des systèmes, le backend peut être divisé en plusieurs sous applications gérant des parties bien distinctes du métier. 
-- **les services bus et messages broker** qui ont la responsabilité de distribuer l'information entre plusieurs systèmes hétéroclytes. L'information nécessitant quelque fois d'être converti de manière à être compatible entre les différents systèmes.
-- **les systèmes de gestion de base de données** qui, comme le nom l'indique, gère les bases de données utile à l'enregistrement et la récupération des données.
-
-Il existe d'autres systèmes pouvant se retrouver dans une architecture, retrouvez la liste non exhaustive de ces systèmes dans le chapitre **les composants et leurs responsabilités**.
+- **les applications frontend** qui ont la responsabilité de fournir à l'utilisateur une interface qui lui permettra d'utiliser les fonctionnalités du système. Elles auront également la responsabilité de garantir la sécurité grâce au mécanisme d'authentification. 
+- **les applications backend** qui intègrent la logique et les processus métiers. Selon la complexité des systèmes, le backend peut être divisé en plusieurs sous-applications gérant des parties bien distinctes du métier. 
+- **les services bus et messages broker** qui ont la responsabilité de distribuer l'information entre plusieurs systèmes hétéroclites. L'information nécessitant quelquefois d'être converti de manière à être compatible entre les différents systèmes.
+- **les systèmes de gestion de base de données** qui, comme le nom l'indique, gère les bases de données utiles à l'enregistrement et la récupération des données.
 
 ## Les (inter) connexions
 
-Prenons l'exemple de l'installation d'un chauffage au gaz dans une maison. Nous avons plusieurs systèmes et plusieurs sources, comme la chaudière et les radiateurs de type convecteur en guise de système et l'eau et le gaz en terme de source. 
+Prenons l'exemple de l'installation d'un chauffage au gaz dans une maison. Nous avons plusieurs systèmes et plusieurs sources. Le premier système : la chaudière. Elle va prendre en entrée l'eau et le gaz et aura comme responsabilité de chauffer l'eau par le biais de la combustion du gaz. Le deuxième système : le radiateur. Il va recevoir l'eau chaude et diffuser la chaleur par rayonnement.
 
-Le premier système : la chaudière, va prendre en entrée (input) l'eau et le gaz et aura comme responsabilité de chauffer l'eau par le biai de la combustion du gaz. Le deuxième système : le radiateur, va recevoir l'eau chaude et diffuser la chaleur par rayonnement. Ces deux systèmes, on des entrées : le gaz, l'eau et l'eau chaude et on des sorties l'eau chaude et la chaleur. 
+Pour permettre d'acheminer le gaz et l'eau à la chaudière, et l'eau chaude aux radiateurs, les systèmes devront être interconnectés. Ainsi le professionnel, en l'occurrence le chauffagiste, va utiliser plusieurs types de tuyaux pour connecter les systèmes entre eux. Ceux-ci auront des caractéristiques définies et normalisées, de manière à pouvoir répondre au mieux à leurs fonctions, c'est-à-dire, acheminer du gaz sous pression pour l'un et acheminer de l'eau froide ou chaude pour l'autre.
 
-Pour permettre d'acheminer le gaz et l'eau et de faire parvenir l'eau chaude et la chaleur, les systèmes devront être inter-connecté l'un à l'autre. Ainsi le professionel, en l'occurence le chauffagiste, va utiliser plusieurs type de tuyaux dont les caractéristiques sont définies (normalisées), adaptés à leurs fonction : acheminer du gaz sous pression pour l'un et acheminer de l'eau froide ou chaude sous pression pour l'autre.
+Un système informatique va devoir répondre aux mêmes contraintes : comment faire transiter les données entre les systèmes ? Si pour le bâtiment les caractéristiques des connections sont définies par une section et un type de matériau, pour l'informatiques elles sont définies par un **protocole**, un '**encodage des données** et un **format de données**.
 
-Un système informatique va avoir les mêmes contraintes : comment faire transiter les données en entrée et en sortie des systèmes ? Si pour le batiments les caractéristiques porteront sur la section (le diamètre) et la matière des tuyaux utilisés, les concepts informatique de normalisation de la données seront définis par le **protocole**, l'**encodage des données** et le **format de données**.
+### Les protocoles
 
-Un protocole
+De la même manière qu'il existe des protocoles sociaux où avant de discuter avec une personne, on la salue, il existe des protocoles informatiques qui vont définir les échanges entre les systèmes. Un exemple de protocole connu est l'HTTP, qui définit comment un client (navigateur) va interroger un serveur et comment celui-ci lui répondra. De manière générale, la définition d'un protocole défini les échanges notamment en termes :
 
-l'encodage des données
+- de modèle : si tu me demandes de me présenter, alors je te donnerais, mon nom, mon prénom, mon âge, mais pas mon adresse et pas mon numéro de téléphone;
+- de définition de contenu : si tu me dis au revoir par téléphone, je ne m'attends plus à ce que l'on discute ensemble et je couperai la communication;
+- d'ordre : avant de me donner le contenu de ton message, je m'attends à ce que tu me dises : "bonjour" et je te répondrai : "bonjour, en quoi puis-je vous aider ?".
 
-Le format de données 
->- [ ] L'encodage
->	- [ ] UTF-8
->	- [ ] ASCII
->- [ ] Format de données
->	- [ ] XML
->	- [ ] Json
+### L'encodage des données
 
-De nombreux types d'encodages sont apparus au cours du temps, intégrant de plus en plus d'alphabet dans leur définitions. Aujourd'hui l'ASCII est un encodage largement répandu, mais il n'est pas le seul.
+De la même manière que l'être humain utilise un alphabet pour représenter des lettres, l'informatique va définir des encodages pour représenter des caractères. 
+
+Un alphabet définit un nombre fini de représentations possibles de caractère. Ainsi l'alphabet français, hors accentuation, ponctuation, majuscule et minuscule, sera constitué de 27 lettres, tandis que le grec en sera composé de 24. Il en va de même pour les encodages : chacun d'entre eux définit un nombre limité de lettres, de ponctuations, de caractères spéciaux et même pour certains d'emojis. 
+
+Ce nombre de caractères va avoir une incidence directe sur la taille des messages. Pour comprendre ce point, il faut se souvenir que l'informatique, c'est une suite de 0 et de 1. Avec un 0 et un 1, je peux représenter deux caractères, où 1 sera la lettre A et 0 la lettre B. Autrement dit, pour pouvoir utiliser un alphabet de deux caractères, j'ai besoin de 1 bit. L'encodage ASCII contient lui théoriquement 128 caractères différents. Pour les représenter, j'ai donc besoin de 2^7 bit. En revanche, l'encodage l'UTF8 peut en contenir 4 398 046 511 104 et dans ce cas, pour contenir tous ces caractères j'ai besoin de 2^24 bit. Imaginez-vous maintenant devoir placer chacun de ces bits sur une table, l'espace nécessaire pour représenter un caractère encodé en UTF-8 sera largement plus grand que celui nécessaire pour l'ASCII. Par conséquent, l'encodage choisi va avoir une influence directe sur la taille des messages. Partant de ce constat, on peut facilement se rendre compte que, s'il est très couteux, en termes de performance ou de stockage, de faire passer des messages volumineux, on préfèrera utiliser un encodage qui prend moins de place, mais qui dès lors, contiendra moins de caractères représentables.
+
+### Le format de données
 
 ## Les environnements d'exécutions
 
 [[les environnements d'exécutions]]
-
 
 ## Voir aussi
 
 [[les composants et leurs responsabilités]]
 [[Les données, formats de données et protocoles]].
 [[Les outils]]. 
+
