@@ -1,7 +1,4 @@
 ---
-date: 13/12/2022
-auteur: Delsaut Pierre-Arnaud 
-email: pa.delsaut@wavenet.com
 profils:
   - management
 domaines:
@@ -13,7 +10,7 @@ tags:
 
 # L'architecture d'un système
 
-Toute réalisation requiert une étude préalable. Cette étude est généralement réalisé par un architecte voir un groupe d'architecte selon les types de réalisation. Celui-ci va établir un schéma des solutions structurelles à mettre en place en réalisant des plans de constructions décrivant les matériaux, les techniques, les zones et les attributions de chacune d'entre-elles. Pour ce faire, il devra prendre en compte les demandes du client, mais également répondre aux considérations légales et de sécurités, le tout en faisant preuve de bon sense sans jamais dépasser les bugets. 
+Toute réalisation requiert une étude préalable. Dans le cadre de la construction d'un bâtiment, cette étude est généralement réalisé par un architecte voir un groupe d'architecte selon les types de réalisation. Celui-ci va établir un schéma des solutions structurelles à mettre en place en réalisant des plans de constructions décrivant les matériaux, les techniques, les zones et les attributions de chacune d'entre-elles. Pour ce faire, il devra prendre en compte les demandes du client, mais également répondre aux considérations légales et de sécurités, le tout en faisant preuve de bon sense sans jamais dépasser les bugets. 
 
 Il en va de même pour l'élaboration d'une application ou d'un système informatique. En effet, au sein d'une équipe de développement, l'architecte (cf. [[Les métiers de l'IT]]) sera en charge de l'élaboration de la solution d'un point de vue structurel et définira un schéma décrivant les systèmes, leurs intéractions, les technologies, etc. 
 
