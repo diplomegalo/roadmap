@@ -37,7 +37,7 @@ Prenons l'exemple de l'installation d'un chauffage au gaz dans une maison. Nous 
 
 Pour permettre d'acheminer le gaz et l'eau à la chaudière, et l'eau chaude aux radiateurs, les systèmes devront être interconnectés. Ainsi le professionnel, en l'occurrence le chauffagiste, va utiliser plusieurs types de tuyaux pour connecter les systèmes entre eux. Ceux-ci auront des caractéristiques définies et normalisées, de manière à pouvoir répondre au mieux à leurs fonctions, c'est-à-dire, acheminer du gaz sous pression pour l'un et acheminer de l'eau froide ou chaude pour l'autre.
 
-Un système informatique va devoir répondre aux mêmes contraintes : comment faire transiter les données entre les systèmes ? Si pour le bâtiment les caractéristiques des connections sont définies par une section et un type de matériau ; pour l'informatiques elles sont définies par un **protocole**, un '**encodage des données** et un **format de données**.
+Un système informatique va devoir répondre aux mêmes contraintes : comment faire transiter les données entre les systèmes ? Si pour le bâtiment les caractéristiques des connexions sont définies par une section et un type de matériau ; pour l'informatique elles sont définies par un **protocole**, un '**encodage des données** et un **format de données**.
 
 ### Les protocoles
 
@@ -51,16 +51,16 @@ De la même manière qu'il existe des protocoles sociaux où avant de discuter a
 
 De la même manière que l'être humain utilise un alphabet pour représenter des lettres, l'informatique va définir des encodages pour représenter des caractères. 
 
-Un alphabet définit un nombre fini de représentations possibles de caractères. Ainsi l'alphabet français, hors accentuation, ponctuation, majuscule et minuscule, sera constitué de 27 lettres, tandis que le grec en sera composé de 24. Il en va de même pour les encodages : chacun d'entre eux définit un nombre limité de représentation de lettres, de ponctuations, de caractères spéciaux et même pour certains d'emojis. 
+Un alphabet définit un nombre fini de représentations possibles de caractères. Ainsi l'alphabet français, hors accentuation, ponctuation, majuscule et minuscule, sera constitué de 27 lettres, tandis que le grec en sera composé de 24. Il en va de même pour les encodages : chacun d'entre eux définit un nombre limité de représentations de lettres, de ponctuations, de caractères spéciaux et même pour certains d'emojis. 
 
 Ce nombre de caractères représentable va avoir une incidence directe sur la taille des messages. Pour comprendre ce point, il faut se souvenir que l'informatique est une suite de 0 et de 1. Avec un 0 et un 1, je peux représenter deux caractères, où 1 sera la lettre A et 0 la lettre B. Autrement dit, pour utiliser un alphabet de deux caractères, j'ai besoin de 1 bit. L'encodage ASCII contient lui théoriquement 128 caractères différents. Pour les représenter, j'ai donc besoin de 2^7 bit. En revanche, l'encodage l'UTF8 peut en contenir 4 398 046 511 104 et dans ce cas j'ai besoin de 2^24 bit. Imaginez-vous maintenant devoir placer chacun de ces bits sur une table, l'espace nécessaire pour représenter un caractère encodé en UTF-8 sera largement plus grand que celui nécessaire pour l'ASCII. Par conséquent, l'encodage choisi va avoir une influence directe sur la taille des messages. Partant de ce constat, on peut facilement se rendre compte que, s'il est très couteux, en termes de performance ou de stockage, de faire passer des messages volumineux, on préfèrera utiliser un encodage qui prend moins de place, mais qui dès lors, contiendra moins de caractères représentables.
 
 ### Le format de données
 
-Le format des données va définir l'organisation des données entre elles de manière à être présenté de manière compréhensible par le système. De manière générale une information est composé de données et métadonnées où la données est la valeur, tandis que la métadonnée est le context qui donne sens à la valeur. En effet, si une données à la valeur 1, celle-ci pourrait correspondre à une quanité, un poid, une heure, un âge. Sans métadonné, la donnée seule n'a pas de sens. Il existe autant de format qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilité grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non-exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
+Le format des données va définir l'organisation des données entre elles de manière à être présenté de manière compréhensible par le système. De manière générale une information est composé de données et métadonnées où la donnée est la valeur, tandis que la métadonnée est le contexte qui donne sens à la valeur. En effet, si une donnée à la valeur 1, celle-ci pourrait correspondre à une quantité, un poids, une heure, un âge. Sans métadonnée, la donnée seule n'a pas de sens. Il existe autant de formats qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilitée grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
 
-- Le CSV, pour _Comma Separted Value_. Ce type de format est nottament utilisé pour exporté des données stockées sous forme de tableau.
-- L'XML, pour _eXtended Markup Language_. Ce format est organisées sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attribut de manière à étendre le contexte d'une balise. Ci-dessous un exemple simple de fichier XML contenant les premières informations d'une signalétique de personne. L'XML a la particularité de pouvoir être validé en terme de format, via un fichier XSD contenant la définition de celui-ci.
+- Le CSV, pour _Comma Separted Value_. Ce type de format est notamment utilisé pour exporter des données stockées sous forme de tableau.
+- L'XML, pour _eXtended Markup Language_. Ce format est organisé sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attributs de manière à étendre le contexte d'une balise. Ci-dessous un exemple simple de fichier XML ne contenant les premières informations d'une signalétique de personne. L'XML a la particularité de pouvoir être validé en termes de format, via un fichier XSD contenant la définition de celui-ci.
 ```xml
 <prenom genre="f">Sarah</prenom>
 <nom>Vantems</nom>
@@ -73,7 +73,7 @@ Le format des données va définir l'organisation des données entre elles de ma
   <pays>Kremarie</pays>
 </adresse>
 ```
-- Le JSON dont se sont les caractères qui définissent l'organisation des données où, par exemple, les caractères `{` et `}` vont définir le début et la fin d'une données. Ci-dessous, un exemple simple de fichier JSON contenant les premières informations d'une signalétique de personne.
+- Le JSON dont se sont les caractères qui définissent l'organisation des données où, par exemple, les caractères `{` et `}` vont définir le début et la fin d'une donnée. Ci-dessous, un exemple simple de fichier JSON contenant les premières informations d'une signalétique de personne.
 ```json
 {
   "prenom": {
@@ -90,3 +90,4 @@ Le format des données va définir l'organisation des données entre elles de ma
   }
 }
 ```
+
