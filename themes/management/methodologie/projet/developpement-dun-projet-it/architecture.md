@@ -57,15 +57,36 @@ Ce nombre de caractères représentable va avoir une incidence directe sur la ta
 
 ### Le format de données
 
+Le format des données va définir l'organisation des données entre elles de manière à être présenté de manière compréhensible par le système. De manière générale une information est composé de données et métadonnées où la données est la valeur, tandis que la métadonnée est le context qui donne sens à la valeur. En effet, si une données à la valeur 1, celle-ci pourrait correspondre à une quanité, un poid, une heure, un âge. Sans métadonné, la donnée seule n'a pas de sens. Il existe autant de format qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilité grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non-exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
 
-
-## Les environnements d'exécutions
-
-[[les environnements d'exécutions]]
-
-## Voir aussi
-
-[[les composants et leurs responsabilités]]
-[[Les données, formats de données et protocoles]].
-[[Les outils]]. 
-
+- Le CSV, pour _Comma Separted Value_. Ce type de format est nottament utilisé pour exporté des données stockées sous forme de tableau.
+- L'XML, pour _eXtended Markup Language_. Ce format est organisées sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attribut de manière à étendre le contexte d'une balise. Ci-dessous un exemple simple de fichier XML contenant les premières informations d'une signalétique de personne. L'XML a la particularité de pouvoir être validé en terme de format, via un fichier XSD contenant la définition de celui-ci.
+```xml
+<prenom genre="f">Sarah</prenom>
+<nom>Vantems</nom>
+<adresse>
+  <rue>Clos du Réculet</rue>
+  <numero>4</numero>
+  <boite></boite>
+  <codePostal>4583</codePostal>
+  <ville>Tarmegnies</ville>
+  <pays>Kremarie</pays>
+</adresse>
+```
+- Le JSON dont se sont les caractères qui définissent l'organisation des données où, par exemple, les caractères `{` et `}` vont définir le début et la fin d'une données. Ci-dessous, un exemple simple de fichier JSON contenant les premières informations d'une signalétique de personne.
+```json
+{
+  "prenom": {
+    "genre": "f",
+    "value": "Sarah"
+  },
+  "nom": "Vantems"
+  "adresse": {
+    "rue": "Clos du Réculet",
+    "numero": 4,
+    "codePostal": 4583,
+    "ville": "Tarmegnies",
+    "pays": "Kremarie"
+  }
+}
+```
