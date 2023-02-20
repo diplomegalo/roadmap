@@ -57,10 +57,10 @@ Ce nombre de caractères représentable va avoir une incidence directe sur la ta
 
 ### Le format de données
 
-Le format des données va définir l'organisation des données entre elles de manière à être présenté de manière compréhensible par le système. De manière générale une information est composé de données et métadonnées où la donnée est la valeur, tandis que la métadonnée est le contexte qui donne sens à la valeur. En effet, si une donnée à la valeur 1, celle-ci pourrait correspondre à une quantité, un poids, une heure, un âge. Sans métadonnée, la donnée seule n'a pas de sens. Il existe autant de formats qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilitée grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
+Le format des données va définir l'organisation des données entre elles afin d'être présenté de manière compréhensible pour un système. Généralement une information est composé de données et de métadonnées, où la donnée est la valeur, tandis que la métadonnée est le contexte qui donne sens à la valeur. En effet, si une donnée à la valeur 1, celle-ci pourrait correspondre à une quantité, un poids, une heure, un âge. Sans métadonnée, la donnée seule n'a pas de sens. Il existe autant de formats de données qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilitée grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
 
-- Le CSV, pour _Comma Separted Value_. Ce type de format est notamment utilisé pour exporter des données stockées sous forme de tableau.
-- L'XML, pour _eXtended Markup Language_. Ce format est organisé sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attributs de manière à étendre le contexte d'une balise. Ci-dessous un exemple simple de fichier XML ne contenant les premières informations d'une signalétique de personne. L'XML a la particularité de pouvoir être validé en termes de format, via un fichier XSD contenant la définition de celui-ci.
+- Le **CSV**, pour _Comma Separted Value_. Ce type de format est notamment utilisé pour exporter des données stockées sous forme de tableau.
+- L'**XML**, pour _eXtended Markup Language_. Ce format est organisé sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attributs de manière à étendre le contexte d'une balise. Ci-dessous un exemple de fichier XML contenant la signalétique d'une personne. L'XML a la particularité de pouvoir être validé en termes de format par le biai d'un fichier XSD (contenant la définition de celui-ci).
 ```xml
 <prenom genre="f">Sarah</prenom>
 <nom>Vantems</nom>
@@ -73,7 +73,7 @@ Le format des données va définir l'organisation des données entre elles de ma
   <pays>Kremarie</pays>
 </adresse>
 ```
-- Le JSON dont se sont les caractères qui définissent l'organisation des données où, par exemple, les caractères `{` et `}` vont définir le début et la fin d'une donnée. Ci-dessous, un exemple simple de fichier JSON contenant les premières informations d'une signalétique de personne.
+- Le **JSON**, dont se sont les caractères qui définissent l'organisation des données avec, par exemple, les caractères `{` et `}` qui définissent le début et la fin d'une donnée. Ci-dessous, un exemple de fichier JSON contenant les même informations que précèdement.
 ```json
 {
   "prenom": {
