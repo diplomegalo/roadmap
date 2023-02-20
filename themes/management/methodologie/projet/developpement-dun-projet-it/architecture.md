@@ -37,7 +37,7 @@ Prenons l'exemple de l'installation d'un chauffage au gaz dans une maison. Nous 
 
 Pour permettre d'acheminer le gaz et l'eau à la chaudière, et l'eau chaude aux radiateurs, les systèmes devront être interconnectés. Ainsi le professionnel, en l'occurrence le chauffagiste, va utiliser plusieurs types de tuyaux pour connecter les systèmes entre eux. Ceux-ci auront des caractéristiques définies et normalisées, de manière à pouvoir répondre au mieux à leurs fonctions, c'est-à-dire, acheminer du gaz sous pression pour l'un et acheminer de l'eau froide ou chaude pour l'autre.
 
-Un système informatique va devoir répondre aux mêmes contraintes : comment faire transiter les données entre les systèmes ? Si pour le bâtiment les caractéristiques des connexions sont définies par une section et un type de matériau ; pour l'informatique elles sont définies par un **protocole**, un '**encodage des données** et un **format de données**.
+Un système informatique va devoir répondre aux mêmes contraintes : comment faire transiter les données entre les systèmes ? Si pour le bâtiment les caractéristiques des connexions sont définies par une section et un type de matériau ; pour l'informatique elles sont définies par un **protocole**, un **encodage des données** et un **format de données**.
 
 ### Les protocoles
 
