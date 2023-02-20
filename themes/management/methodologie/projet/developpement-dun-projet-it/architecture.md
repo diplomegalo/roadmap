@@ -18,7 +18,7 @@ Il en va de même pour l'élaboration d'une application ou d'un système informa
 
 De la même manière que pour un bâtiment, le principe est d'organiser les choses selon leurs fonctionnalités. Par exemple, une cuisine sera composée d'une taque électrique, d'un frigo et de tout l'électroménager utile aux réalisations culinaires, tandis que la salle de bain sera, elle, composée d'un lavabo et d'une douche et éventuellement d'une baignoire destiné à l'hygiène de soi.
 
-Un des premiers enjeu est d'avoir des responsabilités bien définies pour chaque pièce, de manière à ce que leurs fonctionnalités soient limitées à leurs utilités. En effet, il serait complètement grotesque de placer une taque électrique dans une salle de bain, de même que d'installer une baignoire dans une cuisine. Même dans une chambre d'étudiant où l'espace est particulièrement limité, chaque partie de la chambre est dédiée à une fonctionnalité unique : un coin couchage, un coin cuisine, un coin bureau et un coin toilette et hygiène.
+Un des premiers enjeux est d'avoir des responsabilités bien définies pour chaque pièce, de manière à ce que leurs fonctionnalités soient limitées à leurs utilités. En effet, il serait complètement grotesque de placer une taque électrique dans une salle de bain, de même que d'installer une baignoire dans une cuisine. Même dans une chambre d'étudiant où l'espace est particulièrement limité, chaque partie de la chambre est dédiée à une fonctionnalité unique : un coin couchage, un coin cuisine, un coin bureau et un coin toilette et hygiène.
 
 Un autre enjeu et de prévoir les services nécessaires et de les intégrer aux zones qui en ont besoin. Par exemple, il est nécessaire de prévoir une arrivée électrique ou de gaz à hauteur des taques de cuisson dans la cuisine, tout en prenant en compte l'obligation de placer un détecteur de fumée non loin, pour des raisons de sécurité. Le fait que le détecteur de fumée soit relié à une centrale d'alarme ou qu'il soit un "simple" dispositif autonome est également une contrainte à prendre en compte et à intégrer dans les plans. 
 
@@ -57,10 +57,10 @@ Ce nombre de caractères représentable va avoir une incidence directe sur la ta
 
 ### Le format de données
 
-Le format des données va définir l'organisation des données entre elles afin d'être présenté de manière compréhensible pour un système. Généralement une information est composé de données et de métadonnées, où la donnée est la valeur, tandis que la métadonnée est le contexte qui donne sens à la valeur. En effet, si une donnée à la valeur 1, celle-ci pourrait correspondre à une quantité, un poids, une heure, un âge. Sans métadonnée, la donnée seule n'a pas de sens. Il existe autant de formats de données qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilitée grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
+Le format des données va définir l'organisation des données entre elles afin d'être présenté de manière compréhensible pour un système. Généralement une information est composée de données et de métadonnées, où la donnée est la valeur, tandis que la métadonnée est le contexte qui donne sens à la valeur. En effet, si une donnée à la valeur 1, celle-ci pourrait correspondre à une quantité, un poids, une heure, un âge. Sans métadonnée, la donnée seule n'a pas de sens. Il existe autant de formats de données qu'il est possible d'en définir : c'est infini. Néanmoins, il existe des formats normalisés dont l'exploitation est facilitée grâce à [des librairies de code](outils/outils-developpement.md#les-frameworks-et-les-librairies) déjà implémentées. Ci-dessous, une liste non exhaustive des formats normalisés utilisés fréquemment pour échanger des informations entre systèmes.
 
 - Le **CSV**, pour _Comma Separted Value_. Ce type de format est notamment utilisé pour exporter des données stockées sous forme de tableau.
-- L'**XML**, pour _eXtended Markup Language_. Ce format est organisé sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attributs de manière à étendre le contexte d'une balise. Ci-dessous un exemple de fichier XML contenant la signalétique d'une personne. L'XML a la particularité de pouvoir être validé en termes de format par le biai d'un fichier XSD (contenant la définition de celui-ci).
+- L'**XML**, pour _eXtended Markup Language_. Ce format est organisé sous forme de balises (markup) contenant l'information. Il est également possible d'ajouter des attributs de manière à étendre le contexte d'une balise. Ci-dessous un exemple de fichier XML contenant la signalétique d'une personne. L'XML a la particularité de pouvoir être validé en termes de format par le biais d'un fichier XSD (contenant la définition de celui-ci).
 ```xml
 <prenom genre="f">Sarah</prenom>
 <nom>Vantems</nom>
@@ -73,7 +73,7 @@ Le format des données va définir l'organisation des données entre elles afin 
   <pays>Kremarie</pays>
 </adresse>
 ```
-- Le **JSON**, dont se sont les caractères qui définissent l'organisation des données avec, par exemple, les caractères `{` et `}` qui définissent le début et la fin d'une donnée. Ci-dessous, un exemple de fichier JSON contenant les même informations que précèdement.
+- Le **JSON**, dont se sont les caractères qui définissent l'organisation des données avec, par exemple, les caractères `{` et `}` qui définissent le début et la fin d'une donnée. Ci-dessous, un exemple de fichier JSON contenant les mêmes informations que précédemment.
 ```json
 {
   "prenom": {
@@ -90,4 +90,3 @@ Le format des données va définir l'organisation des données entre elles afin 
   }
 }
 ```
-
