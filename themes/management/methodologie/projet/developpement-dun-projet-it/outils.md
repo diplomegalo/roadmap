@@ -1,12 +1,10 @@
 ---
 profils: management
 domaines: methodologie
-themes: projet
+themes: outils
 tags:
-- projet
-- architecture
-- langage
-- outil
+- outils/développement
+- outils/suivi-projet
 ---
 # Les outils
 

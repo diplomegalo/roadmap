@@ -1,7 +1,11 @@
 ---
-profils: Management
-domaines: Méthodologie
-thèmes: Projet
+profils: management
+domaines: methodologie
+themes: outil-projet
+tags:
+ - outils/projet/tâche
+ - outils/projet/wikis
+ - outils/projet/document
 ---
 # Les outils de suivi de projet
 

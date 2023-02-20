@@ -1,12 +1,12 @@
 ---
 profils: management
 domaines: methodologie
-themes: projet
+themes: librable
 tags:
-- projet
-- architecture
-- langage
-- outil
+- solution
+- documentation/analyse
+- documentation/manuel
+- source
 ---
 
 # Les livrables

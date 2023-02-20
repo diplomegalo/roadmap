@@ -1,7 +1,13 @@
 ---
-profils: Management
-domaines: Methodologie
-themes: Projet
+profils: management
+domaines: methodologie
+themes: outils-developpement
+tags:
+ - outils/developpement/ide
+ - outils/developpement/client-sql
+ - outils/developpement/client-webapi
+ - outils/developpement/framework
+ - outils/developpement/librairies
 ---
 
 # Les outils de développement

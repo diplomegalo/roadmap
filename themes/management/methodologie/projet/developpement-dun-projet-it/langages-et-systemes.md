@@ -1,8 +1,12 @@
 ---
-profils: Management
-domaines: Méthodologie
-themes: Projet
+profils: management
+domaines: methodologie
+themes: langage
 tags:
+ - langage/compile
+ - langage/interprete
+ - low-code
+ - no-code
 ---
 
 # Langages et systèmes informatiques

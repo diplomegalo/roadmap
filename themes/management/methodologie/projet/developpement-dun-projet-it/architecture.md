@@ -1,11 +1,15 @@
 ---
-profils:
-  - management
-domaines:
-  - projet
-themes:
-  - architecture
+profils: management
+domaines: projet
+themes: architecture
 tags:
+ - connexion/protocol
+ - data//encodage
+ - data/format
+ - frontend
+ - backend
+ - service-broker
+ - sgbd
 ---
 
 # L'architecture d'une solution informatique
