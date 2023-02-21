@@ -10,7 +10,7 @@ tags:
 ---
 # Application Frontend
 
-De manière générale, lors d'un projet, un client s'attendra à recevoir comme [livrable](../../livrables.md):
+De manière générale, lors d'un projet, un client s'attendra à recevoir comme [livrable](../livrables.md):
 
 - une application web utilisée sur un navigateur web,  
 - une application mobile qui s'exécute sur un téléphone portable,  
