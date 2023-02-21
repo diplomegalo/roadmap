@@ -10,7 +10,7 @@ tags:
 ---
 # Application Frontend
 
-De manière générale, lors d'un projet, un client s'attendra à recevoir comme [livrable](../livrables.md):
+De manière générale, lors d'un projet, un client s'attendra à recevoir comme [livrable](../livrables.md) :
 
 - une application web utilisée sur un navigateur web,  
 - une application mobile qui s'exécute sur un téléphone portable,  
@@ -25,7 +25,7 @@ On peut distinguer deux parties d'une application _frontend_ : la partie *front-
 >- l'acteur système qui représente un dispositif informatique ou une machine avec laquelle on communique au travers d'interface applicative de programmation (API).
 
 >[!todo]  
->- [ ] Découpe des écrans  
+>- [ ] UX et ergonomie  
 >- [ ] Call to action
 
 ## CMS : Custom Management System 
