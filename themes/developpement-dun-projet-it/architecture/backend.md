@@ -8,7 +8,7 @@ tags:
 # Application Backend
 
 
-En retrait de ces applications _[frontend](frontend.md)_, il existe d'autres types d'applications ou système, nécessaire au bon fonctionnement de l'ensemble d'une solution informatique.
+En retrait des applications _[frontend](frontend.md)_, il existe d'autres types d'applications ou système, nécessaire au bon fonctionnement de l'ensemble d'une solution informatique.
 
 
 L'exemple le plus simple pour comprendre est celui de l'application mobile qui vous permet de faire vos courses alimentaires en ligne. Seule, cette application mobile ne peut pas contenir tout le catalogue à jour de produits de votre supermarché, car cela prendrait trop de place sur l'appareil mobile. Pourtant, vous devez pouvoir naviguer dans l'application à la recherche d'un produit en particulier. Pour ce faire, l'application mobile utilisera une autre application dite _backend_ pour récupérer les données du catalogue à afficher dans l'application mobile. Cette API (Interface de Programmation Applicative), hébergée sur un serveur Web distant de manière à pouvoir être appelée de n'importe quel endroit, sera donc requêtée par l'application mobile de manière à récupérer la liste des articles à afficher. Elle sera également requêtée pour toutes autres actions, comme la validation du panier d'achats, le paiement, la consultation de l'historique des courses, etc. 
