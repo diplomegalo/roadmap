@@ -60,16 +60,9 @@ Les plans d'architecture d'une construction indiquent comment organiser les trav
 
 Construire une maison ne se fait pas en un jour et les étapes de la construction sont nombreuses. Du gros oeuvre aux finitions, l'élaboration d'un projet immobilier comprend plusieurs étapes, dont certaines sont des prérequis à d'autres. Il est donc impératif de pouvoir faire un suivi régulier, afin d'avoir un aperçu de l'avancement du travail réaliser et le cas échéant corriger les erreurs ou réorienter le projet. Il en va de même pour les projets informatiques. **Le suivi de projet** permet aux parties prenantes du projet de suivre la réalisation de l'application.
 
->**Todo**
->- [ ] Lien avec les livrables
->- [ ] Lien avec les outils
->- [ ] Lien avec les systèmes et langages informatiques
->- [ ] Lien avec l'architecture d'un système
->- [ ] Lien avec le suivi de projet
+## Voir aussi
 
-## Glossaire
-
-Vous pouvez consulter le **glossaire** des termes informatiques couramment utilisés dans le cadre d'un projet informatique.
-
->**Todo**
->- [ ] Lien avec le glossaire
+- [Qu'est ce qu'un livrable](developpement-dun-projet-it/livrables.md)
+- [Les outils de développement et suivi de projet](developpement-dun-projet-it/outils.md)
+- [Les systèmes et langages informatiques](developpement-dun-projet-it/langages-et-systemes.md)
+- [L'architecture d'un système](developpement-dun-projet-it/architecture.md)
