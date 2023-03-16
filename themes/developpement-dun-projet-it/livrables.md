@@ -1,12 +1,12 @@
 ---
 profils: management
 domaines: methodologie
-themes: projet
+themes: librable
 tags:
-- projet
-- architecture
-- langage
-- outil
+- solution
+- documentation/analyse
+- documentation/manuel
+- source
 ---
 
 # Les livrables
@@ -63,6 +63,8 @@ Les sources désignent le code édité pendant le projet. Elles font partie de l
 
 >La maintenance évolutive concerne la phase post-livraison de la version finale d'une solution. Cette phase consiste à garantir la pérennité de la solution en cas de bug ou de faille de sécurité et d'apporter d'éventuelles évolutions mineures.
 
-## Voir aussi
+## Suivants
 
-- [Développement d'un projet IT](../developpement-dun-projet-it.md)
+- [Les outils de développement et suivi de projet](outils.md)
+- [Les systèmes et langages informatiques](langages-et-systemes.md)
+- [L'architecture d'un système](architecture.md)
