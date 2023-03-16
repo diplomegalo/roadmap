@@ -60,7 +60,7 @@ Les plans d'architecture d'une construction indiquent comment organiser les trav
 
 Construire une maison ne se fait pas en un jour et les étapes de la construction sont nombreuses. Du gros oeuvre aux finitions, l'élaboration d'un projet immobilier comprend plusieurs étapes, dont certaines sont des prérequis à d'autres. Il est donc impératif de pouvoir faire un suivi régulier, afin d'avoir un aperçu de l'avancement du travail réaliser et le cas échéant corriger les erreurs ou réorienter le projet. Il en va de même pour les projets informatiques. **Le suivi de projet** permet aux parties prenantes du projet de suivre la réalisation de l'application.
 
-## Voir aussi
+## Suivant
 
 - [Qu'est ce qu'un livrable](developpement-dun-projet-it/livrables.md)
 - [Les outils de développement et suivi de projet](developpement-dun-projet-it/outils.md)
