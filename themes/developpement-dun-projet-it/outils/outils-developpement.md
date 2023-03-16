@@ -69,6 +69,6 @@ Pour faire un parallèle avec la vie courante, la librairie est votre collègue,
 
 ## Suivants
 
-- [Les outils de suivi de projet](outils/outils-projet.md)
-- [Les systèmes et langages informatiques](developpement-dun-projet-it/langages-et-systemes.md)
-- [L'architecture d'un système](developpement-dun-projet-it/architecture.md)
+- [Les outils de suivi de projet](outils-projet.md)
+- [Les systèmes et langages informatiques](../langages-et-systemes.md)
+- [L'architecture d'un système](../architecture.md)
