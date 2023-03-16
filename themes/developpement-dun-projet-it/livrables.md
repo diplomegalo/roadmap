@@ -65,6 +65,6 @@ Les sources désignent le code édité pendant le projet. Elles font partie de l
 
 ## Suivants
 
-- [Les outils de développement et suivi de projet](developpement-dun-projet-it/outils.md)
-- [Les systèmes et langages informatiques](developpement-dun-projet-it/langages-et-systemes.md)
-- [L'architecture d'un système](developpement-dun-projet-it/architecture.md)
+- [Les outils de développement et suivi de projet](outils.md)
+- [Les systèmes et langages informatiques](langages-et-systemes.md)
+- [L'architecture d'un système](architecture.md)
