@@ -59,4 +59,4 @@ Néanmoins ce principe comporte des limitations telles qu'il n'est pas possible 
 
 ## Suivants
 
-- [L'architecture d'un système](developpement-dun-projet-it/architecture.md)
+- [L'architecture d'un système](architecture.md)
