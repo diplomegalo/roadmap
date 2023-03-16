@@ -33,7 +33,7 @@ Habituellement on retrouvera les composants suivants :
 - **[les applications frontend](./architecture/frontend.md)** qui ont la responsabilité de fournir à l'utilisateur une interface qui lui permettra d'utiliser les fonctionnalités du système. Elles auront également la responsabilité de garantir la sécurité grâce au mécanisme d'authentification. 
 - **[les applications backend](./architecture/backend.md)** qui intègrent la logique et les processus métiers. Selon la complexité des systèmes, le backend peut être divisé en plusieurs sous-applications gérant des parties bien distinctes du métier. 
 - **les services bus et messages broker** qui ont la responsabilité de distribuer l'information entre plusieurs systèmes hétéroclites. L'information nécessitant quelquefois d'être converti de manière à être compatible entre les différents systèmes.
-- **les systèmes de gestion de base de données** qui, comme le nom l'indique, gère les bases de données utiles à l'enregistrement et la récupération des données.
+- **[les systèmes de gestion de base de données](./architecture/sgbd.md)** qui, comme le nom l'indique, gère les bases de données utiles à l'enregistrement et la récupération des données.
 
 ## Les (inter) connexions
 
