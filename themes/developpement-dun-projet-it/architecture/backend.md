@@ -15,3 +15,9 @@ L'exemple le plus simple pour comprendre est celui de l'application mobile qui v
 
 
 >:blue_book: Une API ou **I**nterface de **P**rogrammation **A**pplicative est une application offrant une liste de services définit au travers d'un protocole. Dans le cas où une application offre des services (ou fonctionnalités) au travers du Web, on parlera naturellement de Web API. Un exemple typique serait une Web API météo, qui permettrait à une application de demander la température actuelle d'une région du monde. 
+
+## Suivants
+
+- [les applications frontend](./architecture/frontend.md) 
+- [les applications backend](./architecture/backend.md) 
+- [les systèmes de gestion de base de données](./architecture/sgbd.md)
