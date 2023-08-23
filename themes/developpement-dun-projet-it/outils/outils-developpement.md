@@ -1,7 +1,13 @@
 ---
-profils: Management
-domaines: Methodologie
-themes: Projet
+profils: management
+domaines: methodologie
+themes: outils-developpement
+tags:
+ - outils/developpement/ide
+ - outils/developpement/client-sql
+ - outils/developpement/client-webapi
+ - outils/developpement/framework
+ - outils/developpement/librairies
 ---
 
 # Les outils de développement
@@ -59,4 +65,10 @@ Généralement confondus, ces deux termes définissent des concepts pourtant dif
 
 Pour faire un parallèle avec la vie courante, la librairie est votre collègue, à qui vous demandez de l'aide en fonction de son expertise et qui va vous répondre en offrant la solution à votre problème. Tandis que le framework, est votre entreprise, qui vous met à disposition un téléphone, une imprimante, un ordinateur, etc. vous permettant de travailler efficacement afin de que vous puissiez produire une solution. Autrement dit, vous dépendez de la librairie (votre collègue) qui va vous donner une partie de la solution, mais ne vous offre aucune commodité particulière pour y parvenir, au contraire du framework (l'entreprise) qui dépend de vous pour trouver la solution, mais qui vous offre une série d'instruments pour y arriver.
 
->A noter que certains framework et librairies peuvent être payantes. 
+>A noter que certains framework et librairies peuvent être payantes.
+
+## Suivants
+
+- [Les outils de suivi de projet](outils-projet.md)
+- [Les systèmes et langages informatiques](../langages-et-systemes.md)
+- [L'architecture d'un système](../architecture.md)

@@ -15,4 +15,4 @@ Cette roadmap répond au besoin d'organiser les compétences d'un professionnel 
 
 ## Thèmes
 
-Les [thèmes](themes/themes.md) définissent les sujets des formations. Ils sont hiérarchisés sur base de l'organisation des compétences.
+- [Développement d'un projet IT](themes/developpement-dun-projet-it.md)
