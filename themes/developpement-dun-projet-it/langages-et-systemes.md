@@ -56,3 +56,7 @@ Construire une maison sur mesure ça coute cher, alors certains imaginent des so
 Il en va de même avec l'informatique, le low code ou le no code respecte le même principe d'élément préfabriqué, que l'on peut appeler blocs applicatifs (en référence à une brique), chacun ayant une fonctionnalité plus ou moins élaborée, et qui vont s'imbriquer les un aux autres, dans un flux ou processus, avec des paramètres en entrée et des résultats en sorties, résultats qui pourront être utilisés par d'autres blocs applicatifs et ainsi de suite. 
 
 Néanmoins ce principe comporte des limitations telles qu'il n'est pas possible de sortir du cadre de ce qui a été étudié à la base et par conséquent, ne pas correspondre aux besoins du projet. 
+
+## Suivants
+
+- [L'architecture d'un système](architecture.md)
